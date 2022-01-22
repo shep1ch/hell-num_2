@@ -1,9 +1,9 @@
 {
-    "file":"https://raw.githubusercontent.com/shep1ch/hell-num_2/Mordor Police Helper.lua",
+    "file":"https://raw.githubusercontent.com/shep1ch/hell-num_2/main/Mordor%20Police%20Helper.lua",
     "version":"3.0.4",
     "change_log":" -Осуществлён переход с имгуи на мимгуи\n",
     "beta_upd":true,
-    "beta_file":"https://raw.githubusercontent.com/Just-Mini/biblioteki/main/AS%20Helper%20beta.lua",
+    "beta_file":"https://raw.githubusercontent.com/shep1ch/hell-num_2/main/Mordor%20Police%20Helper.lua",
     "beta_version":"3.1 beta",
-    "beta_changelog":"Изменён интерфейс\nПравая кнопка мыши + T (меню взаимодействия)\n"
+    "beta_changelog":"Изменён интерфейс\nПравая кнопка мыши + E (меню взаимодействия)\n"
 }

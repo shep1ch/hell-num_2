@@ -1,24 +1,24 @@
 --[[
-в–€в–€в–€в•—в–‘в–‘в–‘в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в–€в•—в–‘в–‘в–€в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в–€в•—в–‘вЂѓвЂѓв–€в–€в–€в–€в–€в–€в•—в–‘в–‘в–€в–€в–€в–€в–€в•—в–‘в–€в–€в•—в–‘в–‘в–‘в–‘в–‘в–€в–€в•—в–‘в–€в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в–€в–€в•—
-в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в•‘в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв–€в–€в•—вЂѓвЂѓв–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в•‘в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв•ђв•ђв•ќ
-в–€в–€в•”в–€в–€в–€в–€в•”в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в–€в–€в–€в–€в•”в•ќв–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в–€в–€в–€в–€в•”в•ќвЂѓвЂѓв–€в–€в–€в–€в–€в–€в•”в•ќв–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в•љв•ђв•ќв–€в–€в–€в–€в–€в•—в–‘в–‘
-в–€в–€в•‘в•љв–€в–€в•”в•ќв–€в–€в•‘в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•”в•ђв•ђв–€в–€в•—вЂѓвЂѓв–€в–€в•”в•ђв•ђв•ђв•ќв–‘в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в•‘в–€в–€в•‘в–‘в–‘в–€в–€в•—в–€в–€в•”в•ђв•ђв•ќв–‘в–‘
-в–€в–€в•‘в–‘в•љв•ђв•ќв–‘в–€в–€в•‘в•љв–€в–€в–€в–€в–€в•”в•ќв–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в–€в–€в–€в–€в•”в•ќв•љв–€в–€в–€в–€в–€в•”в•ќв–€в–€в•‘в–‘в–‘в–€в–€в•‘вЂѓвЂѓв–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в•љв–€в–€в–€в–€в–€в•”в•ќв–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в•‘в•љв–€в–€в–€в–€в–€в•”в•ќв–€в–€в–€в–€в–€в–€в–€в•—
-в•љв•ђв•ќв–‘в–‘в–‘в–‘в–‘в•љв•ђв•ќв–‘в•љв•ђв•ђв•ђв•ђв•ќв–‘в•љв•ђв•ќв–‘в–‘в•љв•ђв•ќв•љв•ђв•ђв•ђв•ђв•ђв•ќв–‘в–‘в•љв•ђв•ђв•ђв•ђв•ќв–‘в•љв•ђв•ќв–‘в–‘в•љв•ђв•ќвЂѓвЂѓв•љв•ђв•ќв–‘в–‘в–‘в–‘в–‘в–‘в•љв•ђв•ђв•ђв•ђв•ќв–‘в•љв•ђв•ђв•ђв•ђв•ђв•ђв•ќв•љв•ђв•ќв–‘в•љв•ђв•ђв•ђв•ђв•ќв–‘в•љв•ђв•ђв•ђв•ђв•ђв•ђв•ќ
+---¬------¬------¬-------¬-------¬-------¬-------¬-??------¬-------¬---¬-------¬------¬--------¬
+----¬-----¦--г==--¬--г==--¬--г==--¬--г==--¬--г==--¬??--г==--¬--г==--¬--¦-------¦--г==--¬--г====-
+--г----г--¦--¦----¦------г---¦----¦--¦----¦------г-??------г---¦----¦--¦-------¦--¦--L=------¬--
+--¦L--г---¦--¦----¦--г==--¬--¦----¦--¦----¦--г==--¬??--г===----¦----¦--¦-------¦--¦----¬--г==---
+--¦-L=----¦L-----г---¦----¦------г-L-----г---¦----¦??--¦-----L-----г--------¬--¦L-----г--------¬
+L=------L=--L====--L=---L=-L=====---L====--L=---L=-??L=-------L====--L======-L=--L====--L======-
 
-в–€в–€в•—в–‘в–‘в–€в–€в•—в–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в•—в–‘в–‘в–‘в–‘в–‘в–€в–€в–€в–€в–€в–€в•—в–‘в–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в–€в–€в–€в–€в•—в–‘
-в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в•”в•ђв•ђв•ђв•ђв•ќв–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в•”в•ђв•ђв–€в–€в•—в–€в–€в•”в•ђв•ђв•ђв•ђв•ќв–€в–€в•”в•ђв•ђв–€в–€в•—
-в–€в–€в–€в–€в–€в–€в–€в•‘в–€в–€в–€в–€в–€в•—в–‘в–‘в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в–€в–€в–€в–€в•”в•ќв–€в–€в–€в–€в–€в•—в–‘в–‘в–€в–€в–€в–€в–€в–€в•”в•ќ
-в–€в–€в•”в•ђв•ђв–€в–€в•‘в–€в–€в•”в•ђв•ђв•ќв–‘в–‘в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в•”в•ђв•ђв•ђв•ќв–‘в–€в–€в•”в•ђв•ђв•ќв–‘в–‘в–€в–€в•”в•ђв•ђв–€в–€в•—
-в–€в–€в•‘в–‘в–‘в–€в–€в•‘в–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в•‘в–‘в–‘в–‘в–‘в–‘в–€в–€в–€в–€в–€в–€в–€в•—в–€в–€в•‘в–‘в–‘в–€в–€в•‘
-в•љв•ђв•ќв–‘в–‘в•љв•ђв•ќв•љв•ђв•ђв•ђв•ђв•ђв•ђв•ќв•љв•ђв•ђв•ђв•ђв•ђв•ђв•ќв•љв•ђв•ќв–‘в–‘в–‘в–‘в–‘в•љв•ђв•ђв•ђв•ђв•ђв•ђв•ќв•љв•ђв•ќв–‘в–‘в•љв•ђв•ќ
+--¬----¬-------¬--¬-----------¬--------¬------¬-
+--¦----¦--г====---¦-------г==--¬--г====---г==--¬
+-------¦-----¬----¦-----------г------¬--------г-
+--г==--¦--г==-----¦-------г===----г==-----г==--¬
+--¦----¦-------¬-------¬--¦------------¬--¦----¦
+L=---L=-L======-L======-L=------L======-L=---L=-
 ]]
 
 script_name('AS Helper')
-script_description('РЈРґРѕР±РЅС‹Р№ РїРѕРјРѕС‰РЅРёРє РґР»СЏ РђРІС‚РѕС€РєРѕР»С‹.')
+script_description('Удобный помощник для Автошколы.')
 script_author('JustMini')
 script_version_number(46)
-script_version('3.0.5')
+script_version('3.0.4')
 script_dependencies('mimgui; samp events; lfs; MoonMonet')
 
 require 'moonloader'
@@ -81,7 +81,7 @@ if not imguicheck or not sampevcheck or not encodingcheck or not lfscheck or not
 					renderDrawBoxWithBorder(x, y-39, 200, 20, 0xFFFF6633, 1, 0xFF808080)
 					renderFontDrawText(ASHfont, 'AS Helper', x+ 5, y - 37, 0xFFFFFFFF)
 					renderDrawBoxWithBorder(x, y-20, 200, 70, 0xFF1C1C1C, 1, 0xFF808080)
-					renderFontDrawText(progressfont, 'РЎРєР°С‡РёРІР°РЅРёРµ: '..progressbar.downloadingtheme, x + 5, y - 15, 0xFFFFFFFF)
+					renderFontDrawText(progressfont, 'Скачивание: '..progressbar.downloadingtheme, x + 5, y - 15, 0xFFFFFFFF)
 					renderDrawBox(x + 5, y + 5, downloaded, 20, 0xFF00FF00)
 					renderFontDrawText(progressfont, 'Progress: '..progressbar.downloaded..'/'..progressbar.max, x + 100 - renderGetFontDrawTextLength(progressfont,'Progress: '..progressbar.downloaded..'/'..progressbar.max) * 0.5, y + 7, 0xFFFFFFFF)
 					renderFontDrawText(downloadingfont, 'Downloading: \''..progressbar.downloadinglibname..'\'', x + 5, y + 32, 0xFFFFFFFF)
@@ -90,10 +90,10 @@ if not imguicheck or not sampevcheck or not encodingcheck or not lfscheck or not
 			end
 		end)
 
-		sampAddChatMessage(('[ASHelper]{EBEBEB} РќР°С‡Р°Р»РѕСЃСЊ СЃРєР°С‡РёРІР°РЅРёРµ РЅРµРѕР±С…РѕРґРёРјС‹С… С„Р°Р№Р»РѕРІ. Р•СЃР»Рё СЃРєР°С‡РёРІР°РЅРёРµ РЅРµ СѓРґР°СЃС‚СЃСЏ, С‚Рѕ РѕР±СЂР°С‚РёС‚РµСЃСЊ Рє {ff6633}vk.com/shepich{ebebeb}.'),0xff6633)
+		sampAddChatMessage(('[ASHelper]{EBEBEB} Началось скачивание необходимых файлов. Если скачивание не удастся, то обратитесь к {ff6633}vk.com/shepich{ebebeb}.'),0xff6633)
 
-		if not imguicheck then -- РќР°С€РµР» С‚РѕР»СЊРєРѕ СЂРµР»РёР·РЅСѓСЋ РІРµСЂСЃРёСЋ РІ Р°СЂС…РёРІРµ, С‚Р°Рє С‡С‚Рѕ РїСЂРёС€Р»РѕСЃСЊ Р·Р°Р»РёС‚СЊ С„Р°Р№Р»С‹ СЃСЋРґР°, РїСЂРё РѕР±РЅРѕРІР»РµРЅРёРё Р±СѓРґСѓ РѕР±РЅРѕРІР»СЏС‚СЊ Рё Сѓ СЃРµР±СЏ
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: mimgui')
+		if not imguicheck then -- Нашел только релизную версию в архиве, так что пришлось залить файлы сюда, при обновлении буду обновлять и у себя
+			print('{FFFF00}Скачивание: mimgui')
 			createDirectory('moonloader/lib/mimgui')
 			DownloadFiles({theme = 'mimgui',
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/mimgui/init.lua', file = 'moonloader/lib/mimgui/init.lua', name = 'init.lua'},
@@ -102,21 +102,21 @@ if not imguicheck or not sampevcheck or not encodingcheck or not lfscheck or not
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/mimgui/cimguidx9.dll', file = 'moonloader/lib/mimgui/cimguidx9.dll', name = 'cimguidx9.dll'},
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/mimgui/cdefs.lua', file = 'moonloader/lib/mimgui/cdefs.lua', name = 'cdefs.lua'},
 			})
-			print('{00FF00}mimgui СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅ')
+			print('{00FF00}mimgui успешно скачан')
 		end
 
 		if not monetluacheck then
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: MoonMonet')
+			print('{FFFF00}Скачивание: MoonMonet')
 			createDirectory('moonloader/lib/MoonMonet')
 			DownloadFiles({theme = 'MoonMonet',
 				{url = 'https://github.com/Northn/MoonMonet/releases/download/0.1.0/init.lua', file = 'moonloader/lib/MoonMonet/init.lua', name = 'init.lua'},
 				{url = 'https://github.com/Northn/MoonMonet/releases/download/0.1.0/moonmonet_rs.dll', file = 'moonloader/lib/MoonMonet/moonmonet_rs.dll', name = 'moonmonet_rs.dll'},
 			})
-			print('{00FF00}MoonMonet СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅ')
+			print('{00FF00}MoonMonet успешно скачан')
 		end
 
-		if not sampevcheck then -- C РѕС„С„РёС†РёР°Р»СЊРЅРѕРіРѕ РёСЃС‚РѕС‡РЅРёРєР°
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: sampev')
+		if not sampevcheck then -- C оффициального источника
+			print('{FFFF00}Скачивание: sampev')
 			createDirectory('moonloader/lib/samp')
 			createDirectory('moonloader/lib/samp/events')
 			DownloadFiles({theme = 'samp events',
@@ -129,30 +129,30 @@ if not imguicheck or not sampevcheck or not encodingcheck or not lfscheck or not
 				{url = 'https://raw.githubusercontent.com/THE-FYP/SAMP.Lua/master/samp/events/handlers.lua', file = 'moonloader/lib/samp/events/handlers.lua', name = 'handlers.lua'},
 				{url = 'https://raw.githubusercontent.com/THE-FYP/SAMP.Lua/master/samp/events/utils.lua', file = 'moonloader/lib/samp/events/utils.lua', name = 'utils.lua'}
 			})
-			print('{00FF00}sampev СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅ')
+			print('{00FF00}sampev успешно скачан')
 		end
 
-		if not encodingcheck then -- РћР±РЅРѕРІР»РµРЅРёР№ Р±С‹С‚СЊ РЅРµ РґРѕР»Р¶РЅРѕ
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: encoding')
+		if not encodingcheck then -- Обновлений быть не должно
+			print('{FFFF00}Скачивание: encoding')
 			DownloadFiles({ theme = 'encoding.lua',
 				{url = 'https://raw.githubusercontent.com/Just-Mini/biblioteki/main/encoding.lua', file = 'moonloader/lib/encoding.lua', name = 'encoding.lua'}
 			})
-			print('{00FF00}encoding СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅ')
+			print('{00FF00}encoding успешно скачан')
 		end
 
-		if not lfscheck then -- РћР±РЅРѕРІР»РµРЅРёР№ Р±С‹С‚СЊ РЅРµ РґРѕР»Р¶РЅРѕ
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: lfs')
+		if not lfscheck then -- Обновлений быть не должно
+			print('{FFFF00}Скачивание: lfs')
 			DownloadFiles({theme = 'lfs.dll',
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/lfs.dll', file = 'moonloader/lib/lfs.dll', name = 'lfs.dll'}
 			})
-			print('{00FF00}lfs СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅ')
+			print('{00FF00}lfs успешно скачан')
 		end
 
 		if not doesFileExist('moonloader/AS Helper/Images/binderblack.png') or not doesFileExist('moonloader/AS Helper/Images/binderwhite.png') or not doesFileExist('moonloader/AS Helper/Images/lectionblack.png') or not doesFileExist('moonloader/AS Helper/Images/lectionwhite.png') or not doesFileExist('moonloader/AS Helper/Images/settingsblack.png') or not doesFileExist('moonloader/AS Helper/Images/settingswhite.png') or not doesFileExist('moonloader/AS Helper/Images/changelogblack.png') or not doesFileExist('moonloader/AS Helper/Images/changelogwhite.png') or not doesFileExist('moonloader/AS Helper/Images/departamentblack.png') or not doesFileExist('moonloader/AS Helper/Images/departamenwhite.png') then
-			print('{FFFF00}РЎРєР°С‡РёРІР°РЅРёРµ: PNG Р¤Р°Р№Р»С‹')
+			print('{FFFF00}Скачивание: PNG Файлы')
 			createDirectory('moonloader/AS Helper')
 			createDirectory('moonloader/AS Helper/Images')
-			DownloadFiles({theme = 'PNG Р¤Р°Р№Р»С‹',
+			DownloadFiles({theme = 'PNG Файлы',
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/Images/binderblack.png', file = 'moonloader/AS Helper/Images/binderblack.png', name = 'binderblack.png'},
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/Images/binderwhite.png', file = 'moonloader/AS Helper/Images/binderwhite.png', name = 'binderwhite.png'},
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/Images/lectionblack.png', file = 'moonloader/AS Helper/Images/lectionblack.png', name = 'lectionblack.png'},
@@ -164,10 +164,10 @@ if not imguicheck or not sampevcheck or not encodingcheck or not lfscheck or not
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/Images/changelogblack.png', file = 'moonloader/AS Helper/Images/changelogblack.png', name = 'changelogblack.png'},
 				{url = 'https://github.com/Just-Mini/biblioteki/raw/main/Images/changelogwhite.png', file = 'moonloader/AS Helper/Images/changelogwhite.png', name = 'changelogwhite.png'},
 			})
-			print('{00FF00}PNG Р¤Р°Р№Р»С‹ СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅС‹')
+			print('{00FF00}PNG Файлы успешно скачаны')
 		end
 
-		print('{FFFF00}Р¤Р°Р№Р»С‹ Р±С‹Р»Рё СѓСЃРїРµС€РЅРѕ СЃРєР°С‡Р°РЅС‹, СЃРєСЂРёРїС‚ РїРµСЂРµР·Р°РіСЂСѓР¶РµРЅ.')
+		print('{FFFF00}Файлы были успешно скачаны, скрипт перезагружен.')
 		thisScript():reload()
 	end
 	return
@@ -191,8 +191,8 @@ local configuration = inicfg.load({
 		updatelastcheck = nil,
 		myname = '',
 		myaccent = '',
-		astag = 'РђРІС‚РѕС€РєРѕР»Р°',
-		expelreason = 'Рќ.Рџ.Рђ.',
+		astag = 'Автошкола',
+		expelreason = 'Н.П.А.',
 		usefastmenucmd = 'ashfm',
 		createmarker = false,
 		dorponcmd = true,
@@ -238,16 +238,16 @@ local configuration = inicfg.load({
 		taxi = 0
 	},
 	RankNames = {
-		'РЎС‚Р°Р¶С‘СЂ',
-		'РљРѕРЅСЃСѓР»СЊС‚Р°РЅС‚',
-		'Р›РёС†РµРЅР·С‘СЂ',
-		'РњР».РРЅСЃС‚СЂСѓРєС‚РѕСЂ',
-		'РРЅСЃС‚СЂСѓРєС‚РѕСЂ',
-		'РњРµРЅРµРґР¶РµСЂ',
-		'РЎС‚. РњРµРЅРµРґР¶РµСЂ',
-		'РџРѕРјРѕС‰РЅРёРє РґРёСЂРµРєС‚РѕСЂР°',
-		'Р”РёСЂРµРєС‚РѕСЂ',
-		'РЈРїСЂР°РІР»СЏСЋС‰РёР№',
+		'Стажёр',
+		'Консультант',
+		'Лицензёр',
+		'Мл.Инструктор',
+		'Инструктор',
+		'Менеджер',
+		'Ст. Менеджер',
+		'Помощник директора',
+		'Директор',
+		'Управляющий',
 	},
 	sobes_settings = {
 		pass = true,
@@ -422,7 +422,7 @@ local newwindowtype					= new.int(1)
 local clienttype					= new.int(0)
 local leadertype					= new.int(0)
 local Licenses_select				= new.int(0)
-local Licenses_Arr					= {u8'РђРІС‚Рѕ',u8'РњРѕС‚Рѕ',u8'Р С‹Р±РѕР»РѕРІСЃС‚РІРѕ',u8'РџР»Р°РІР°РЅРёРµ',u8'РћСЂСѓР¶РёРµ',u8'РћС…РѕС‚Сѓ',u8'Р Р°СЃРєРѕРїРєРё',u8'РўР°РєСЃРё'}
+local Licenses_Arr					= {u8'Авто',u8'Мото',u8'Рыболовство',u8'Плавание',u8'Оружие',u8'Охоту',u8'Раскопки',u8'Такси'}
 local QuestionType_select			= new.int(0)
 local Ranks_select					= new.int(0)
 local sobesdecline_select			= new.int(0)
@@ -559,44 +559,44 @@ local sobes_settings = {
 	licenses						= new.bool(configuration.sobes_settings.licenses),
 }
 local tagbuttons = {
-	{name = '{my_id}',text = 'РџРёС€РµС‚ Р’Р°С€ ID.',hint = '/n /showpass {my_id}\n(( /showpass \'Р’Р°С€ ID\' ))'},
-	{name = '{my_name}',text = 'РџРёС€РµС‚ Р’Р°С€ РЅРёРє РёР· РЅР°СЃС‚СЂРѕРµРє.',hint = 'Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, СЏ {my_name}\n- Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, СЏ '..u8:decode(configuration.main_settings.myname)..'.'},
-	{name = '{my_rank}',text = 'РџРёС€РµС‚ Р’Р°С€ СЂР°РЅРі РёР· РЅР°СЃС‚СЂРѕРµРє.',hint = '/do РќР° РіСЂСѓРґРё Р±РµР№РґР¶РёРє {my_rank}\nРќР° РіСЂСѓРґРё Р±РµР№РґР¶РёРє '..configuration.RankNames[configuration.main_settings.myrankint]},
-	{name = '{my_score}',text = 'РџРёС€РµС‚ Р’Р°С€ СѓСЂРѕРІРµРЅСЊ.',hint = 'РЇ РїСЂРѕР¶РёРІР°СЋ РІ С€С‚Р°С‚Рµ СѓР¶Рµ {my_score} Р»РµС‚!\n- РЇ РїСЂРѕР¶РёРІР°СЋ РІ С€С‚Р°С‚Рµ СѓР¶Рµ \'Р’Р°С€ СѓСЂРѕРІРµРЅСЊ\' Р»РµС‚!'},
-	{name = '{H}',text = 'РџРёС€РµС‚ СЃРёСЃС‚РµРјРЅРѕРµ РІСЂРµРјСЏ РІ С‡Р°СЃС‹.',hint = 'Р”Р°РІР°Р№ РІСЃС‚СЂРµС‚РёРјСЃСЏ Р·Р°РІС‚СЂР° С‚СѓС‚ Р¶Рµ РІ {H} \n- Р”Р°РІР°Р№ РІСЃС‚СЂРµС‚РёРјСЃСЏ Р·Р°РІС‚СЂР° С‚СѓС‚ Р¶Рµ РІ С‡С‡'},
-	{name = '{HM}',text = 'РџРёС€РµС‚ СЃРёСЃС‚РµРјРЅРѕРµ РІСЂРµРјСЏ РІ С‡Р°СЃС‹:РјРёРЅСѓС‚С‹.',hint = 'РЎРµРіРѕРґРЅСЏ РІ {HM} Р±СѓРґРµС‚ РєРѕРЅС†РµСЂС‚!\n- РЎРµРіРѕРґРЅСЏ РІ С‡С‡:РјРј Р±СѓРґРµС‚ РєРѕРЅС†РµСЂС‚!'},
-	{name = '{HMS}',text = 'РџРёС€РµС‚ СЃРёСЃС‚РµРјРЅРѕРµ РІСЂРµРјСЏ РІ С‡Р°СЃС‹:РјРёРЅСѓС‚С‹:СЃРµРєСѓРЅРґС‹.',hint = 'РЈ РјРµРЅСЏ РЅР° С‡Р°СЃР°С… {HMS}\n- РЈ РјРµРЅСЏ РЅР° С‡Р°СЃР°С… \'С‡С‡:РјРј:СЃСЃ\''},
-	{name = '{gender:РўРµРєСЃС‚1|РўРµРєСЃС‚2}',text = 'РџРёС€РµС‚ СЃРѕРѕР±С‰РµРЅРёРµ РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РІР°С€РµРіРѕ РїРѕР»Р°.',hint = 'РЇ РІС‡РµСЂР° {gender:Р±С‹Р»|Р±С‹Р»Р°} РІ Р±Р°РЅРєРµ\n- Р•СЃР»Рё РјСѓР¶СЃРєРѕР№ РїРѕР»: Р±С‹Р» РІ Р±Р°РЅРєРµ\n- Р•СЃР»Рё Р¶РµРЅСЃРєРёР№ РїРѕР»: Р±С‹Р»Р° РІ Р±Р°РЅРєРµ'},
-	{name = '@{ID}',text = 'РЈР·РЅР°С‘С‚ РёРјСЏ РёРіСЂРѕРєР° РїРѕ ID.',hint = 'РўС‹ РЅРµ РІРёРґРµР» РіРґРµ СЃРµР№С‡Р°СЃ @{43}?\n- РўС‹ РЅРµ РІРёРґРµР» РіРґРµ СЃРµР№С‡Р°СЃ \'РРјСЏ 43 РёРґР°\''},
-	{name = '{close_id}',text = 'РЈР·РЅР°С‘С‚ ID Р±Р»РёР¶Р°Р№С€РµРіРѕ Рє Р’Р°Рј РёРіСЂРѕРєР°',hint = 'Рћ, Р° РІРѕС‚ Рё @{{close_id}}?\nРћ, Р° РІРѕС‚ Рё \'РРјСЏ Р±Р»РёР¶Р°Р№С€РµРіРѕ РёРґР°\''},
-	{name = '{delay_*}',text = 'Р”РѕР±Р°РІР»СЏРµС‚ Р·Р°РґРµСЂР¶РєСѓ РјРµР¶РґСѓ СЃРѕРѕР±С‰РµРЅРёСЏРјРё',hint = 'Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, СЏ СЃРѕС‚СЂСѓРґРЅРёРє РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?\n{delay_2000}\n/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ Р›РёС†РµРЅР·С‘СЂ РђРІС‚РѕС€РєРѕР»С‹.\n\n[10:54:29] Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, СЏ СЃРѕС‚СЂСѓРґРЅРёРє РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?\n[10:54:31] РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ Р›РёС†РµРЅР·С‘СЂ РђРІС‚РѕС€РєРѕР»С‹.'},
+	{name = '{my_id}',text = 'Пишет Ваш ID.',hint = '/n /showpass {my_id}\n(( /showpass \'Ваш ID\' ))'},
+	{name = '{my_name}',text = 'Пишет Ваш ник из настроек.',hint = 'Здравствуйте, я {my_name}\n- Здравствуйте, я '..u8:decode(configuration.main_settings.myname)..'.'},
+	{name = '{my_rank}',text = 'Пишет Ваш ранг из настроек.',hint = '/do На груди бейджик {my_rank}\nНа груди бейджик '..configuration.RankNames[configuration.main_settings.myrankint]},
+	{name = '{my_score}',text = 'Пишет Ваш уровень.',hint = 'Я проживаю в штате уже {my_score} лет!\n- Я проживаю в штате уже \'Ваш уровень\' лет!'},
+	{name = '{H}',text = 'Пишет системное время в часы.',hint = 'Давай встретимся завтра тут же в {H} \n- Давай встретимся завтра тут же в чч'},
+	{name = '{HM}',text = 'Пишет системное время в часы:минуты.',hint = 'Сегодня в {HM} будет концерт!\n- Сегодня в чч:мм будет концерт!'},
+	{name = '{HMS}',text = 'Пишет системное время в часы:минуты:секунды.',hint = 'У меня на часах {HMS}\n- У меня на часах \'чч:мм:сс\''},
+	{name = '{gender:Текст1|Текст2}',text = 'Пишет сообщение в зависимости от вашего пола.',hint = 'Я вчера {gender:был|была} в банке\n- Если мужской пол: был в банке\n- Если женский пол: была в банке'},
+	{name = '@{ID}',text = 'Узнаёт имя игрока по ID.',hint = 'Ты не видел где сейчас @{43}?\n- Ты не видел где сейчас \'Имя 43 ида\''},
+	{name = '{close_id}',text = 'Узнаёт ID ближайшего к Вам игрока',hint = 'О, а вот и @{{close_id}}?\nО, а вот и \'Имя ближайшего ида\''},
+	{name = '{delay_*}',text = 'Добавляет задержку между сообщениями',hint = 'Добрый день, я сотрудник Автошколы г. Сан-Фиерро, чем могу Вам помочь?\n{delay_2000}\n/do На груди висит бейджик с надписью Лицензёр Автошколы.\n\n[10:54:29] Добрый день, я сотрудник Автошколы г. Сан-Фиерро, чем могу Вам помочь?\n[10:54:31] На груди висит бейджик с надписью Лицензёр Автошколы.'},
 }
 local buttons = {
-	{name='РќР°СЃС‚СЂРѕР№РєРё',text='РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ, РІРёРґ\nСЃРєСЂРёРїС‚Р°, С†РµРЅС‹',icon=fa.ICON_FA_LIGHT_COG,y_hovered=10,timer=0},
-	{name='Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ',text='РџСЂР°РІРёР»Р°, Р·Р°РјРµС‚РєРё,\nРѕС‚С‹РіСЂРѕРІРєРё',icon=fa.ICON_FA_FOLDER,y_hovered=10,timer=0},
-	{name='РРЅС„РѕСЂРјР°С†РёСЏ',text='РћР±РЅРѕРІР»РµРЅРёСЏ, Р°РІС‚РѕСЂ,\nРѕ СЃРєСЂРёРїС‚Рµ',icon=fa.ICON_FA_LIGHT_INFO_CIRCLE,y_hovered=10,timer=0},
+	{name='Настройки',text='Пользователь, вид\nскрипта, цены',icon=fa.ICON_FA_LIGHT_COG,y_hovered=10,timer=0},
+	{name='Дополнительно',text='Правила, заметки,\nотыгровки',icon=fa.ICON_FA_FOLDER,y_hovered=10,timer=0},
+	{name='Информация',text='Обновления, автор,\nо скрипте',icon=fa.ICON_FA_LIGHT_INFO_CIRCLE,y_hovered=10,timer=0},
 }
 local fmbuttons = {
-	{name = u8'Р”РµР№СЃС‚РІРёСЏ СЃ РєР»РёРµРЅС‚РѕРј', rank = 1},
-	{name = u8'РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ', rank = 5},
-	{name = u8'РџСЂРѕРІРµСЂРєР° СѓСЃС‚Р°РІР°', rank = 5},
-	{name = u8'Р›РёРґРµСЂСЃРєРёРµ РґРµР№СЃС‚РІРёСЏ', rank = 9},
+	{name = u8'Действия с клиентом', rank = 1},
+	{name = u8'Собеседование', rank = 5},
+	{name = u8'Проверка устава', rank = 5},
+	{name = u8'Лидерские действия', rank = 9},
 }
 local settingsbuttons = {
-	fa.ICON_FA_USER..u8(' РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ'),
-	fa.ICON_FA_PALETTE..u8(' Р’РёРґ СЃРєСЂРёРїС‚Р°'),
-	fa.ICON_FA_FILE_ALT..u8(' Р¦РµРЅС‹'),
+	fa.ICON_FA_USER..u8(' Пользователь'),
+	fa.ICON_FA_PALETTE..u8(' Вид скрипта'),
+	fa.ICON_FA_FILE_ALT..u8(' Цены'),
 }
 
 local additionalbuttons = {
-	fa.ICON_FA_BOOK_OPEN..u8(' РџСЂР°РІРёР»Р°'),
-	fa.ICON_FA_QUOTE_RIGHT..u8(' Р—Р°РјРµС‚РєРё'),
-	fa.ICON_FA_HEADING..u8(' РћС‚С‹РіСЂРѕРІРєРё'),
+	fa.ICON_FA_BOOK_OPEN..u8(' Правила'),
+	fa.ICON_FA_QUOTE_RIGHT..u8(' Заметки'),
+	fa.ICON_FA_HEADING..u8(' Отыгровки'),
 }
 local infobuttons = {
-	fa.ICON_FA_ARROW_ALT_CIRCLE_DOWN..u8(' РћР±РЅРѕРІР»РµРЅРёСЏ'),
-	fa.ICON_FA_AT..u8(' РђРІС‚РѕСЂ'),
-	fa.ICON_FA_CODE..u8(' Рћ СЃРєСЂРёРїС‚Рµ'),
+	fa.ICON_FA_ARROW_ALT_CIRCLE_DOWN..u8(' Обновления'),
+	fa.ICON_FA_AT..u8(' Автор'),
+	fa.ICON_FA_CODE..u8(' О скрипте'),
 }
 local whiteashelper, blackashelper, whitebinder, blackbinder, whitelection, blacklection, whitedepart, blackdepart, whitechangelog, blackchangelog, rainbowcircle
 local font = {}
@@ -958,7 +958,7 @@ end
 
 function string.rlower(s)
 	local russian_characters = {
-		[155] = '[', [168] = 'РЃ', [184] = 'С‘', [192] = 'Рђ', [193] = 'Р‘', [194] = 'Р’', [195] = 'Р“', [196] = 'Р”', [197] = 'Р•', [198] = 'Р–', [199] = 'Р—', [200] = 'Р', [201] = 'Р™', [202] = 'Рљ', [203] = 'Р›', [204] = 'Рњ', [205] = 'Рќ', [206] = 'Рћ', [207] = 'Рџ', [208] = 'Р ', [209] = 'РЎ', [210] = 'Рў', [211] = 'РЈ', [212] = 'Р¤', [213] = 'РҐ', [214] = 'Р¦', [215] = 'Р§', [216] = 'РЁ', [217] = 'Р©', [218] = 'РЄ', [219] = 'Р«', [220] = 'Р¬', [221] = 'Р­', [222] = 'Р®', [223] = 'РЇ', [224] = 'Р°', [225] = 'Р±', [226] = 'РІ', [227] = 'Рі', [228] = 'Рґ', [229] = 'Рµ', [230] = 'Р¶', [231] = 'Р·', [232] = 'Рё', [233] = 'Р№', [234] = 'Рє', [235] = 'Р»', [236] = 'Рј', [237] = 'РЅ', [238] = 'Рѕ', [239] = 'Рї', [240] = 'СЂ', [241] = 'СЃ', [242] = 'С‚', [243] = 'Сѓ', [244] = 'С„', [245] = 'С…', [246] = 'С†', [247] = 'С‡', [248] = 'С€', [249] = 'С‰', [250] = 'СЉ', [251] = 'С‹', [252] = 'СЊ', [253] = 'СЌ', [254] = 'СЋ', [255] = 'СЏ',
+		[155] = '[', [168] = 'Ё', [184] = 'ё', [192] = 'А', [193] = 'Б', [194] = 'В', [195] = 'Г', [196] = 'Д', [197] = 'Е', [198] = 'Ж', [199] = 'З', [200] = 'И', [201] = 'Й', [202] = 'К', [203] = 'Л', [204] = 'М', [205] = 'Н', [206] = 'О', [207] = 'П', [208] = 'Р', [209] = 'С', [210] = 'Т', [211] = 'У', [212] = 'Ф', [213] = 'Х', [214] = 'Ц', [215] = 'Ч', [216] = 'Ш', [217] = 'Щ', [218] = 'Ъ', [219] = 'Ы', [220] = 'Ь', [221] = 'Э', [222] = 'Ю', [223] = 'Я', [224] = 'а', [225] = 'б', [226] = 'в', [227] = 'г', [228] = 'д', [229] = 'е', [230] = 'ж', [231] = 'з', [232] = 'и', [233] = 'й', [234] = 'к', [235] = 'л', [236] = 'м', [237] = 'н', [238] = 'о', [239] = 'п', [240] = 'р', [241] = 'с', [242] = 'т', [243] = 'у', [244] = 'ф', [245] = 'х', [246] = 'ц', [247] = 'ч', [248] = 'ш', [249] = 'щ', [250] = 'ъ', [251] = 'ы', [252] = 'ь', [253] = 'э', [254] = 'ю', [255] = 'я',
 	}
 	s = lower(s)
 	local strlen = len(s)
@@ -1022,7 +1022,7 @@ function changePosition(table)
 		}
 		ChangePos = true
 		sampSetCursorMode(4)
-		ASHelperMessage('РќР°Р¶РјРёС‚Рµ {MC}Р›РљРњ{WC} С‡С‚РѕР±С‹ СЃРѕС…СЂР°РЅРёС‚СЊ РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ, РёР»Рё {MC}РџРљРњ{WC} С‡С‚РѕР±С‹ РѕС‚РјРµРЅРёС‚СЊ')
+		ASHelperMessage('Нажмите {MC}ЛКМ{WC} чтобы сохранить местоположение, или {MC}ПКМ{WC} чтобы отменить')
 		while ChangePos do
 			wait(0)
 			local cX, cY = getCursorPos()
@@ -1032,14 +1032,14 @@ function changePosition(table)
 				while isKeyDown(0x01) do wait(0) end
 				ChangePos = false
 				sampSetCursorMode(0)
-				addNotify('РџРѕР·РёС†РёСЏ СЃРѕС…СЂР°РЅРµРЅР°!', 5)
+				addNotify('Позиция сохранена!', 5)
 			elseif isKeyDown(0x02) then
 				while isKeyDown(0x02) do wait(0) end
 				ChangePos = false
 				sampSetCursorMode(0)
 				table.posX = backup['x']
 				table.posY = backup['y']
-				addNotify('Р’С‹ РѕС‚РјРµРЅРёР»Рё РёР·РјРµРЅРµРЅРёРµ\nРјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёСЏ', 5)
+				addNotify('Вы отменили изменение\nместоположения', 5)
 			end
 		end
 		ChangePos = false
@@ -1465,7 +1465,7 @@ function imgui.HotKey(name, path, pointer, defaultKey, width)
 	imgui.PushStyleColor(imgui.Col.Button, imgui.GetStyle().Colors[imgui.Col.FrameBg])
 	imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.GetStyle().Colors[imgui.Col.FrameBgHovered])
 	imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.GetStyle().Colors[imgui.Col.FrameBgActive])
-	if imgui.Button((sKeys ~= '' and sKeys or u8'РЎРІРѕР±РѕРґРЅРѕ') .. '## '..name, imgui.ImVec2(width, 0)) then
+	if imgui.Button((sKeys ~= '' and sKeys or u8'Свободно') .. '## '..name, imgui.ImVec2(width, 0)) then
 		tHotKeyData.edit = name
 	end
 	imgui.PopStyleColor(3)
@@ -1487,134 +1487,134 @@ local imgui_fm = imgui.OnFrame(
 		player.HideCursor = isKeyDown(0x12)
 		if not IsPlayerConnected(fastmenuID) then
 			windows.imgui_fm[0] = false
-			ASHelperMessage('РРіСЂРѕРє СЃ РєРѕС‚РѕСЂС‹Рј Р’С‹ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРѕРІР°Р»Рё РІС‹С€РµР» РёР· РёРіСЂС‹!')
+			ASHelperMessage('Игрок с которым Вы взаимодействовали вышел из игры!')
 			return false
 		end
 		if configuration.main_settings.fmstyle == 0 then
 			imgui.SetNextWindowSize(imgui.ImVec2(300, 517), imgui.Cond.Always)
 			imgui.SetNextWindowPos(imgui.ImVec2(ScreenSizeX * 0.5 , ScreenSizeY * 0.5),imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-			imgui.Begin(u8'РњРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°', _, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoCollapse + (configuration.main_settings.noscrollbar and imgui.WindowFlags.NoScrollbar or imgui.WindowFlags.NoBringToFrontOnFocus))
+			imgui.Begin(u8'Меню быстрого доступа', _, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoCollapse + (configuration.main_settings.noscrollbar and imgui.WindowFlags.NoScrollbar or imgui.WindowFlags.NoBringToFrontOnFocus))
 				if imgui.IsWindowAppearing() then
 					windowtype[0] = 0
 				end
 				if windowtype[0] == 0 then
 					imgui.SetCursorPosX(7.5)
 					imgui.BeginGroup()
-						if imgui.Button(fa.ICON_FA_HAND_PAPER..u8' РџРѕРїСЂРёРІРµС‚СЃС‚РІРѕРІР°С‚СЊ РёРіСЂРѕРєР°', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_HAND_PAPER..u8' Поприветствовать игрока', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 1 then
 								getmyrank = true
 								sampSendChat('/stats')
 								if tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 4 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 13 then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-										{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+										{'Доброе утро, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+										{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 									})
 								elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 12 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 17 then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-										{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+										{'Добрый день, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+										{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 									})
 								elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 16 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 24 then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-										{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+										{'Добрый вечер, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+										{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 									})
 								elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 5 then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'Р”РѕР±СЂРѕР№ РЅРѕС‡Рё, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-										{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+										{'Доброй ночи, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+										{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 									})
 								end
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 1-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 1-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_FILE_ALT..u8' РћР·РІСѓС‡РёС‚СЊ РїСЂР°Р№СЃ Р»РёСЃС‚', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_FILE_ALT..u8' Озвучить прайс лист', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 1  then
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/do Р’ РєР°СЂРјР°РЅРµ Р±СЂСЋРє Р»РµР¶РёС‚ РїСЂР°Р№СЃ Р»РёСЃС‚ РЅР° Р»РёС†РµРЅР·РёРё.'},
-									{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїСЂР°Р№СЃ Р»РёСЃС‚ РёР· РєР°СЂРјР°РЅР° Р±СЂСЋРє Рё {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµРіРѕ РєР»РёРµРЅС‚Сѓ'},
-									{'/do Р’ РїСЂР°Р№СЃ Р»РёСЃС‚Рµ РЅР°РїРёСЃР°РЅРѕ:'},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕР¶РґРµРЅРёРµ Р°РІС‚РѕРјРѕР±РёР»РµР№ - %s$.', string.separate(configuration.main_settings.avtoprice or 5000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕР¶РґРµРЅРёРµ РјРѕС‚РѕС†РёРєР»РѕРІ - %s$.', string.separate(configuration.main_settings.motoprice or 10000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂС‹Р±РѕР»РѕРІСЃС‚РІРѕ - %s$.', string.separate(configuration.main_settings.ribaprice or 30000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕРґРЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚ - %s$.', string.separate(configuration.main_settings.lodkaprice or 30000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РѕСЂСѓР¶РёРµ - %s$.', string.separate(configuration.main_settings.gunaprice or 50000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РѕС…РѕС‚Сѓ - %s$.', string.separate(configuration.main_settings.huntprice or 100000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂР°СЃРєРѕРїРєРё - %s$.', string.separate(configuration.main_settings.kladprice or 200000)},
-									{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂР°Р±РѕС‚Сѓ С‚Р°РєСЃРёСЃС‚Р° - %s$.', string.separate(configuration.main_settings.taxiprice or 250000)},
+									{'/do В кармане брюк лежит прайс лист на лицензии.'},
+									{'/me {gender:достал|достала} прайс лист из кармана брюк и {gender:передал|передала} его клиенту'},
+									{'/do В прайс листе написано:'},
+									{'/do Лицензия на вождение автомобилей - %s$.', string.separate(configuration.main_settings.avtoprice or 5000)},
+									{'/do Лицензия на вождение мотоциклов - %s$.', string.separate(configuration.main_settings.motoprice or 10000)},
+									{'/do Лицензия на рыболовство - %s$.', string.separate(configuration.main_settings.ribaprice or 30000)},
+									{'/do Лицензия на водный транспорт - %s$.', string.separate(configuration.main_settings.lodkaprice or 30000)},
+									{'/do Лицензия на оружие - %s$.', string.separate(configuration.main_settings.gunaprice or 50000)},
+									{'/do Лицензия на охоту - %s$.', string.separate(configuration.main_settings.huntprice or 100000)},
+									{'/do Лицензия на раскопки - %s$.', string.separate(configuration.main_settings.kladprice or 200000)},
+									{'/do Лицензия на работу таксиста - %s$.', string.separate(configuration.main_settings.taxiprice or 250000)},
 								})
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 1-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 1-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_FILE_SIGNATURE..u8' РџСЂРѕРґР°С‚СЊ Р»РёС†РµРЅР·РёСЋ РёРіСЂРѕРєСѓ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_FILE_SIGNATURE..u8' Продать лицензию игроку', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 3 then
 								imgui.SetScrollY(0)
 								Licenses_select[0] = 0
 								windowtype[0] = 1
 							else
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РІР·СЏР»|РІР·СЏР»Р°} СЃРѕ СЃС‚РѕР»Р° Р±Р»Р°РЅРє Рё {gender:Р·Р°РїРѕР»РЅРёР»|Р·Р°РїРѕР»РЅРёР»Р°} СЂСѓС‡РєРѕР№ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё РЅР° Р°РІС‚Рѕ'},
-									{'/do РЎРїСѓСЃС‚СЏ РЅРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё Р±С‹Р» Р·Р°РїРѕР»РЅРµРЅ.'},
-									{'/me СЂР°СЃРїРµС‡Р°С‚Р°РІ Р»РёС†РµРЅР·РёСЋ РЅР° Р°РІС‚Рѕ {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµС‘ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
+									{'/me {gender:взял|взяла} со стола бланк и {gender:заполнил|заполнила} ручкой бланк на получение лицензии на авто'},
+									{'/do Спустя некоторое время бланк на получение лицензии был заполнен.'},
+									{'/me распечатав лицензию на авто {gender:передал|передала} её человеку напротив'},
 									{'/n /givelicense %s', fastmenuID},
 								})
 							end
 						end
-						imgui.Button(fa.ICON_FA_REPLY..u8' Р’С‹РіРЅР°С‚СЊ РёР· Р°РІС‚РѕС€РєРѕР»С‹', imgui.ImVec2(285,30))
+						imgui.Button(fa.ICON_FA_REPLY..u8' Выгнать из автошколы', imgui.ImVec2(285,30))
 						if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 							if imgui.IsMouseReleased(0) then
 								if configuration.main_settings.myrankint >= 2 then
 									if not sampIsPlayerPaused(fastmenuID) then
 										windows.imgui_fm[0] = false
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/do Р Р°С†РёСЏ СЃРІРёСЃР°РµС‚ РЅР° РїРѕСЏСЃРµ.'},
-											{'/me СЃРЅСЏРІ СЂР°С†РёСЋ СЃ РїРѕСЏСЃР°, {gender:РІС‹Р·РІР°Р»|РІС‹Р·РІР°Р»Р°} РѕС…СЂР°РЅСѓ РїРѕ РЅРµР№'},
-											{'/do РћС…СЂР°РЅР° РІС‹РІРѕРґРёС‚ РЅР°СЂСѓС€РёС‚РµР»СЏ РёР· С…РѕР»Р»Р°.'},
+											{'/do Рация свисает на поясе.'},
+											{'/me сняв рацию с пояса, {gender:вызвал|вызвала} охрану по ней'},
+											{'/do Охрана выводит нарушителя из холла.'},
 											{'/expel %s %s', fastmenuID, configuration.main_settings.expelreason},
 										})
 									else
-										ASHelperMessage('РРіСЂРѕРє РЅР°С…РѕРґРёС‚СЃСЏ РІ РђР¤Рљ!')
+										ASHelperMessage('Игрок находится в АФК!')
 									end
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 2-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 2-го ранга.')
 								end
 							end
 							if imgui.IsMouseReleased(1) then
 								imgui.OpenPopup('##changeexpelreason')
 							end
 						end
-						imgui.Hint('expelhint','Р›РљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РІС‹РіРЅР°С‚СЊ С‡РµР»РѕРІРµРєР°\nРџРљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РЅР°СЃС‚СЂРѕРёС‚СЊ РїСЂРёС‡РёРЅСѓ')
+						imgui.Hint('expelhint','ЛКМ для того, чтобы выгнать человека\nПКМ для того, чтобы настроить причину')
 						if imgui.BeginPopup('##changeexpelreason') then
-							imgui.Text(u8'РџСЂРёС‡РёРЅР° /expel:')
+							imgui.Text(u8'Причина /expel:')
 							if imgui.InputText('##expelreasonbuff',usersettings.expelreason, sizeof(usersettings.expelreason)) then
 								configuration.main_settings.expelreason = u8:decode(str(usersettings.expelreason))
 								inicfg.save(configuration,'AS Helper')
 							end
 							imgui.EndPopup()
 						end
-						imgui.Button(fa.ICON_FA_USER_PLUS..u8' РџСЂРёРЅСЏС‚СЊ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ', imgui.ImVec2(285,30))
+						imgui.Button(fa.ICON_FA_USER_PLUS..u8' Принять в организацию', imgui.ImVec2(285,30))
 						if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 							if configuration.main_settings.myrankint >= 9 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/do РљР»СЋС‡Рё РѕС‚ С€РєР°С„С‡РёРєР° РІ РєР°СЂРјР°РЅРµ.'},
-									{'/me РІСЃСѓРЅСѓРІ СЂСѓРєСѓ РІ РєР°СЂРјР°РЅ Р±СЂСЋРє, {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РѕС‚С‚СѓРґР° РєР»СЋС‡ РѕС‚ С€РєР°С„С‡РёРєР°'},
-									{'/me {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РєР»СЋС‡ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
-									{'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! Р Р°Р·РґРµРІР°Р»РєР° Р·Р° РґРІРµСЂСЊСЋ.'},
-									{'РЎРѕ РІСЃРµР№ РёРЅС„РѕСЂРјР°С†РёРµР№ Р’С‹ РјРѕР¶РµС‚Рµ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ РЅР° РѕС„. РїРѕСЂС‚Р°Р»Рµ.'},
+									{'/do Ключи от шкафчика в кармане.'},
+									{'/me всунув руку в карман брюк, {gender:достал|достала} оттуда ключ от шкафчика'},
+									{'/me {gender:передал|передала} ключ человеку напротив'},
+									{'Добро пожаловать! Раздевалка за дверью.'},
+									{'Со всей информацией Вы можете ознакомиться на оф. портале.'},
 									{'/invite %s', fastmenuID},
 								})
 								if imgui.IsMouseReleased(1) then
 									waitingaccept = fastmenuID
 								end
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						imgui.Hint('invitehint','Р›РљРњ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ С‡РµР»РѕРІРµРєР° РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ\nРџРљРњ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ РЅР° РґРѕР»Р¶РЅРѕСЃС‚СЊ РљРѕРЅСЃСѓР»СЊС‚Р°РЅС‚Р°')
-						if imgui.Button(fa.ICON_FA_USER_MINUS..u8' РЈРІРѕР»РёС‚СЊ РёР· РѕСЂРіР°РЅРёР·Р°С†РёРё', imgui.ImVec2(285,30)) then
+						imgui.Hint('invitehint','ЛКМ для принятия человека в организацию\nПКМ для принятия на должность Консультанта')
+						if imgui.Button(fa.ICON_FA_USER_MINUS..u8' Уволить из организации', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								imgui.SetScrollY(0)
 								windowtype[0] = 3
@@ -1622,104 +1622,104 @@ local imgui_fm = imgui.OnFrame(
 								imgui.StrCopy(blacklistbuf, '')
 								uninvitebox[0] = false
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_EXCHANGE_ALT..u8' РР·РјРµРЅРёС‚СЊ РґРѕР»Р¶РЅРѕСЃС‚СЊ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_EXCHANGE_ALT..u8' Изменить должность', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								imgui.SetScrollY(0)
 								Ranks_select[0] = 0
 								windowtype[0] = 4
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_USER_SLASH..u8' Р—Р°РЅРµСЃС‚Рё РІ С‡С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_USER_SLASH..u8' Занести в чёрный список', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								imgui.SetScrollY(0)
 								windowtype[0] = 5
 								imgui.StrCopy(blacklistbuff, '')
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_USER..u8' РЈР±СЂР°С‚СЊ РёР· С‡С‘СЂРЅРѕРіРѕ СЃРїРёСЃРєР°', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_USER..u8' Убрать из чёрного списка', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-									{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-									{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РіСЂР°Р¶РґР°РЅРёРЅР° РІ РїРѕРёСЃРє'},
-									{'/me {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РіСЂР°Р¶РґР°РЅРёРЅР° РёР· СЂР°Р·РґРµР»Р° \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-									{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-									{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+									{'/me {gender:достал|достала} планшет из кармана'},
+									{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+									{'/me {gender:ввёл|ввела} имя гражданина в поиск'},
+									{'/me {gender:убрал|убрала} гражданина из раздела \'Чёрный список\''},
+									{'/me {gender:подтведрдил|подтвердила} изменения'},
+									{'/do Изменения были сохранены.'},
 									{'/unblacklist %s', fastmenuID},
 								})
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_FROWN..u8' Р’С‹РґР°С‚СЊ РІС‹РіРѕРІРѕСЂ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_FROWN..u8' Выдать выговор сотруднику', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								imgui.SetScrollY(0)
 								imgui.StrCopy(fwarnbuff, '')
 								windowtype[0] = 6
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_SMILE..u8' РЎРЅСЏС‚СЊ РІС‹РіРѕРІРѕСЂ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_SMILE..u8' Снять выговор сотруднику', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-									{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-									{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-									{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РёР· РµРіРѕ Р»РёС‡РЅРѕРіРѕ РґРµР»Р° РѕРґРёРЅ РІС‹РіРѕРІРѕСЂ'},
-									{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» СѓР±СЂР°РЅ РёР· Р»РёС‡РЅРѕРіРѕ РґРµР»Р° СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+									{'/me {gender:достал|достала} планшет из кармана'},
+									{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+									{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+									{'/me найдя в разделе нужного сотрудника, {gender:убрал|убрала} из его личного дела один выговор'},
+									{'/do Выговор был убран из личного дела сотрудника.'},
 									{'/unfwarn %s', fastmenuID},
 								})
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_VOLUME_MUTE..u8' Р’С‹РґР°С‚СЊ РјСѓС‚ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_VOLUME_MUTE..u8' Выдать мут сотруднику', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								imgui.SetScrollY(0)
 								imgui.StrCopy(fmutebuff, '')
 								fmuteint[0] = 0
 								windowtype[0] = 7
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
-						if imgui.Button(fa.ICON_FA_VOLUME_UP..u8' РЎРЅСЏС‚СЊ РјСѓС‚ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(285,30)) then
+						if imgui.Button(fa.ICON_FA_VOLUME_UP..u8' Снять мут сотруднику', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-									{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-									{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-									{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-									{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'Р’РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-									{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+									{'/me {gender:достал|достала} планшет из кармана'},
+									{'/me {gender:включил|включила} планшет'},
+									{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+									{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+									{'/me {gender:выбрал|выбрала} пункт \'Включить рацию сотрудника\''},
+									{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 									{'/funmute %s', fastmenuID},
 								})
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
 						imgui.Separator()
-						if imgui.Button(u8'РџСЂРѕРІРµСЂРєР° СѓСЃС‚Р°РІР° '..fa.ICON_FA_STAMP, imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Проверка устава '..fa.ICON_FA_STAMP, imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 5 then
 								imgui.SetScrollY(0)
 								lastq[0] = 0
 								windowtype[0] = 8
 							else
-								ASHelperMessage('Р”Р°РЅРЅРѕРµ РґРµР№СЃС‚РІРёРµ РґРѕСЃС‚СѓРїРЅРѕ СЃ 5-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данное действие доступно с 5-го ранга.')
 							end
 						end
-						if imgui.Button(u8'РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ '..fa.ICON_FA_ELLIPSIS_V, imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Собеседование '..fa.ICON_FA_ELLIPSIS_V, imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 5 then
 								imgui.SetScrollY(0)
 								sobesetap[0] = 0
@@ -1732,99 +1732,99 @@ local imgui_fm = imgui.OnFrame(
 									licenses = nil
 								}
 							else
-								ASHelperMessage('Р”Р°РЅРЅРѕРµ РґРµР№СЃС‚РІРёРµ РґРѕСЃС‚СѓРїРЅРѕ СЃ 5-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данное действие доступно с 5-го ранга.')
 							end
 						end
 					imgui.EndGroup()
 				end
 		
 				if windowtype[0] == 1 then
-					imgui.Text(u8'Р›РёС†РµРЅР·РёСЏ: ', imgui.ImVec2(75,30))
+					imgui.Text(u8'Лицензия: ', imgui.ImVec2(75,30))
 					imgui.SameLine()
 					imgui.Combo('##chooseselllicense', Licenses_select, new['const char*'][8](Licenses_Arr), #Licenses_Arr)
 					imgui.NewLine()
 					imgui.SetCursorPosX(7.5)
-					if imgui.Button(u8'РџСЂРѕРґР°С‚СЊ Р»РёС†РµРЅР·РёСЋ РЅР° '..u8(string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))), imgui.ImVec2(285,30)) then
+					if imgui.Button(u8'Продать лицензию на '..u8(string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))), imgui.ImVec2(285,30)) then
 						local to, lic = fastmenuID, string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))
 						if lic ~= nil and to ~= nil then
-							if (lic == 'РѕСЂСѓР¶РёРµ' and configuration.main_settings.checkmcongun) or (lic == 'РѕС…РѕС‚Сѓ' and configuration.main_settings.checkmconhunt) then
+							if (lic == 'оружие' and configuration.main_settings.checkmcongun) or (lic == 'охоту' and configuration.main_settings.checkmconhunt) then
 								sendchatarray(0, {
-									{'РҐРѕСЂРѕС€Рѕ, РґР»СЏ РїРѕРєСѓРїРєРё Р»РёС†РµРЅР·РёРё РЅР° %s РїРѕРєР°Р¶РёС‚Рµ РјРЅРµ СЃРІРѕСЋ РјРµРґ.РєР°СЂС‚Сѓ', lic},
+									{'Хорошо, для покупки лицензии на %s покажите мне свою мед.карту', lic},
 									{'/n /showmc %s', select(2,sampGetPlayerIdByCharHandle(playerPed))},
-								}, function() sellto = to lictype = lic end, function() ASHelperMessage('РќР°С‡Р°Р»РѕСЃСЊ РѕР¶РёРґР°РЅРёРµ РїРѕРєР°Р·Р° РјРµРґ.РєР°СЂС‚С‹. РџСЂРё РµС‘ РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅР°Р¶РјРёС‚Рµ {MC}Alt{WC} + {MC}O{WC}') skiporcancel = lic tempid = to end)
+								}, function() sellto = to lictype = lic end, function() ASHelperMessage('Началось ожидание показа мед.карты. При её отсутствии нажмите {MC}Alt{WC} + {MC}O{WC}') skiporcancel = lic tempid = to end)
 							else
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РІР·СЏР»|РІР·СЏР»Р°} СЃРѕ СЃС‚РѕР»Р° Р±Р»Р°РЅРє Рё {gender:Р·Р°РїРѕР»РЅРёР»|Р·Р°РїРѕР»РЅРёР»Р°} СЂСѓС‡РєРѕР№ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё РЅР° '..lic},
-									{'/do РЎРїСѓСЃС‚СЏ РЅРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё Р±С‹Р» Р·Р°РїРѕР»РЅРµРЅ.'},
-									{'/me СЂР°СЃРїРµС‡Р°С‚Р°РІ Р»РёС†РµРЅР·РёСЋ РЅР° %s {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµС‘ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ', lic},
+									{'/me {gender:взял|взяла} со стола бланк и {gender:заполнил|заполнила} ручкой бланк на получение лицензии на '..lic},
+									{'/do Спустя некоторое время бланк на получение лицензии был заполнен.'},
+									{'/me распечатав лицензию на %s {gender:передал|передала} её человеку напротив', lic},
 								}, function() sellto = to lictype = lic end, function() wait(1000) givelic = true sampSendChat(format('/givelicense %s', to)) end)
 							end
 						end
 					end
 					imgui.SetCursorPosX(7.5)
-					if imgui.Button(u8'Р›РёС†РµРЅР·РёСЏ РЅР° РїРѕР»С‘С‚С‹', imgui.ImVec2(285,30)) then
+					if imgui.Button(u8'Лицензия на полёты', imgui.ImVec2(285,30)) then
 						sendchatarray(0, {
-							{'РџРѕР»СѓС‡РёС‚СЊ Р»РёС†РµРЅР·РёСЋ РЅР° РїРѕР»С‘С‚С‹ Р’С‹ РјРѕР¶РµС‚Рµ РІ Р°РІРёР°С€РєРѕР»Рµ Рі. Р›Р°СЃ-Р’РµРЅС‚СѓСЂР°СЃ'},
-							{'/n /gps -> Р’Р°Р¶РЅС‹Рµ РјРµСЃС‚Р° -> РЎР»РµРґСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅРёС†Р° -> [LV] РђРІРёР°С€РєРѕР»Р° (9)'},
+							{'Получить лицензию на полёты Вы можете в авиашколе г. Лас-Вентурас'},
+							{'/n /gps -> Важные места -> Следующая страница -> [LV] Авиашкола (9)'},
 						})
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
 		
 				if windowtype[0] == 3 then
-					imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° СѓРІРѕР»СЊРЅРµРЅРёСЏ:',1)
+					imgui.TextColoredRGB('Причина увольнения:',1)
 					imgui.SetCursorPosX(52)
 					imgui.InputText(u8'##inputuninvitebuf', uninvitebuf, sizeof(uninvitebuf))
 					if uninvitebox[0] then
-						imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° Р§РЎ:',1)
+						imgui.TextColoredRGB('Причина ЧС:',1)
 						imgui.SetCursorPosX(52)
 						imgui.InputText(u8'##inputblacklistbuf', blacklistbuf, sizeof(blacklistbuf))
 					end
-					imgui.Checkbox(u8'РЈРІРѕР»РёС‚СЊ СЃ Р§РЎ', uninvitebox)
+					imgui.Checkbox(u8'Уволить с ЧС', uninvitebox)
 					imgui.SetCursorPosX(7.5)
-					if imgui.Button(u8'РЈРІРѕР»РёС‚СЊ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+					if imgui.Button(u8'Уволить '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 						if configuration.main_settings.myrankint >= 9 then
 							if #str(uninvitebuf) > 0 then
 								if uninvitebox[0] then
 									if #str(blacklistbuf) > 0 then
 										windows.imgui_fm[0] = false
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-											{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-											{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-											{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-											{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-											{'/me {gender:Р·Р°РЅС‘СЃ|Р·Р°РЅРµСЃР»Р°} СЃРѕС‚СЂСѓРґРЅРёРєР° РІ СЂР°Р·РґРµР», РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-											{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+											{'/me {gender:достал|достала} планшет из кармана'},
+											{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+											{'/do Раздел открыт.'},
+											{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+											{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+											{'/me {gender:занёс|занесла} сотрудника в раздел, после чего {gender:подтвердил|подтвердила} изменения'},
+											{'/do Изменения были сохранены.'},
 											{'/uninvite %s %s', fastmenuID, u8:decode(str(uninvitebuf))},
 											{'/blacklist %s %s', fastmenuID, u8:decode(str(blacklistbuf))},
 										})
 									else
-										ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ!')
+										ASHelperMessage('Введите причину занесения в ЧС!')
 									end
 								else
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-										{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-										{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-										{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ, Р·Р°С‚РµРј {gender:РІС‹РєР»СЋС‡РёР»|РІС‹РєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚ Рё {gender:РїРѕР»РѕР¶РёР»|РїРѕР»РѕР¶РёР»Р°} РµРіРѕ РѕР±СЂР°С‚РЅРѕ РІ РєР°СЂРјР°РЅ'},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+										{'/do Раздел открыт.'},
+										{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+										{'/me {gender:подтведрдил|подтвердила} изменения, затем {gender:выключил|выключила} планшет и {gender:положил|положила} его обратно в карман'},
 										{'/uninvite %s %s', fastmenuID, u8:decode(str(uninvitebuf))},
 									})
 								end
 							else
-								ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ СѓРІРѕР»СЊРЅРµРЅРёСЏ.')
+								ASHelperMessage('Введите причину увольнения.')
 							end
 						else
-							ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+							ASHelperMessage('Данная команда доступна с 9-го ранга.')
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
@@ -1836,137 +1836,137 @@ local imgui_fm = imgui.OnFrame(
 					imgui.PushStyleColor(imgui.Col.Button, imgui.ImVec4(0.15, 0.42, 0.0, 1.00))
 					imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.25, 0.52, 0.0, 1.00))
 					imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.35, 0.62, 0.7, 1.00))
-					if imgui.Button(u8'РџРѕРІС‹СЃРёС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР° '..fa.ICON_FA_ARROW_UP, imgui.ImVec2(270,40)) then
+					if imgui.Button(u8'Повысить сотрудника '..fa.ICON_FA_ARROW_UP, imgui.ImVec2(270,40)) then
 						if configuration.main_settings.myrankint >= 9 then
 							windows.imgui_fm[0] = false
 							sendchatarray(configuration.main_settings.playcd, {
-								{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-								{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-								{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-								{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-								{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
-								{'РџРѕР·РґСЂР°РІР»СЏСЋ СЃ РїРѕРІС‹С€РµРЅРёРµРј. РќРѕРІС‹Р№ Р±РµР№РґР¶РёРє Р’С‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ РІ СЂР°Р·РґРµРІР°Р»РєРµ.'},
+								{'/me {gender:включил|включила} планшет'},
+								{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+								{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+								{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+								{'/do Информация о сотруднике была изменена.'},
+								{'Поздравляю с повышением. Новый бейджик Вы можете взять в раздевалке.'},
 								{'/giverank %s %s', fastmenuID, Ranks_select[0]+1},
 							})
 						else
-							ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+							ASHelperMessage('Данная команда доступна с 9-го ранга.')
 						end
 					end
 					imgui.PopStyleColor(3)
-					if imgui.Button(u8'РџРѕРЅРёР·РёС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР° '..fa.ICON_FA_ARROW_DOWN, imgui.ImVec2(270,30)) then
+					if imgui.Button(u8'Понизить сотрудника '..fa.ICON_FA_ARROW_DOWN, imgui.ImVec2(270,30)) then
 						if configuration.main_settings.myrankint >= 9 then
 							windows.imgui_fm[0] = false
 							sendchatarray(configuration.main_settings.playcd, {
-								{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-								{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-								{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-								{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-								{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
+								{'/me {gender:включил|включила} планшет'},
+								{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+								{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+								{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+								{'/do Информация о сотруднике была изменена.'},
 								{'/giverank %s %s', fastmenuID, Ranks_select[0]+1},
 							})
 						else
-							ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+							ASHelperMessage('Данная команда доступна с 9-го ранга.')
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
 		
 				if windowtype[0] == 5 then
-					imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ:',1)
+					imgui.TextColoredRGB('Причина занесения в ЧС:',1)
 					imgui.SetCursorPosX(52)
 					imgui.InputText(u8'##inputblacklistbuff', blacklistbuff, sizeof(blacklistbuff))
 					imgui.NewLine()
 					imgui.SetCursorPosX(7.5)
-					if imgui.Button(u8'Р—Р°РЅРµСЃС‚Рё РІ Р§РЎ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+					if imgui.Button(u8'Занести в ЧС '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 						if configuration.main_settings.myrankint >= 9 then
 							if #str(blacklistbuff) > 0 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-									{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-									{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РЅР°СЂСѓС€РёС‚РµР»СЏ'},
-									{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} РЅР°СЂСѓС€РёС‚РµР»СЏ РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-									{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-									{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+									{'/me {gender:достал|достала} планшет из кармана'},
+									{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+									{'/me {gender:ввёл|ввела} имя нарушителя'},
+									{'/me {gender:внёс|внесла} нарушителя в раздел \'Чёрный список\''},
+									{'/me {gender:подтведрдил|подтвердила} изменения'},
+									{'/do Изменения были сохранены.'},
 									{'/blacklist %s %s', fastmenuID, u8:decode(str(blacklistbuff))},
 								})
 							else
-								ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ!')
+								ASHelperMessage('Введите причину занесения в ЧС!')
 							end
 						else
-							ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+							ASHelperMessage('Данная команда доступна с 9-го ранга.')
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
 		
 				if windowtype[0] == 6 then
-					imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° РІС‹РіРѕРІРѕСЂР°:',1)
+					imgui.TextColoredRGB('Причина выговора:',1)
 					imgui.SetCursorPosX(50)
 					imgui.InputText(u8'##giverwarnbuffinputtext', fwarnbuff, sizeof(fwarnbuff))
 					imgui.NewLine()
 					imgui.SetCursorPosX(7.5)
-					if imgui.Button(u8'Р’С‹РґР°С‚СЊ РІС‹РіРѕРІРѕСЂ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+					if imgui.Button(u8'Выдать выговор '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 						if #str(fwarnbuff) > 0 then
 							windows.imgui_fm[0] = false
 							sendchatarray(configuration.main_settings.playcd, {
-								{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-								{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-								{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-								{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:РґРѕР±Р°РІРёР»|РґРѕР±Р°РІРёР»Р°} РІ РµРіРѕ Р»РёС‡РЅРѕРµ РґРµР»Рѕ РІС‹РіРѕРІРѕСЂ'},
-								{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» РґРѕР±Р°РІР»РµРЅ РІ Р»РёС‡РЅРѕРµ РґРµР»Рѕ СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+								{'/me {gender:достал|достала} планшет из кармана'},
+								{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+								{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+								{'/me найдя в разделе нужного сотрудника, {gender:добавил|добавила} в его личное дело выговор'},
+								{'/do Выговор был добавлен в личное дело сотрудника.'},
 								{'/fwarn %s %s', fastmenuID, u8:decode(str(fwarnbuff))},
 							})
 						else
-							ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ РІС‹РґР°С‡Рё РІС‹РіРѕРІРѕСЂР°!')
+							ASHelperMessage('Введите причину выдачи выговора!')
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
 		
 				if windowtype[0] == 7 then
-					imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° РјСѓС‚Р°:',1)
+					imgui.TextColoredRGB('Причина мута:',1)
 					imgui.SetCursorPosX(52)
 					imgui.InputText(u8'##fmutereasoninputtext', fmutebuff, sizeof(fmutebuff))
-					imgui.TextColoredRGB('Р’СЂРµРјСЏ РјСѓС‚Р°:',1)
+					imgui.TextColoredRGB('Время мута:',1)
 					imgui.SetCursorPosX(52)
 					imgui.InputInt(u8'##fmutetimeinputtext', fmuteint, 5)
 					imgui.NewLine()
-					if imgui.Button(u8'Р’С‹РґР°С‚СЊ РјСѓС‚ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(270,30)) then
+					if imgui.Button(u8'Выдать мут '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(270,30)) then
 						if configuration.main_settings.myrankint >= 9 then
 							if #str(fmutebuff) > 0 then
 								if tonumber(fmuteint[0]) and tonumber(fmuteint[0]) > 0 then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'РћС‚РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-										{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:включил|включила} планшет'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+										{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+										{'/me {gender:выбрал|выбрала} пункт \'Отключить рацию сотрудника\''},
+										{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 										{'/fmute %s %s %s', fastmenuID, u8:decode(fmuteint[0]), u8:decode(str(fmutebuff))},
 									})
 								else
-									ASHelperMessage('Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅРѕРµ РІСЂРµРјСЏ РјСѓС‚Р°!')
+									ASHelperMessage('Введите корректное время мута!')
 								end
 							else
-								ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ РІС‹РґР°С‡Рё РјСѓС‚Р°!')
+								ASHelperMessage('Введите причину выдачи мута!')
 							end
 						else
-							ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+							ASHelperMessage('Данная команда доступна с 9-го ранга.')
 						end
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 				end
@@ -1981,11 +1981,11 @@ local imgui_fm = imgui.OnFrame(
 							imgui.SetCursorPosX(7.5)
 							if imgui.Button(u8(serverquestions[k].name)..'##'..k, imgui.ImVec2(285, 30)) then
 								if not inprocess then
-									ASHelperMessage('РџРѕРґСЃРєР°Р·РєР°: '..serverquestions[k].answer)
+									ASHelperMessage('Подсказка: '..serverquestions[k].answer)
 									sampSendChat(serverquestions[k].question)
 									lastq[0] = clock()
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 						end
@@ -1995,11 +1995,11 @@ local imgui_fm = imgui.OnFrame(
 								imgui.SetCursorPosX(7.5)
 								if imgui.Button(u8(v.bname..'##'..k), imgui.ImVec2(questions.active.redact and 200 or 285,30)) then
 									if not inprocess then
-										ASHelperMessage('РџРѕРґСЃРєР°Р·РєР°: '..v.bhint)
+										ASHelperMessage('Подсказка: '..v.bhint)
 										sampSendChat(v.bq)
 										lastq[0] = clock()
 									else
-										ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+										ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 									end
 								end
 								if questions.active.redact then
@@ -2009,7 +2009,7 @@ local imgui_fm = imgui.OnFrame(
 										imgui.StrCopy(questionsettings.questionname, u8(v.bname))
 										imgui.StrCopy(questionsettings.questionhint, u8(v.bhint))
 										imgui.StrCopy(questionsettings.questionques, u8(v.bq))
-										imgui.OpenPopup(u8('Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ'))
+										imgui.OpenPopup(u8('Редактор вопросов'))
 									end
 									imgui.SameLine()
 									if imgui.Button(fa.ICON_FA_TRASH..'##'..k, imgui.ImVec2(30,30)) then
@@ -2024,51 +2024,51 @@ local imgui_fm = imgui.OnFrame(
 					end
 					imgui.NewLine()
 					imgui.SetCursorPosX(7.5)
-					imgui.Text(fa.ICON_FA_CLOCK..' '..(lastq[0] == 0 and u8'0 СЃ. РЅР°Р·Р°Рґ' or floor(clock()-lastq[0])..u8' СЃ. РЅР°Р·Р°Рґ'))
-					imgui.Hint('lastustavquesttime','РџСЂРѕС€РµРґС€РµРµ РІСЂРµРјСЏ СЃ РїРѕСЃР»РµРґРЅРµРіРѕ РІРѕРїСЂРѕСЃР°.')
+					imgui.Text(fa.ICON_FA_CLOCK..' '..(lastq[0] == 0 and u8'0 с. назад' or floor(clock()-lastq[0])..u8' с. назад'))
+					imgui.Hint('lastustavquesttime','Прошедшее время с последнего вопроса.')
 					imgui.SetCursorPosX(7.5)
 					imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.00, 0.40, 0.00, 1.00))
 					imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.00, 0.30, 0.00, 1.00))
-					imgui.Button(u8'РћРґРѕР±СЂРёС‚СЊ', imgui.ImVec2(137,35))
+					imgui.Button(u8'Одобрить', imgui.ImVec2(137,35))
 					if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 						if imgui.IsMouseReleased(0) then
 							if not inprocess then
 								windows.imgui_fm[0] = false
-								sampSendChat(format('РџРѕР·РґСЂР°РІР»СЏСЋ, %s, Р’С‹ СЃРґР°Р»Рё СѓСЃС‚Р°РІ!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
+								sampSendChat(format('Поздравляю, %s, Вы сдали устав!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						if imgui.IsMouseReleased(1) then
 							if configuration.main_settings.myrankint >= 9 then
 								windows.imgui_fm[0] = false
 								sendchatarray(configuration.main_settings.playcd, {
-									{'РџРѕР·РґСЂР°РІР»СЏСЋ, %s, Р’С‹ СЃРґР°Р»Рё СѓСЃС‚Р°РІ!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
-									{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-									{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-									{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-									{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-									{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
-									{'РџРѕР·РґСЂР°РІР»СЏСЋ СЃ РїРѕРІС‹С€РµРЅРёРµРј. РќРѕРІС‹Р№ Р±РµР№РґР¶РёРє Р’С‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ РІ СЂР°Р·РґРµРІР°Р»РєРµ.'},
+									{'Поздравляю, %s, Вы сдали устав!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
+									{'/me {gender:включил|включила} планшет'},
+									{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+									{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+									{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+									{'/do Информация о сотруднике была изменена.'},
+									{'Поздравляю с повышением. Новый бейджик Вы можете взять в раздевалке.'},
 									{'/giverank %s 2', fastmenuID},
 								})
 							else
-								ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+								ASHelperMessage('Данная команда доступна с 9-го ранга.')
 							end
 						end
 					end
-					imgui.Hint('ustavhint','Р›РљРњ РґР»СЏ РёРЅС„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Рѕ СЃРґР°С‡Рµ СѓСЃС‚Р°РІР°\nРџРљРњ РґР»СЏ РїРѕРІС‹С€РµРЅРёСЏ РґРѕ 2-РіРѕ СЂР°РЅРіР°')
+					imgui.Hint('ustavhint','ЛКМ для информирования о сдаче устава\nПКМ для повышения до 2-го ранга')
 					imgui.PopStyleColor(2)
 					imgui.SameLine()
 		
 					imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 					imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-					if imgui.Button(u8'РћС‚РєР°Р·Р°С‚СЊ', imgui.ImVec2(137,35)) then
+					if imgui.Button(u8'Отказать', imgui.ImVec2(137,35)) then
 						if not inprocess then
 							windows.imgui_fm[0] = false
-							sampSendChat(format('РЎРѕР¶Р°Р»РµСЋ, %s, РЅРѕ Р’С‹ РЅРµ СЃРјРѕРіР»Рё СЃРґР°С‚СЊ СѓСЃС‚Р°РІ. РџРѕРґСѓС‡РёС‚Рµ Рё РїСЂРёС…РѕРґРёС‚Рµ РІ СЃР»РµРґСѓСЋС‰РёР№ СЂР°Р·.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
+							sampSendChat(format('Сожалею, %s, но Вы не смогли сдать устав. Подучите и приходите в следующий раз.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
 						else
-							ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+							ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 						end
 					end
 					imgui.PopStyleColor(2)
@@ -2077,12 +2077,12 @@ local imgui_fm = imgui.OnFrame(
 					imgui.BeginGroup()
 						if serverquestions['server'] then
 							imgui.SetCursorPosY(imgui.GetCursorPosY() + 3)
-							imgui.Text(u8'Р’РѕРїСЂРѕСЃС‹')
+							imgui.Text(u8'Вопросы')
 							imgui.SameLine()
 							imgui.SetCursorPosY(imgui.GetCursorPosY() - 3)
 							imgui.PushItemWidth(90)
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
-							imgui.Combo(u8'##choosetypequestion', QuestionType_select, new['const char*'][8]{u8'РЎРµСЂРІРµСЂРЅС‹Рµ', u8'Р’Р°С€Рё'}, 2)
+							imgui.Combo(u8'##choosetypequestion', QuestionType_select, new['const char*'][8]{u8'Серверные', u8'Ваши'}, 2)
 							imgui.PopStyleVar()
 							imgui.PopItemWidth()
 							imgui.SameLine()
@@ -2099,7 +2099,7 @@ local imgui_fm = imgui.OnFrame(
 										imgui.StrCopy(questionsettings.questionname, '')
 										imgui.StrCopy(questionsettings.questionhint, '')
 										imgui.StrCopy(questionsettings.questionques, '')
-										imgui.OpenPopup(u8('Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ'))
+										imgui.OpenPopup(u8('Редактор вопросов'))
 									end
 									imgui.SameLine()
 								end
@@ -2115,26 +2115,26 @@ local imgui_fm = imgui.OnFrame(
 					imgui.EndGroup()
 		
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(142.5,30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(142.5,30)) then
 						windowtype[0] = 0
 					end
 					
-					if imgui.BeginPopup(u8'Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
-						imgui.Text(u8'РќР°Р·РІР°РЅРёРµ РєРЅРѕРїРєРё:')
+					if imgui.BeginPopup(u8'Редактор вопросов', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
+						imgui.Text(u8'Название кнопки:')
 						imgui.SameLine()
 						imgui.SetCursorPosX(125)
 						imgui.InputText('##questeditorname', questionsettings.questionname, sizeof(questionsettings.questionname))
-						imgui.Text(u8'Р’РѕРїСЂРѕСЃ: ')
+						imgui.Text(u8'Вопрос: ')
 						imgui.SameLine()
 						imgui.SetCursorPosX(125)
 						imgui.InputText('##questeditorques', questionsettings.questionques, sizeof(questionsettings.questionques))
-						imgui.Text(u8'РџРѕРґСЃРєР°Р·РєР°: ')
+						imgui.Text(u8'Подсказка: ')
 						imgui.SameLine()
 						imgui.SetCursorPosX(125)
 						imgui.InputText('##questeditorhint', questionsettings.questionhint, sizeof(questionsettings.questionhint))
 						imgui.SetCursorPosX(17)
 						if #str(questionsettings.questionhint) > 0 and #str(questionsettings.questionques) > 0 and #str(questionsettings.questionname) > 0 then
-							if imgui.Button(u8'РЎРѕС…СЂР°РЅРёС‚СЊ####questeditor', imgui.ImVec2(150, 25)) then
+							if imgui.Button(u8'Сохранить####questeditor', imgui.ImVec2(150, 25)) then
 								if question_number == nil then
 									questions.questions[#questions.questions + 1] = {
 										bname = u8:decode(str(questionsettings.questionname)),
@@ -2152,11 +2152,11 @@ local imgui_fm = imgui.OnFrame(
 								imgui.CloseCurrentPopup()
 							end
 						else
-							imgui.LockedButton(u8'РЎРѕС…СЂР°РЅРёС‚СЊ####questeditor', imgui.ImVec2(150, 25))
-							imgui.Hint('notallparamsquesteditor','Р’С‹ РІРІРµР»Рё РЅРµ РІСЃРµ РїР°СЂР°РјРµС‚СЂС‹. РџРµСЂРµРїСЂРѕРІРµСЂСЊС‚Рµ РІСЃС‘.')
+							imgui.LockedButton(u8'Сохранить####questeditor', imgui.ImVec2(150, 25))
+							imgui.Hint('notallparamsquesteditor','Вы ввели не все параметры. Перепроверьте всё.')
 						end
 						imgui.SameLine()
-						if imgui.Button(u8'РћС‚РјРµРЅРёС‚СЊ##questeditor', imgui.ImVec2(150, 25)) then
+						if imgui.Button(u8'Отменить##questeditor', imgui.ImVec2(150, 25)) then
 							imgui.CloseCurrentPopup()
 						end
 						imgui.Spacing()
@@ -2166,38 +2166,38 @@ local imgui_fm = imgui.OnFrame(
 		
 				if windowtype[0] == 9 then
 					if sobesetap[0] == 0 then
-						imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 1',1)
+						imgui.TextColoredRGB('Собеседование: Этап 1',1)
 						imgui.Separator()
 						imgui.SetCursorPosX(7.5)
-						if imgui.Button(u8'РџРѕРїСЂРёРІРµС‚СЃС‚РІРѕРІР°С‚СЊ', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Поприветствовать', imgui.ImVec2(285,30)) then
 							sendchatarray(configuration.main_settings.playcd, {
-								{'Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, СЏ %s %s, Р’С‹ РїСЂРёС€Р»Рё РЅР° СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ?', configuration.RankNames[configuration.main_settings.myrankint], configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-								{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+								{'Здравствуйте, я %s %s, Вы пришли на собеседование?', configuration.RankNames[configuration.main_settings.myrankint], configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+								{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 							})
 						end
 						imgui.SetCursorPosX(7.5)
-						imgui.Button(u8'РџРѕРїСЂРѕСЃРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹ '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30))
+						imgui.Button(u8'Попросить документы '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30))
 						if imgui.IsItemHovered() then
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(5, 5))
 							imgui.BeginTooltip()
-							imgui.Text(u8'Р›РљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ\nРџРљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РЅР°СЃС‚СЂРѕРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹')
+							imgui.Text(u8'ЛКМ для того, чтобы продолжить\nПКМ для того, чтобы настроить документы')
 							imgui.EndTooltip()
 							imgui.PopStyleVar()
 
 							if imgui.IsMouseReleased(0) then
 								if not inprocess then
 									local s = configuration.sobes_settings
-									local out = (s.pass and 'РїР°СЃРїРѕСЂС‚' or '')..
-												(s.medcard and (s.pass and ', РјРµРґ. РєР°СЂС‚Сѓ' or 'РјРµРґ. РєР°СЂС‚Сѓ') or '')..
-												(s.wbook and ((s.pass or s.medcard) and ', С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёР¶РєСѓ' or 'С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёР¶РєСѓ') or '')..
-												(s.licenses and ((s.pass or s.medcard or s.wbook) and ', Р»РёС†РµРЅР·РёРё' or 'Р»РёС†РµРЅР·РёРё') or '')
+									local out = (s.pass and 'паспорт' or '')..
+												(s.medcard and (s.pass and ', мед. карту' or 'мед. карту') or '')..
+												(s.wbook and ((s.pass or s.medcard) and ', трудовую книжку' or 'трудовую книжку') or '')..
+												(s.licenses and ((s.pass or s.medcard or s.wbook) and ', лицензии' or 'лицензии') or '')
 									sendchatarray(0, {
-										{'РҐРѕСЂРѕС€Рѕ, РїРѕРєР°Р¶РёС‚Рµ РјРЅРµ РІР°С€Рё РґРѕРєСѓРјРµРЅС‚С‹, Р° РёРјРµРЅРЅРѕ: %s', out},
-										{'/n РћР±СЏР·Р°С‚РµР»СЊРЅРѕ РїРѕ СЂРї!'},
+										{'Хорошо, покажите мне ваши документы, а именно: %s', out},
+										{'/n Обязательно по рп!'},
 									})
 									sobesetap[0] = 1
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							if imgui.IsMouseReleased(1) then
@@ -2206,19 +2206,19 @@ local imgui_fm = imgui.OnFrame(
 						end
 						imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(10, 10))
 						if imgui.BeginPopup('##redactdocuments') then
-							if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ РїР°СЃРїРѕСЂС‚', sobes_settings.pass) then
+							if imgui.ToggleButton(u8'Проверять паспорт', sobes_settings.pass) then
 								configuration.sobes_settings.pass = sobes_settings.pass[0]
 								inicfg.save(configuration,'AS Helper')
 							end
-							if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ РјРµРґ. РєР°СЂС‚Сѓ', sobes_settings.medcard) then
+							if imgui.ToggleButton(u8'Проверять мед. карту', sobes_settings.medcard) then
 								configuration.sobes_settings.medcard = sobes_settings.medcard[0]
 								inicfg.save(configuration,'AS Helper')
 							end
-							if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёРіСѓ', sobes_settings.wbook) then
+							if imgui.ToggleButton(u8'Проверять трудовую книгу', sobes_settings.wbook) then
 								configuration.sobes_settings.wbook = sobes_settings.wbook[0]
 								inicfg.save(configuration,'AS Helper')
 							end
-							if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ Р»РёС†РµРЅР·РёРё', sobes_settings.licenses) then
+							if imgui.ToggleButton(u8'Проверять лицензии', sobes_settings.licenses) then
 								configuration.sobes_settings.licenses = sobes_settings.licenses[0]
 								inicfg.save(configuration,'AS Helper')
 							end
@@ -2228,91 +2228,91 @@ local imgui_fm = imgui.OnFrame(
 					end
 			
 					if sobesetap[0] == 1 then
-						imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 2',1)
+						imgui.TextColoredRGB('Собеседование: Этап 2',1)
 						imgui.Separator()
 						if configuration.sobes_settings.pass then
-							imgui.TextColoredRGB(sobes_results.pass and 'РџР°СЃРїРѕСЂС‚ - РїРѕРєР°Р·Р°РЅ ('..sobes_results.pass..')' or 'РџР°СЃРїРѕСЂС‚ - РЅРµ РїРѕРєР°Р·Р°РЅ',1)
+							imgui.TextColoredRGB(sobes_results.pass and 'Паспорт - показан ('..sobes_results.pass..')' or 'Паспорт - не показан',1)
 						end
 						if configuration.sobes_settings.medcard then
-							imgui.TextColoredRGB(sobes_results.medcard and 'РњРµРґ. РєР°СЂС‚Р° - РїРѕРєР°Р·Р°РЅР° ('..sobes_results.medcard..')' or 'РњРµРґ. РєР°СЂС‚Р° - РЅРµ РїРѕРєР°Р·Р°РЅР°',1)
+							imgui.TextColoredRGB(sobes_results.medcard and 'Мед. карта - показана ('..sobes_results.medcard..')' or 'Мед. карта - не показана',1)
 						end
 						if configuration.sobes_settings.wbook then
-							imgui.TextColoredRGB(sobes_results.wbook and 'РўСЂСѓРґРѕРІР°СЏ РєРЅРёР¶РєР° - РїРѕРєР°Р·Р°РЅР°' or 'РўСЂСѓРґРѕРІР°СЏ РєРЅРёР¶РєР° - РЅРµ РїРѕРєР°Р·Р°РЅР°',1)
+							imgui.TextColoredRGB(sobes_results.wbook and 'Трудовая книжка - показана' or 'Трудовая книжка - не показана',1)
 						end
 						if configuration.sobes_settings.licenses then
-							imgui.TextColoredRGB(sobes_results.licenses and 'Р›РёС†РµРЅР·РёРё - РїРѕРєР°Р·Р°РЅС‹ ('..sobes_results.licenses..')' or 'Р›РёС†РµРЅР·РёРё - РЅРµ РїРѕРєР°Р·Р°РЅС‹',1)
+							imgui.TextColoredRGB(sobes_results.licenses and 'Лицензии - показаны ('..sobes_results.licenses..')' or 'Лицензии - не показаны',1)
 						end
-						if (configuration.sobes_settings.pass == true and sobes_results.pass == 'РІ РїРѕСЂСЏРґРєРµ' or configuration.sobes_settings.pass == false) and
-						(configuration.sobes_settings.medcard == true and sobes_results.medcard == 'РІ РїРѕСЂСЏРґРєРµ' or configuration.sobes_settings.medcard == false) and
-						(configuration.sobes_settings.wbook == true and sobes_results.wbook == 'РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚' or configuration.sobes_settings.wbook == false) and
+						if (configuration.sobes_settings.pass == true and sobes_results.pass == 'в порядке' or configuration.sobes_settings.pass == false) and
+						(configuration.sobes_settings.medcard == true and sobes_results.medcard == 'в порядке' or configuration.sobes_settings.medcard == false) and
+						(configuration.sobes_settings.wbook == true and sobes_results.wbook == 'присутствует' or configuration.sobes_settings.wbook == false) and
 						(configuration.sobes_settings.licenses == true and sobes_results.licenses ~= nil or configuration.sobes_settings.licenses == false) then
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РџСЂРѕРґРѕР»Р¶РёС‚СЊ '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Продолжить '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
 								if not inprocess then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me РІР·СЏРІ РґРѕРєСѓРјРµРЅС‚С‹ РёР· СЂСѓРє С‡РµР»РѕРІРµРєР° РЅР°РїСЂРѕС‚РёРІ {gender:РЅР°С‡Р°Р»|РЅР°С‡Р°Р»Р°} РёС… РїСЂРѕРІРµСЂСЏС‚СЊ'},
-										{'/todo РҐРѕСЂРѕС€Рѕ...* РѕС‚РґР°РІР°СЏ РґРѕРєСѓРјРµРЅС‚С‹ РѕР±СЂР°С‚РЅРѕ'},
-										{'РЎРµР№С‡Р°СЃ СЏ Р·Р°РґР°Рј Р’Р°Рј РЅРµСЃРєРѕР»СЊРєРѕ РІРѕРїСЂРѕСЃРѕРІ, Р’С‹ РіРѕС‚РѕРІС‹ РЅР° РЅРёС… РѕС‚РІРµС‡Р°С‚СЊ?'},
+										{'/me взяв документы из рук человека напротив {gender:начал|начала} их проверять'},
+										{'/todo Хорошо...* отдавая документы обратно'},
+										{'Сейчас я задам Вам несколько вопросов, Вы готовы на них отвечать?'},
 									})
 									sobesetap[0] = 2
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 						end
 					end
 			
 					if sobesetap[0] == 2 then
-						imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 3',1)
+						imgui.TextColoredRGB('Собеседование: Этап 3',1)
 						imgui.Separator()
 						imgui.SetCursorPosX(7.5)
-						if imgui.Button(u8'Р Р°СЃСЃРєР°Р¶РёС‚Рµ РЅРµРјРЅРѕРіРѕ Рѕ СЃРµР±Рµ.', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Расскажите немного о себе.', imgui.ImVec2(285,30)) then
 							if not inprocess then
-								sampSendChat('Р Р°СЃСЃРєР°Р¶РёС‚Рµ РЅРµРјРЅРѕРіРѕ Рѕ СЃРµР±Рµ.')
+								sampSendChat('Расскажите немного о себе.')
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						imgui.SetCursorPosX(7.5)
-						if imgui.Button(u8'РџРѕС‡РµРјСѓ РІС‹Р±СЂР°Р»Рё РёРјРµРЅРЅРѕ РЅР°СЃ?', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Почему выбрали именно нас?', imgui.ImVec2(285,30)) then
 							if not inprocess then
-								sampSendChat('РџРѕС‡РµРјСѓ Р’С‹ РІС‹Р±СЂР°Р»Рё РёРјРµРЅРЅРѕ РЅР°СЃ?')
+								sampSendChat('Почему Вы выбрали именно нас?')
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						imgui.SetCursorPosX(7.5)
-						if imgui.Button(u8'Р Р°Р±РѕС‚Р°Р»Рё Р’С‹ Сѓ РЅР°СЃ СЂР°РЅРµРµ? '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Работали Вы у нас ранее? '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
 							if not inprocess then
-								sampSendChat('Р Р°Р±РѕС‚Р°Р»Рё Р’С‹ Сѓ РЅР°СЃ СЂР°РЅРµРµ? Р•СЃР»Рё РґР°, С‚Рѕ СЂР°СЃСЃРєР°Р¶РёС‚Рµ РїРѕРґСЂРѕР±РЅРµРµ')
+								sampSendChat('Работали Вы у нас ранее? Если да, то расскажите подробнее')
 								sobesetap[0] = 3
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 					end
 			
 					if sobesetap[0] == 3 then
-						imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р РµС€РµРЅРёРµ',1)
+						imgui.TextColoredRGB('Собеседование: Решение',1)
 						imgui.Separator()
 						imgui.SetCursorPosX(7.5)
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.00, 0.40, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.00, 0.30, 0.00, 1.00))
-						if imgui.Button(u8'РџСЂРёРЅСЏС‚СЊ', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Принять', imgui.ImVec2(285,30)) then
 							if configuration.main_settings.myrankint >= 9 then
 								sendchatarray(configuration.main_settings.playcd, {
-									{'РћС‚Р»РёС‡РЅРѕ, СЏ РґСѓРјР°СЋ Р’С‹ РЅР°Рј РїРѕРґС…РѕРґРёС‚Рµ!'},
-									{'/do РљР»СЋС‡Рё РѕС‚ С€РєР°С„С‡РёРєР° РІ РєР°СЂРјР°РЅРµ.'},
-									{'/me РІСЃСѓРЅСѓРІ СЂСѓРєСѓ РІ РєР°СЂРјР°РЅ Р±СЂСЋРє, {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РѕС‚С‚СѓРґР° РєР»СЋС‡ РѕС‚ С€РєР°С„С‡РёРєР°'},
-									{'/me {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РєР»СЋС‡ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
-									{'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! Р Р°Р·РґРµРІР°Р»РєР° Р·Р° РґРІРµСЂСЊСЋ.'},
-									{'РЎРѕ РІСЃРµР№ РёРЅС„РѕСЂРјР°С†РёРµР№ Р’С‹ РјРѕР¶РµС‚Рµ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ РЅР° РѕС„. РїРѕСЂС‚Р°Р»Рµ.'},
+									{'Отлично, я думаю Вы нам подходите!'},
+									{'/do Ключи от шкафчика в кармане.'},
+									{'/me всунув руку в карман брюк, {gender:достал|достала} оттуда ключ от шкафчика'},
+									{'/me {gender:передал|передала} ключ человеку напротив'},
+									{'Добро пожаловать! Раздевалка за дверью.'},
+									{'Со всей информацией Вы можете ознакомиться на оф. портале.'},
 									{'/invite %s', fastmenuID},
 								})
 							else
 								sendchatarray(configuration.main_settings.playcd, {
-									{'РћС‚Р»РёС‡РЅРѕ, СЏ РґСѓРјР°СЋ Р’С‹ РЅР°Рј РїРѕРґС…РѕРґРёС‚Рµ!'},
-									{'/r %s СѓСЃРїРµС€РЅРѕ РїСЂРѕС€С‘Р» СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ! РџСЂРѕС€Сѓ РїРѕРґРѕР№С‚Рё РєРѕ РјРЅРµ, С‡С‚РѕР±С‹ РїСЂРёРЅСЏС‚СЊ РµРіРѕ.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
+									{'Отлично, я думаю Вы нам подходите!'},
+									{'/r %s успешно прошёл собеседование! Прошу подойти ко мне, чтобы принять его.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
 									{'/rb %s id', fastmenuID},
 								})
 							end
@@ -2322,7 +2322,7 @@ local imgui_fm = imgui.OnFrame(
 						imgui.SetCursorPosX(7.5)
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-						if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Отклонить', imgui.ImVec2(285,30)) then
 							lastsobesetap[0] = sobesetap[0]
 							sobesetap[0] = 7
 						end
@@ -2330,34 +2330,34 @@ local imgui_fm = imgui.OnFrame(
 					end
 			
 					if sobesetap[0] == 7 then
-						imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: РћС‚РєР»РѕРЅРµРЅРёРµ',1)
+						imgui.TextColoredRGB('Собеседование: Отклонение',1)
 						imgui.Separator()
 						imgui.PushItemWidth(270)
-						imgui.Combo('##declinesobeschoosereasonselect',sobesdecline_select, new['const char*'][5]({u8'РџР»РѕС…РѕРµ Р Рџ',u8'РќРµ Р±С‹Р»Рѕ Р Рџ',u8'РџР»РѕС…Р°СЏ РіСЂР°РјРјР°С‚РёРєР°',u8'РќРёС‡РµРіРѕ РЅРµ РїРѕРєР°Р·Р°Р»',u8'Р”СЂСѓРіРѕРµ'}), 5)
+						imgui.Combo('##declinesobeschoosereasonselect',sobesdecline_select, new['const char*'][5]({u8'Плохое РП',u8'Не было РП',u8'Плохая грамматика',u8'Ничего не показал',u8'Другое'}), 5)
 						imgui.PopItemWidth()
 						imgui.SetCursorPosX((imgui.GetWindowWidth() - 270) * 0.5)
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-						if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(270,30)) then
+						if imgui.Button(u8'Отклонить', imgui.ImVec2(270,30)) then
 							if not inprocess then
 								if sobesdecline_select[0] == 0 then
-									sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-									sampSendChat('/b РћС‡РµРЅСЊ РїР»РѕС…РѕРµ Р Рџ')
+									sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+									sampSendChat('/b Очень плохое РП')
 								elseif sobesdecline_select[0] == 1 then
-									sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-									sampSendChat('/b РќРµ Р±С‹Р»Рѕ Р Рџ')
+									sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+									sampSendChat('/b Не было РП')
 								elseif sobesdecline_select[0] == 2 then
-									sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-									sampSendChat('/b РџР»РѕС…Р°СЏ РіСЂР°РјРјР°С‚РёРєР°')
+									sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+									sampSendChat('/b Плохая грамматика')
 								elseif sobesdecline_select[0] == 3 then
-									sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-									sampSendChat('/b РќРёС‡РµРіРѕ РЅРµ РїРѕРєР°Р·Р°Р»')
+									sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+									sampSendChat('/b Ничего не показал')
 								elseif sobesdecline_select[0] == 4 then
-									sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
+									sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
 								end
 								windows.imgui_fm[0] = false
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						imgui.PopStyleColor(2)
@@ -2368,20 +2368,20 @@ local imgui_fm = imgui.OnFrame(
 						imgui.SetCursorPosX(7.5)
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-						if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(285,30)) then
+						if imgui.Button(u8'Отклонить', imgui.ImVec2(285,30)) then
 							if not inprocess then
 								local reasons = {
 									pass = {
-										['РјРµРЅСЊС€Рµ 3 Р»РµС‚ РІ С€С‚Р°С‚Рµ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµ РїСЂРѕР¶РёРІР°РµС‚Рµ РІ С€С‚Р°С‚Рµ 3 РіРѕРґР°.'},
-										['РЅРµ Р·Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅС‹Р№'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ Р·Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅС‹Р№.'},
-										['РёРіСЂРѕРє РІ РѕСЂРіР°РЅРёР·Р°С†РёРё'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ СѓР¶Рµ СЂР°Р±РѕС‚Р°РµС‚Рµ РІ РґСЂСѓРіРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё.'},
-										['РІ С‡СЃ Р°РІС‚РѕС€РєРѕР»С‹'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅР°С…РѕРґРёС‚РµСЃСЊ РІ Р§РЎ РђРЁ.'},
-										['РµСЃС‚СЊ РІР°СЂРЅС‹'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.', '/n РµСЃС‚СЊ РІР°СЂРЅС‹'},
-										['Р±С‹Р» РІ РґРµРјРѕСЂРіР°РЅРµ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ Р»РµС‡РёР»РёСЃСЊ РІ РїСЃРёС…. Р±РѕР»СЊРЅРёС†Рµ.', '/n РѕР±РЅРѕРІРёС‚Рµ РјРµРґ. РєР°СЂС‚Сѓ'}
+										['меньше 3 лет в штате'] = {'К сожалению я не могу продолжить собеседование. Вы не проживаете в штате 3 года.'},
+										['не законопослушный'] = {'К сожалению я не могу продолжить собеседование. Вы недостаточно законопослушный.'},
+										['игрок в организации'] = {'К сожалению я не могу продолжить собеседование. Вы уже работаете в другой организации.'},
+										['в чс автошколы'] = {'К сожалению я не могу продолжить собеседование. Вы находитесь в ЧС АШ.'},
+										['есть варны'] = {'К сожалению я не могу продолжить собеседование. Вы проф. непригодны.', '/n есть варны'},
+										['был в деморгане'] = {'К сожалению я не могу продолжить собеседование. Вы лечились в псих. больнице.', '/n обновите мед. карту'}
 									},
 									mc = {
-										['РЅР°СЂРєРѕР·Р°РІРёСЃРёРјРѕСЃС‚СЊ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ СЃР»РёС€РєРѕРј РЅР°СЂРєРѕР·Р°РІРёСЃРёРјС‹Р№.'},
-										['РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№.'},
+										['наркозависимость'] = {'К сожалению я не могу продолжить собеседование. Вы слишком наркозависимый.'},
+										['не полностью здоровый'] = {'К сожалению я не могу продолжить собеседование. Вы не полностью здоровый.'},
 									},
 								}
 								if reasons.pass[sobes_results.pass] then
@@ -2399,13 +2399,13 @@ local imgui_fm = imgui.OnFrame(
 									sobesetap[0] = 7
 								end
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						imgui.PopStyleColor(2)
 					end
 					imgui.SetCursorPos(imgui.ImVec2(7.5, 478))
-					if imgui.Button(u8'РќР°Р·Р°Рґ', imgui.ImVec2(137, 30)) then
+					if imgui.Button(u8'Назад', imgui.ImVec2(137, 30)) then
 						if sobesetap[0] == 7 then sobesetap[0] = lastsobesetap[0]
 						elseif sobesetap[0] ~= 0 then sobesetap[0] = sobesetap[0] - 1
 						else
@@ -2414,7 +2414,7 @@ local imgui_fm = imgui.OnFrame(
 					end
 					imgui.SameLine()
 					if sobesetap[0] ~= 3 and sobesetap[0] ~= 7 then
-						if imgui.Button(u8'РџСЂРѕРїСѓСЃС‚РёС‚СЊ СЌС‚Р°Рї', imgui.ImVec2(137,30)) then
+						if imgui.Button(u8'Пропустить этап', imgui.ImVec2(137,30)) then
 							sobesetap[0] = sobesetap[0] + 1
 						end
 					end
@@ -2424,7 +2424,7 @@ local imgui_fm = imgui.OnFrame(
 			imgui.SetNextWindowSize(imgui.ImVec2(500, 300), imgui.Cond.Always)
 			imgui.SetNextWindowPos(imgui.ImVec2(ScreenSizeX * 0.5 , ScreenSizeY * 0.7),imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
 			imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(0,0))
-			imgui.Begin(u8'РњРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°', windows.imgui_fm, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar)
+			imgui.Begin(u8'Меню быстрого доступа', windows.imgui_fm, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar)
 				if imgui.IsWindowAppearing() then
 					newwindowtype[0] = 1
 					clienttype[0] = 0
@@ -2441,93 +2441,93 @@ local imgui_fm = imgui.OnFrame(
 							imgui.SetCursorPos(imgui.ImVec2(7.5,15))
 							imgui.BeginGroup()
 								if configuration.main_settings.myrankint >= 1 then
-									if imgui.Button(fa.ICON_FA_HAND_PAPER..u8' РџРѕРїСЂРёРІРµС‚СЃС‚РІРѕРІР°С‚СЊ РёРіСЂРѕРєР°', imgui.ImVec2(285,30)) then
+									if imgui.Button(fa.ICON_FA_HAND_PAPER..u8' Поприветствовать игрока', imgui.ImVec2(285,30)) then
 										getmyrank = true
 										sampSendChat('/stats')
 										if tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 4 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 13 then
 											sendchatarray(configuration.main_settings.playcd, {
-												{'Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-												{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+												{'Доброе утро, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+												{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 											})
 										elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 12 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 17 then
 											sendchatarray(configuration.main_settings.playcd, {
-												{'Р”РѕР±СЂС‹Р№ РґРµРЅСЊ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-												{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+												{'Добрый день, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+												{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 											})
 										elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) > 16 and tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 24 then
 											sendchatarray(configuration.main_settings.playcd, {
-												{'Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-												{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+												{'Добрый вечер, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+												{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 											})
 										elseif tonumber(os.date('%H', os.time(os.date('!*t')) + 2 * 60 * 60)) < 5 then
 											sendchatarray(configuration.main_settings.playcd, {
-												{'Р”РѕР±СЂРѕР№ РЅРѕС‡Рё, СЏ {gender:СЃРѕС‚СЂСѓРґРЅРёРє|СЃРѕС‚СЂСѓРґРЅРёС†Р°} %s, С‡РµРј РјРѕРіСѓ Р’Р°Рј РїРѕРјРѕС‡СЊ?', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹ Рі. РЎР°РЅ-Р¤РёРµСЂСЂРѕ'},
-												{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+												{'Доброй ночи, я {gender:сотрудник|сотрудница} %s, чем могу Вам помочь?', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы г. Сан-Фиерро'},
+												{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 											})
 										end
 									end
 								else
-									imgui.LockedButton(fa.ICON_FA_HAND_PAPER..u8' РџРѕРїСЂРёРІРµС‚СЃС‚РІРѕРІР°С‚СЊ РёРіСЂРѕРєР°', imgui.ImVec2(285,30))
-									imgui.Hint('firstranghello', 'РЎ 1-РіРѕ СЂР°РЅРіР°')
+									imgui.LockedButton(fa.ICON_FA_HAND_PAPER..u8' Поприветствовать игрока', imgui.ImVec2(285,30))
+									imgui.Hint('firstranghello', 'С 1-го ранга')
 								end
 								if configuration.main_settings.myrankint >= 1  then
-									if imgui.Button(fa.ICON_FA_FILE_ALT..u8' РћР·РІСѓС‡РёС‚СЊ РїСЂР°Р№СЃ Р»РёСЃС‚', imgui.ImVec2(285,30)) then
+									if imgui.Button(fa.ICON_FA_FILE_ALT..u8' Озвучить прайс лист', imgui.ImVec2(285,30)) then
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/do Р’ РєР°СЂРјР°РЅРµ Р±СЂСЋРє Р»РµР¶РёС‚ РїСЂР°Р№СЃ Р»РёСЃС‚ РЅР° Р»РёС†РµРЅР·РёРё.'},
-											{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїСЂР°Р№СЃ Р»РёСЃС‚ РёР· РєР°СЂРјР°РЅР° Р±СЂСЋРє Рё {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµРіРѕ РєР»РёРµРЅС‚Сѓ'},
-											{'/do Р’ РїСЂР°Р№СЃ Р»РёСЃС‚Рµ РЅР°РїРёСЃР°РЅРѕ:'},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕР¶РґРµРЅРёРµ Р°РІС‚РѕРјРѕР±РёР»РµР№ - %s$.', string.separate(configuration.main_settings.avtoprice or 5000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕР¶РґРµРЅРёРµ РјРѕС‚РѕС†РёРєР»РѕРІ - %s$.', string.separate(configuration.main_settings.motoprice or 10000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂС‹Р±РѕР»РѕРІСЃС‚РІРѕ - %s$.', string.separate(configuration.main_settings.ribaprice or 30000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РІРѕРґРЅС‹Р№ С‚СЂР°РЅСЃРїРѕСЂС‚ - %s$.', string.separate(configuration.main_settings.lodkaprice or 30000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РѕСЂСѓР¶РёРµ - %s$.', string.separate(configuration.main_settings.gunaprice or 50000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° РѕС…РѕС‚Сѓ - %s$.', string.separate(configuration.main_settings.huntprice or 100000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂР°СЃРєРѕРїРєРё - %s$.', string.separate(configuration.main_settings.kladprice or 200000)},
-											{'/do Р›РёС†РµРЅР·РёСЏ РЅР° СЂР°Р±РѕС‚Сѓ С‚Р°РєСЃРёСЃС‚Р° - %s$.', string.separate(configuration.main_settings.taxiprice or 250000)},
+											{'/do В кармане брюк лежит прайс лист на лицензии.'},
+											{'/me {gender:достал|достала} прайс лист из кармана брюк и {gender:передал|передала} его клиенту'},
+											{'/do В прайс листе написано:'},
+											{'/do Лицензия на вождение автомобилей - %s$.', string.separate(configuration.main_settings.avtoprice or 5000)},
+											{'/do Лицензия на вождение мотоциклов - %s$.', string.separate(configuration.main_settings.motoprice or 10000)},
+											{'/do Лицензия на рыболовство - %s$.', string.separate(configuration.main_settings.ribaprice or 30000)},
+											{'/do Лицензия на водный транспорт - %s$.', string.separate(configuration.main_settings.lodkaprice or 30000)},
+											{'/do Лицензия на оружие - %s$.', string.separate(configuration.main_settings.gunaprice or 50000)},
+											{'/do Лицензия на охоту - %s$.', string.separate(configuration.main_settings.huntprice or 100000)},
+											{'/do Лицензия на раскопки - %s$.', string.separate(configuration.main_settings.kladprice or 200000)},
+											{'/do Лицензия на работу таксиста - %s$.', string.separate(configuration.main_settings.taxiprice or 250000)},
 										})
 									end
 								else
-									imgui.LockedButton(fa.ICON_FA_FILE_ALT..u8' РћР·РІСѓС‡РёС‚СЊ РїСЂР°Р№СЃ Р»РёСЃС‚', imgui.ImVec2(285,30))
-									imgui.Hint('firstrangpricelist', 'РЎ 1-РіРѕ СЂР°РЅРіР°')
+									imgui.LockedButton(fa.ICON_FA_FILE_ALT..u8' Озвучить прайс лист', imgui.ImVec2(285,30))
+									imgui.Hint('firstrangpricelist', 'С 1-го ранга')
 								end
-								if imgui.Button(fa.ICON_FA_FILE_SIGNATURE..u8' РџСЂРѕРґР°С‚СЊ Р»РёС†РµРЅР·РёСЋ РёРіСЂРѕРєСѓ', imgui.ImVec2(285,30)) then
+								if imgui.Button(fa.ICON_FA_FILE_SIGNATURE..u8' Продать лицензию игроку', imgui.ImVec2(285,30)) then
 									if configuration.main_settings.myrankint >= 3 then
 										imgui.SetScrollY(0)
 										Licenses_select[0] = 0
 										clienttype[0] = 1
 									else
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/me {gender:РІР·СЏР»|РІР·СЏР»Р°} СЃРѕ СЃС‚РѕР»Р° Р±Р»Р°РЅРє Рё {gender:Р·Р°РїРѕР»РЅРёР»|Р·Р°РїРѕР»РЅРёР»Р°} СЂСѓС‡РєРѕР№ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё РЅР° Р°РІС‚Рѕ'},
-											{'/do РЎРїСѓСЃС‚СЏ РЅРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё Р±С‹Р» Р·Р°РїРѕР»РЅРµРЅ.'},
-											{'/me СЂР°СЃРїРµС‡Р°С‚Р°РІ Р»РёС†РµРЅР·РёСЋ РЅР° Р°РІС‚Рѕ {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµС‘ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
+											{'/me {gender:взял|взяла} со стола бланк и {gender:заполнил|заполнила} ручкой бланк на получение лицензии на авто'},
+											{'/do Спустя некоторое время бланк на получение лицензии был заполнен.'},
+											{'/me распечатав лицензию на авто {gender:передал|передала} её человеку напротив'},
 											{'/n /givelicense %s', fastmenuID},
 										})
 									end
 								end
 								if configuration.main_settings.myrankint >= 2 then
-									imgui.Button(fa.ICON_FA_REPLY..u8' Р’С‹РіРЅР°С‚СЊ РёР· Р°РІС‚РѕС€РєРѕР»С‹', imgui.ImVec2(285,30))
+									imgui.Button(fa.ICON_FA_REPLY..u8' Выгнать из автошколы', imgui.ImVec2(285,30))
 									if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 										if imgui.IsMouseReleased(0) then
 											if not sampIsPlayerPaused(fastmenuID) then
 												windows.imgui_fm[0] = false
 												sendchatarray(configuration.main_settings.playcd, {
-													{'/do Р Р°С†РёСЏ СЃРІРёСЃР°РµС‚ РЅР° РїРѕСЏСЃРµ.'},
-													{'/me СЃРЅСЏРІ СЂР°С†РёСЋ СЃ РїРѕСЏСЃР°, {gender:РІС‹Р·РІР°Р»|РІС‹Р·РІР°Р»Р°} РѕС…СЂР°РЅСѓ РїРѕ РЅРµР№'},
-													{'/do РћС…СЂР°РЅР° РІС‹РІРѕРґРёС‚ РЅР°СЂСѓС€РёС‚РµР»СЏ РёР· С…РѕР»Р»Р°.'},
+													{'/do Рация свисает на поясе.'},
+													{'/me сняв рацию с пояса, {gender:вызвал|вызвала} охрану по ней'},
+													{'/do Охрана выводит нарушителя из холла.'},
 													{'/expel %s %s', fastmenuID, configuration.main_settings.expelreason},
 												})
 											else
-												ASHelperMessage('РРіСЂРѕРє РЅР°С…РѕРґРёС‚СЃСЏ РІ РђР¤Рљ!')
+												ASHelperMessage('Игрок находится в АФК!')
 											end
 										end
 										if imgui.IsMouseReleased(1) then
 											imgui.OpenPopup('##changeexpelreason')
 										end
 									end
-									imgui.Hint('expelhint','Р›РљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РІС‹РіРЅР°С‚СЊ С‡РµР»РѕРІРµРєР°\nРџРљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РЅР°СЃС‚СЂРѕРёС‚СЊ РїСЂРёС‡РёРЅСѓ')
+									imgui.Hint('expelhint','ЛКМ для того, чтобы выгнать человека\nПКМ для того, чтобы настроить причину')
 									imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(10, 10))
 									if imgui.BeginPopup('##changeexpelreason') then
-										imgui.Text(u8'РџСЂРёС‡РёРЅР° /expel:')
+										imgui.Text(u8'Причина /expel:')
 										if imgui.InputText('##expelreasonbuff',usersettings.expelreason, sizeof(usersettings.expelreason)) then
 											configuration.main_settings.expelreason = u8:decode(str(usersettings.expelreason))
 											inicfg.save(configuration,'AS Helper')
@@ -2536,13 +2536,13 @@ local imgui_fm = imgui.OnFrame(
 									end
 									imgui.PopStyleVar()
 								else
-									imgui.LockedButton(fa.ICON_FA_FILE_ALT..u8' Р’С‹РіРЅР°С‚СЊ РёР· Р°РІС‚РѕС€РєРѕР»С‹', imgui.ImVec2(285,30))
-									imgui.Hint('secondrangexpel', 'РЎ 2-РіРѕ СЂР°РЅРіР°')
+									imgui.LockedButton(fa.ICON_FA_FILE_ALT..u8' Выгнать из автошколы', imgui.ImVec2(285,30))
+									imgui.Hint('secondrangexpel', 'С 2-го ранга')
 								end
 							imgui.EndGroup()
 						elseif clienttype[0] == 1 then
 							imgui.SetCursorPos(imgui.ImVec2(40,20))
-							imgui.Text(u8'Р›РёС†РµРЅР·РёСЏ: ', imgui.ImVec2(75,30))
+							imgui.Text(u8'Лицензия: ', imgui.ImVec2(75,30))
 							imgui.SameLine()
 							imgui.PushItemWidth(150)
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
@@ -2551,28 +2551,28 @@ local imgui_fm = imgui.OnFrame(
 							imgui.PopItemWidth()
 							imgui.NewLine()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РџСЂРѕРґР°С‚СЊ Р»РёС†РµРЅР·РёСЋ РЅР° '..u8(string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))), imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Продать лицензию на '..u8(string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))), imgui.ImVec2(285,30)) then
 								local to, lic = fastmenuID, string.rlower(u8:decode(Licenses_Arr[Licenses_select[0]+1]))
 								if lic ~= nil and to ~= nil then
-									if (lic == 'РѕСЂСѓР¶РёРµ' and configuration.main_settings.checkmcongun) or (lic == 'РѕС…РѕС‚Сѓ' and configuration.main_settings.checkmconhunt) then
+									if (lic == 'оружие' and configuration.main_settings.checkmcongun) or (lic == 'охоту' and configuration.main_settings.checkmconhunt) then
 										sendchatarray(0, {
-											{'РҐРѕСЂРѕС€Рѕ, РґР»СЏ РїРѕРєСѓРїРєРё Р»РёС†РµРЅР·РёРё РЅР° %s РїРѕРєР°Р¶РёС‚Рµ РјРЅРµ СЃРІРѕСЋ РјРµРґ.РєР°СЂС‚Сѓ', lic},
+											{'Хорошо, для покупки лицензии на %s покажите мне свою мед.карту', lic},
 											{'/n /showmc %s', select(2,sampGetPlayerIdByCharHandle(playerPed))},
-										}, function() sellto = to lictype = lic end, function() ASHelperMessage('РќР°С‡Р°Р»РѕСЃСЊ РѕР¶РёРґР°РЅРёРµ РїРѕРєР°Р·Р° РјРµРґ.РєР°СЂС‚С‹. РџСЂРё РµС‘ РѕС‚СЃСѓС‚СЃС‚РІРёРё РЅР°Р¶РјРёС‚Рµ {MC}Alt{WC} + {MC}O{WC}') skiporcancel = lic tempid = to end)
+										}, function() sellto = to lictype = lic end, function() ASHelperMessage('Началось ожидание показа мед.карты. При её отсутствии нажмите {MC}Alt{WC} + {MC}O{WC}') skiporcancel = lic tempid = to end)
 									else
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/me {gender:РІР·СЏР»|РІР·СЏР»Р°} СЃРѕ СЃС‚РѕР»Р° Р±Р»Р°РЅРє Рё {gender:Р·Р°РїРѕР»РЅРёР»|Р·Р°РїРѕР»РЅРёР»Р°} СЂСѓС‡РєРѕР№ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё РЅР° '..lic},
-											{'/do РЎРїСѓСЃС‚СЏ РЅРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё Р±С‹Р» Р·Р°РїРѕР»РЅРµРЅ.'},
-											{'/me СЂР°СЃРїРµС‡Р°С‚Р°РІ Р»РёС†РµРЅР·РёСЋ РЅР° %s {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµС‘ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ', lic},
+											{'/me {gender:взял|взяла} со стола бланк и {gender:заполнил|заполнила} ручкой бланк на получение лицензии на '..lic},
+											{'/do Спустя некоторое время бланк на получение лицензии был заполнен.'},
+											{'/me распечатав лицензию на %s {gender:передал|передала} её человеку напротив', lic},
 										}, function() sellto = to lictype = lic end, function() wait(1000) givelic = true sampSendChat(format('/givelicense %s', to)) end)
 									end
 								end
 							end
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р›РёС†РµРЅР·РёСЏ РЅР° РїРѕР»С‘С‚С‹', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Лицензия на полёты', imgui.ImVec2(285,30)) then
 								sendchatarray(0, {
-									{'РџРѕР»СѓС‡РёС‚СЊ Р»РёС†РµРЅР·РёСЋ РЅР° РїРѕР»С‘С‚С‹ Р’С‹ РјРѕР¶РµС‚Рµ РІ Р°РІРёР°С€РєРѕР»Рµ Рі. Р›Р°СЃ-Р’РµРЅС‚СѓСЂР°СЃ'},
-									{'/n /gps -> Р’Р°Р¶РЅС‹Рµ РјРµСЃС‚Р° -> РЎР»РµРґСѓСЋС‰Р°СЏ СЃС‚СЂР°РЅРёС†Р° -> [LV] РђРІРёР°С€РєРѕР»Р° (9)'},
+									{'Получить лицензию на полёты Вы можете в авиашколе г. Лас-Вентурас'},
+									{'/n /gps -> Важные места -> Следующая страница -> [LV] Авиашкола (9)'},
 								})
 							end
 
@@ -2582,44 +2582,44 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						end
 					elseif newwindowtype[0] == 2 then
 						imgui.SetCursorPos(imgui.ImVec2(15,20))
 						if sobesetap[0] == 0 then
-							imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 1',1)
+							imgui.TextColoredRGB('Собеседование: Этап 1',1)
 							imgui.Separator()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РџРѕРїСЂРёРІРµС‚СЃС‚РІРѕРІР°С‚СЊ', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Поприветствовать', imgui.ImVec2(285,30)) then
 								sendchatarray(configuration.main_settings.playcd, {
-									{'Р—РґСЂР°РІСЃС‚РІСѓР№С‚Рµ, СЏ %s %s, Р’С‹ РїСЂРёС€Р»Рё РЅР° СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ?', configuration.RankNames[configuration.main_settings.myrankint], configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-									{'/do РќР° РіСЂСѓРґРё РІРёСЃРёС‚ Р±РµР№РґР¶РёРє СЃ РЅР°РґРїРёСЃСЊСЋ %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
+									{'Здравствуйте, я %s %s, Вы пришли на собеседование?', configuration.RankNames[configuration.main_settings.myrankint], configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+									{'/do На груди висит бейджик с надписью %s %s.', configuration.RankNames[configuration.main_settings.myrankint], #configuration.main_settings.myname < 1 and gsub(sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))), '_', ' ') or u8:decode(configuration.main_settings.myname)},
 								})
 							end
 							imgui.SetCursorPosX(7.5)
-							imgui.Button(u8'РџРѕРїСЂРѕСЃРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹ '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30))
+							imgui.Button(u8'Попросить документы '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30))
 							if imgui.IsItemHovered() then
 								imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(5, 5))
 								imgui.BeginTooltip()
-								imgui.Text(u8'Р›РљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РїСЂРѕРґРѕР»Р¶РёС‚СЊ\nРџРљРњ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РЅР°СЃС‚СЂРѕРёС‚СЊ РґРѕРєСѓРјРµРЅС‚С‹')
+								imgui.Text(u8'ЛКМ для того, чтобы продолжить\nПКМ для того, чтобы настроить документы')
 								imgui.EndTooltip()
 								imgui.PopStyleVar()
 
 								if imgui.IsMouseReleased(0) then
 									if not inprocess then
 										local s = configuration.sobes_settings
-										local out = (s.pass and 'РїР°СЃРїРѕСЂС‚' or '')..
-													(s.medcard and (s.pass and ', РјРµРґ. РєР°СЂС‚Сѓ' or 'РјРµРґ. РєР°СЂС‚Сѓ') or '')..
-													(s.wbook and ((s.pass or s.medcard) and ', С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёР¶РєСѓ' or 'С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёР¶РєСѓ') or '')..
-													(s.licenses and ((s.pass or s.medcard or s.wbook) and ', Р»РёС†РµРЅР·РёРё' or 'Р»РёС†РµРЅР·РёРё') or '')
+										local out = (s.pass and 'паспорт' or '')..
+													(s.medcard and (s.pass and ', мед. карту' or 'мед. карту') or '')..
+													(s.wbook and ((s.pass or s.medcard) and ', трудовую книжку' or 'трудовую книжку') or '')..
+													(s.licenses and ((s.pass or s.medcard or s.wbook) and ', лицензии' or 'лицензии') or '')
 										sendchatarray(0, {
-											{'РҐРѕСЂРѕС€Рѕ, РїРѕРєР°Р¶РёС‚Рµ РјРЅРµ РІР°С€Рё РґРѕРєСѓРјРµРЅС‚С‹, Р° РёРјРµРЅРЅРѕ: %s', out},
-											{'/n РћР±СЏР·Р°С‚РµР»СЊРЅРѕ РїРѕ СЂРї!'},
+											{'Хорошо, покажите мне ваши документы, а именно: %s', out},
+											{'/n Обязательно по рп!'},
 										})
 										sobesetap[0] = 1
 									else
-										ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+										ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 									end
 								end
 								if imgui.IsMouseReleased(1) then
@@ -2628,19 +2628,19 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(10, 10))
 							if imgui.BeginPopup('##redactdocuments') then
-								if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ РїР°СЃРїРѕСЂС‚', sobes_settings.pass) then
+								if imgui.ToggleButton(u8'Проверять паспорт', sobes_settings.pass) then
 									configuration.sobes_settings.pass = sobes_settings.pass[0]
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ РјРµРґ. РєР°СЂС‚Сѓ', sobes_settings.medcard) then
+								if imgui.ToggleButton(u8'Проверять мед. карту', sobes_settings.medcard) then
 									configuration.sobes_settings.medcard = sobes_settings.medcard[0]
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ С‚СЂСѓРґРѕРІСѓСЋ РєРЅРёРіСѓ', sobes_settings.wbook) then
+								if imgui.ToggleButton(u8'Проверять трудовую книгу', sobes_settings.wbook) then
 									configuration.sobes_settings.wbook = sobes_settings.wbook[0]
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.ToggleButton(u8'РџСЂРѕРІРµСЂСЏС‚СЊ Р»РёС†РµРЅР·РёРё', sobes_settings.licenses) then
+								if imgui.ToggleButton(u8'Проверять лицензии', sobes_settings.licenses) then
 									configuration.sobes_settings.licenses = sobes_settings.licenses[0]
 									inicfg.save(configuration,'AS Helper')
 								end
@@ -2650,91 +2650,91 @@ local imgui_fm = imgui.OnFrame(
 						end
 					
 						if sobesetap[0] == 1 then
-							imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 2',1)
+							imgui.TextColoredRGB('Собеседование: Этап 2',1)
 							imgui.Separator()
 							if configuration.sobes_settings.pass then
-								imgui.TextColoredRGB(sobes_results.pass and 'РџР°СЃРїРѕСЂС‚ - РїРѕРєР°Р·Р°РЅ ('..sobes_results.pass..')' or 'РџР°СЃРїРѕСЂС‚ - РЅРµ РїРѕРєР°Р·Р°РЅ',1)
+								imgui.TextColoredRGB(sobes_results.pass and 'Паспорт - показан ('..sobes_results.pass..')' or 'Паспорт - не показан',1)
 							end
 							if configuration.sobes_settings.medcard then
-								imgui.TextColoredRGB(sobes_results.medcard and 'РњРµРґ. РєР°СЂС‚Р° - РїРѕРєР°Р·Р°РЅР° ('..sobes_results.medcard..')' or 'РњРµРґ. РєР°СЂС‚Р° - РЅРµ РїРѕРєР°Р·Р°РЅР°',1)
+								imgui.TextColoredRGB(sobes_results.medcard and 'Мед. карта - показана ('..sobes_results.medcard..')' or 'Мед. карта - не показана',1)
 							end
 							if configuration.sobes_settings.wbook then
-								imgui.TextColoredRGB(sobes_results.wbook and 'РўСЂСѓРґРѕРІР°СЏ РєРЅРёР¶РєР° - РїРѕРєР°Р·Р°РЅР°' or 'РўСЂСѓРґРѕРІР°СЏ РєРЅРёР¶РєР° - РЅРµ РїРѕРєР°Р·Р°РЅР°',1)
+								imgui.TextColoredRGB(sobes_results.wbook and 'Трудовая книжка - показана' or 'Трудовая книжка - не показана',1)
 							end
 							if configuration.sobes_settings.licenses then
-								imgui.TextColoredRGB(sobes_results.licenses and 'Р›РёС†РµРЅР·РёРё - РїРѕРєР°Р·Р°РЅС‹ ('..sobes_results.licenses..')' or 'Р›РёС†РµРЅР·РёРё - РЅРµ РїРѕРєР°Р·Р°РЅС‹',1)
+								imgui.TextColoredRGB(sobes_results.licenses and 'Лицензии - показаны ('..sobes_results.licenses..')' or 'Лицензии - не показаны',1)
 							end
-							if (configuration.sobes_settings.pass == true and sobes_results.pass == 'РІ РїРѕСЂСЏРґРєРµ' or configuration.sobes_settings.pass == false) and
-							(configuration.sobes_settings.medcard == true and sobes_results.medcard == 'РІ РїРѕСЂСЏРґРєРµ' or configuration.sobes_settings.medcard == false) and
-							(configuration.sobes_settings.wbook == true and sobes_results.wbook == 'РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚' or configuration.sobes_settings.wbook == false) and
+							if (configuration.sobes_settings.pass == true and sobes_results.pass == 'в порядке' or configuration.sobes_settings.pass == false) and
+							(configuration.sobes_settings.medcard == true and sobes_results.medcard == 'в порядке' or configuration.sobes_settings.medcard == false) and
+							(configuration.sobes_settings.wbook == true and sobes_results.wbook == 'присутствует' or configuration.sobes_settings.wbook == false) and
 							(configuration.sobes_settings.licenses == true and sobes_results.licenses ~= nil or configuration.sobes_settings.licenses == false) then
 								imgui.SetCursorPosX(7.5)
-								if imgui.Button(u8'РџСЂРѕРґРѕР»Р¶РёС‚СЊ '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
+								if imgui.Button(u8'Продолжить '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
 									if not inprocess then
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/me РІР·СЏРІ РґРѕРєСѓРјРµРЅС‚С‹ РёР· СЂСѓРє С‡РµР»РѕРІРµРєР° РЅР°РїСЂРѕС‚РёРІ {gender:РЅР°С‡Р°Р»|РЅР°С‡Р°Р»Р°} РёС… РїСЂРѕРІРµСЂСЏС‚СЊ'},
-											{'/todo РҐРѕСЂРѕС€Рѕ...* РѕС‚РґР°РІР°СЏ РґРѕРєСѓРјРµРЅС‚С‹ РѕР±СЂР°С‚РЅРѕ'},
-											{'РЎРµР№С‡Р°СЃ СЏ Р·Р°РґР°Рј Р’Р°Рј РЅРµСЃРєРѕР»СЊРєРѕ РІРѕРїСЂРѕСЃРѕРІ, Р’С‹ РіРѕС‚РѕРІС‹ РЅР° РЅРёС… РѕС‚РІРµС‡Р°С‚СЊ?'},
+											{'/me взяв документы из рук человека напротив {gender:начал|начала} их проверять'},
+											{'/todo Хорошо...* отдавая документы обратно'},
+											{'Сейчас я задам Вам несколько вопросов, Вы готовы на них отвечать?'},
 										})
 										sobesetap[0] = 2
 									else
-										ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+										ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 									end
 								end
 							end
 						end
 					
 						if sobesetap[0] == 2 then
-							imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р­С‚Р°Рї 3',1)
+							imgui.TextColoredRGB('Собеседование: Этап 3',1)
 							imgui.Separator()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р Р°СЃСЃРєР°Р¶РёС‚Рµ РЅРµРјРЅРѕРіРѕ Рѕ СЃРµР±Рµ.', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Расскажите немного о себе.', imgui.ImVec2(285,30)) then
 								if not inprocess then
-									sampSendChat('Р Р°СЃСЃРєР°Р¶РёС‚Рµ РЅРµРјРЅРѕРіРѕ Рѕ СЃРµР±Рµ.')
+									sampSendChat('Расскажите немного о себе.')
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РџРѕС‡РµРјСѓ РІС‹Р±СЂР°Р»Рё РёРјРµРЅРЅРѕ РЅР°СЃ?', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Почему выбрали именно нас?', imgui.ImVec2(285,30)) then
 								if not inprocess then
-									sampSendChat('РџРѕС‡РµРјСѓ Р’С‹ РІС‹Р±СЂР°Р»Рё РёРјРµРЅРЅРѕ РЅР°СЃ?')
+									sampSendChat('Почему Вы выбрали именно нас?')
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р Р°Р±РѕС‚Р°Р»Рё Р’С‹ Сѓ РЅР°СЃ СЂР°РЅРµРµ? '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Работали Вы у нас ранее? '..fa.ICON_FA_ARROW_RIGHT, imgui.ImVec2(285,30)) then
 								if not inprocess then
-									sampSendChat('Р Р°Р±РѕС‚Р°Р»Рё Р’С‹ Сѓ РЅР°СЃ СЂР°РЅРµРµ? Р•СЃР»Рё РґР°, С‚Рѕ СЂР°СЃСЃРєР°Р¶РёС‚Рµ РїРѕРґСЂРѕР±РЅРµРµ')
+									sampSendChat('Работали Вы у нас ранее? Если да, то расскажите подробнее')
 									sobesetap[0] = 3
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 						end
 					
 						if sobesetap[0] == 3 then
-							imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: Р РµС€РµРЅРёРµ',1)
+							imgui.TextColoredRGB('Собеседование: Решение',1)
 							imgui.Separator()
 							imgui.SetCursorPosX(7.5)
 							imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.00, 0.40, 0.00, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.00, 0.30, 0.00, 1.00))
-							if imgui.Button(u8'РџСЂРёРЅСЏС‚СЊ', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Принять', imgui.ImVec2(285,30)) then
 								if configuration.main_settings.myrankint >= 9 then
 									sendchatarray(configuration.main_settings.playcd, {
-										{'РћС‚Р»РёС‡РЅРѕ, СЏ РґСѓРјР°СЋ Р’С‹ РЅР°Рј РїРѕРґС…РѕРґРёС‚Рµ!'},
-										{'/do РљР»СЋС‡Рё РѕС‚ С€РєР°С„С‡РёРєР° РІ РєР°СЂРјР°РЅРµ.'},
-										{'/me РІСЃСѓРЅСѓРІ СЂСѓРєСѓ РІ РєР°СЂРјР°РЅ Р±СЂСЋРє, {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РѕС‚С‚СѓРґР° РєР»СЋС‡ РѕС‚ С€РєР°С„С‡РёРєР°'},
-										{'/me {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РєР»СЋС‡ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
-										{'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! Р Р°Р·РґРµРІР°Р»РєР° Р·Р° РґРІРµСЂСЊСЋ.'},
-										{'РЎРѕ РІСЃРµР№ РёРЅС„РѕСЂРјР°С†РёРµР№ Р’С‹ РјРѕР¶РµС‚Рµ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ РЅР° РѕС„. РїРѕСЂС‚Р°Р»Рµ.'},
+										{'Отлично, я думаю Вы нам подходите!'},
+										{'/do Ключи от шкафчика в кармане.'},
+										{'/me всунув руку в карман брюк, {gender:достал|достала} оттуда ключ от шкафчика'},
+										{'/me {gender:передал|передала} ключ человеку напротив'},
+										{'Добро пожаловать! Раздевалка за дверью.'},
+										{'Со всей информацией Вы можете ознакомиться на оф. портале.'},
 										{'/invite %s', fastmenuID},
 									})
 								else
 									sendchatarray(configuration.main_settings.playcd, {
-										{'РћС‚Р»РёС‡РЅРѕ, СЏ РґСѓРјР°СЋ Р’С‹ РЅР°Рј РїРѕРґС…РѕРґРёС‚Рµ!'},
-										{'/r %s СѓСЃРїРµС€РЅРѕ РїСЂРѕС€С‘Р» СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ! РџСЂРѕС€Сѓ РїРѕРґРѕР№С‚Рё РєРѕ РјРЅРµ, С‡С‚РѕР±С‹ РїСЂРёРЅСЏС‚СЊ РµРіРѕ.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
+										{'Отлично, я думаю Вы нам подходите!'},
+										{'/r %s успешно прошёл собеседование! Прошу подойти ко мне, чтобы принять его.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
 										{'/rb %s id', fastmenuID},
 									})
 								end
@@ -2744,7 +2744,7 @@ local imgui_fm = imgui.OnFrame(
 							imgui.SetCursorPosX(7.5)
 							imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-							if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Отклонить', imgui.ImVec2(285,30)) then
 								lastsobesetap[0] = sobesetap[0]
 								sobesetap[0] = 7
 							end
@@ -2752,37 +2752,37 @@ local imgui_fm = imgui.OnFrame(
 						end
 					
 						if sobesetap[0] == 7 then
-							imgui.TextColoredRGB('РЎРѕР±РµСЃРµРґРѕРІР°РЅРёРµ: РћС‚РєР»РѕРЅРµРЅРёРµ',1)
+							imgui.TextColoredRGB('Собеседование: Отклонение',1)
 							imgui.Separator()
 							imgui.PushItemWidth(270)
 							imgui.SetCursorPosX(15)
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
-							imgui.Combo('##declinesobeschoosereasonselect',sobesdecline_select, new['const char*'][5]({u8'РџР»РѕС…РѕРµ Р Рџ',u8'РќРµ Р±С‹Р»Рѕ Р Рџ',u8'РџР»РѕС…Р°СЏ РіСЂР°РјРјР°С‚РёРєР°',u8'РќРёС‡РµРіРѕ РЅРµ РїРѕРєР°Р·Р°Р»',u8'Р”СЂСѓРіРѕРµ'}), 5)
+							imgui.Combo('##declinesobeschoosereasonselect',sobesdecline_select, new['const char*'][5]({u8'Плохое РП',u8'Не было РП',u8'Плохая грамматика',u8'Ничего не показал',u8'Другое'}), 5)
 							imgui.PopStyleVar()
 							imgui.PopItemWidth()
 							imgui.SetCursorPosX((imgui.GetWindowWidth() - 270) * 0.5)
 							imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-							if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(270,30)) then
+							if imgui.Button(u8'Отклонить', imgui.ImVec2(270,30)) then
 								if not inprocess then
 									if sobesdecline_select[0] == 0 then
-										sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-										sampSendChat('/b РћС‡РµРЅСЊ РїР»РѕС…РѕРµ Р Рџ')
+										sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+										sampSendChat('/b Очень плохое РП')
 									elseif sobesdecline_select[0] == 1 then
-										sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-										sampSendChat('/b РќРµ Р±С‹Р»Рѕ Р Рџ')
+										sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+										sampSendChat('/b Не было РП')
 									elseif sobesdecline_select[0] == 2 then
-										sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-										sampSendChat('/b РџР»РѕС…Р°СЏ РіСЂР°РјРјР°С‚РёРєР°')
+										sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+										sampSendChat('/b Плохая грамматика')
 									elseif sobesdecline_select[0] == 3 then
-										sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
-										sampSendChat('/b РќРёС‡РµРіРѕ РЅРµ РїРѕРєР°Р·Р°Р»')
+										sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
+										sampSendChat('/b Ничего не показал')
 									elseif sobesdecline_select[0] == 4 then
-										sampSendChat('Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРёРЅСЏС‚СЊ Р’Р°СЃ РёР·-Р·Р° С‚РѕРіРѕ, С‡С‚Рѕ Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.')
+										sampSendChat('К сожалению я не могу принять Вас из-за того, что Вы проф. непригодны.')
 									end
 									windows.imgui_fm[0] = false
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							imgui.PopStyleColor(2)
@@ -2793,20 +2793,20 @@ local imgui_fm = imgui.OnFrame(
 							imgui.SetCursorPosX(7.5)
 							imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-							if imgui.Button(u8'РћС‚РєР»РѕРЅРёС‚СЊ', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Отклонить', imgui.ImVec2(285,30)) then
 								if not inprocess then
 									local reasons = {
 										pass = {
-											['РјРµРЅСЊС€Рµ 3 Р»РµС‚ РІ С€С‚Р°С‚Рµ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµ РїСЂРѕР¶РёРІР°РµС‚Рµ РІ С€С‚Р°С‚Рµ 3 РіРѕРґР°.'},
-											['РЅРµ Р·Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅС‹Р№'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ Р·Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅС‹Р№.'},
-											['РёРіСЂРѕРє РІ РѕСЂРіР°РЅРёР·Р°С†РёРё'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ СѓР¶Рµ СЂР°Р±РѕС‚Р°РµС‚Рµ РІ РґСЂСѓРіРѕР№ РѕСЂРіР°РЅРёР·Р°С†РёРё.'},
-											['РІ С‡СЃ Р°РІС‚РѕС€РєРѕР»С‹'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅР°С…РѕРґРёС‚РµСЃСЊ РІ Р§РЎ РђРЁ.'},
-											['РµСЃС‚СЊ РІР°СЂРЅС‹'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РїСЂРѕС„. РЅРµРїСЂРёРіРѕРґРЅС‹.', '/n РµСЃС‚СЊ РІР°СЂРЅС‹'},
-											['Р±С‹Р» РІ РґРµРјРѕСЂРіР°РЅРµ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ Р»РµС‡РёР»РёСЃСЊ РІ РїСЃРёС…. Р±РѕР»СЊРЅРёС†Рµ.', '/n РѕР±РЅРѕРІРёС‚Рµ РјРµРґ. РєР°СЂС‚Сѓ'}
+											['меньше 3 лет в штате'] = {'К сожалению я не могу продолжить собеседование. Вы не проживаете в штате 3 года.'},
+											['не законопослушный'] = {'К сожалению я не могу продолжить собеседование. Вы недостаточно законопослушный.'},
+											['игрок в организации'] = {'К сожалению я не могу продолжить собеседование. Вы уже работаете в другой организации.'},
+											['в чс автошколы'] = {'К сожалению я не могу продолжить собеседование. Вы находитесь в ЧС АШ.'},
+											['есть варны'] = {'К сожалению я не могу продолжить собеседование. Вы проф. непригодны.', '/n есть варны'},
+											['был в деморгане'] = {'К сожалению я не могу продолжить собеседование. Вы лечились в псих. больнице.', '/n обновите мед. карту'}
 										},
 										mc = {
-											['РЅР°СЂРєРѕР·Р°РІРёСЃРёРјРѕСЃС‚СЊ'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ СЃР»РёС€РєРѕРј РЅР°СЂРєРѕР·Р°РІРёСЃРёРјС‹Р№.'},
-											['РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№'] = {'Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ СЏ РЅРµ РјРѕРіСѓ РїСЂРѕРґРѕР»Р¶РёС‚СЊ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРµ. Р’С‹ РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№.'},
+											['наркозависимость'] = {'К сожалению я не могу продолжить собеседование. Вы слишком наркозависимый.'},
+											['не полностью здоровый'] = {'К сожалению я не могу продолжить собеседование. Вы не полностью здоровый.'},
 										},
 									}
 									if reasons.pass[sobes_results.pass] then
@@ -2824,7 +2824,7 @@ local imgui_fm = imgui.OnFrame(
 										sobesetap[0] = 7
 									end
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							imgui.PopStyleColor(2)
@@ -2839,7 +2839,7 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 							imgui.SameLine()
 						end
@@ -2851,7 +2851,7 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(195, 240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], u8'РџСЂРѕРїСѓСЃС‚РёС‚СЊ '..fa.ICON_FA_CHEVRON_RIGHT)
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], u8'Пропустить '..fa.ICON_FA_CHEVRON_RIGHT)
 							imgui.PopFont()
 						end
 					elseif newwindowtype[0] == 3 then
@@ -2865,11 +2865,11 @@ local imgui_fm = imgui.OnFrame(
 								for k = 1, #serverquestions do
 									if imgui.Button(u8(serverquestions[k].name)..'##'..k, imgui.ImVec2(275, 30)) then
 										if not inprocess then
-											ASHelperMessage('РџРѕРґСЃРєР°Р·РєР°: '..serverquestions[k].answer)
+											ASHelperMessage('Подсказка: '..serverquestions[k].answer)
 											sampSendChat(serverquestions[k].question)
 											lastq[0] = clock()
 										else
-											ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+											ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 										end
 									end
 								end
@@ -2878,11 +2878,11 @@ local imgui_fm = imgui.OnFrame(
 									for k,v in pairs(questions.questions) do
 										if imgui.Button(u8(v.bname)..'##'..k, imgui.ImVec2(questions.active.redact and 200 or 275,30)) then
 											if not inprocess then
-												ASHelperMessage('РџРѕРґСЃРєР°Р·РєР°: '..v.bhint)
+												ASHelperMessage('Подсказка: '..v.bhint)
 												sampSendChat(v.bq)
 												lastq[0] = clock()
 											else
-												ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+												ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 											end
 										end
 										if questions.active.redact then
@@ -2895,7 +2895,7 @@ local imgui_fm = imgui.OnFrame(
 												imgui.StrCopy(questionsettings.questionname, u8(v.bname))
 												imgui.StrCopy(questionsettings.questionhint, u8(v.bhint))
 												imgui.StrCopy(questionsettings.questionques, u8(v.bq))
-												imgui.OpenPopup(u8('Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ'))
+												imgui.OpenPopup(u8('Редактор вопросов'))
 											end
 											imgui.SameLine()
 											if imgui.Button(fa.ICON_FA_TRASH..'##'..k, imgui.ImVec2(20,25)) then
@@ -2912,51 +2912,51 @@ local imgui_fm = imgui.OnFrame(
 						imgui.EndGroup()
 						imgui.NewLine()
 						imgui.SetCursorPosX(7.5)
-						imgui.Text(fa.ICON_FA_CLOCK..' '..(lastq[0] == 0 and u8'0 СЃ. РЅР°Р·Р°Рґ' or floor(clock()-lastq[0])..u8' СЃ. РЅР°Р·Р°Рґ'))
-						imgui.Hint('lastustavquesttime','РџСЂРѕС€РµРґС€РµРµ РІСЂРµРјСЏ СЃ РїРѕСЃР»РµРґРЅРµРіРѕ РІРѕРїСЂРѕСЃР°.')
+						imgui.Text(fa.ICON_FA_CLOCK..' '..(lastq[0] == 0 and u8'0 с. назад' or floor(clock()-lastq[0])..u8' с. назад'))
+						imgui.Hint('lastustavquesttime','Прошедшее время с последнего вопроса.')
 						imgui.SetCursorPosX(7.5)
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.00, 0.40, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.00, 0.30, 0.00, 1.00))
-						imgui.Button(u8'РћРґРѕР±СЂРёС‚СЊ', imgui.ImVec2(130,30))
+						imgui.Button(u8'Одобрить', imgui.ImVec2(130,30))
 						if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 							if imgui.IsMouseReleased(0) then
 								if not inprocess then
 									windows.imgui_fm[0] = false
-									sampSendChat(format('РџРѕР·РґСЂР°РІР»СЏСЋ, %s, Р’С‹ СЃРґР°Р»Рё СѓСЃС‚Р°РІ!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
+									sampSendChat(format('Поздравляю, %s, Вы сдали устав!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
 								else
-									ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+									ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 								end
 							end
 							if imgui.IsMouseReleased(1) then
 								if configuration.main_settings.myrankint >= 9 then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'РџРѕР·РґСЂР°РІР»СЏСЋ, %s, Р’С‹ СЃРґР°Р»Рё СѓСЃС‚Р°РІ!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
-										{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-										{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-										{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
-										{'РџРѕР·РґСЂР°РІР»СЏСЋ СЃ РїРѕРІС‹С€РµРЅРёРµРј. РќРѕРІС‹Р№ Р±РµР№РґР¶РёРє Р’С‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ РІ СЂР°Р·РґРµРІР°Р»РєРµ.'},
+										{'Поздравляю, %s, Вы сдали устав!', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')},
+										{'/me {gender:включил|включила} планшет'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+										{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+										{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+										{'/do Информация о сотруднике была изменена.'},
+										{'Поздравляю с повышением. Новый бейджик Вы можете взять в раздевалке.'},
 										{'/giverank %s 2', fastmenuID},
 									})
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 						end
-						imgui.Hint('ustavhint','Р›РљРњ РґР»СЏ РёРЅС„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ Рѕ СЃРґР°С‡Рµ СѓСЃС‚Р°РІР°\nРџРљРњ РґР»СЏ РїРѕРІС‹С€РµРЅРёСЏ РґРѕ 2-РіРѕ СЂР°РЅРіР°')
+						imgui.Hint('ustavhint','ЛКМ для информирования о сдаче устава\nПКМ для повышения до 2-го ранга')
 						imgui.PopStyleColor(2)
 						imgui.SameLine()
 
 						imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.40, 0.00, 0.00, 1.00))
 						imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.30, 0.00, 0.00, 1.00))
-						if imgui.Button(u8'РћС‚РєР°Р·Р°С‚СЊ', imgui.ImVec2(130,30)) then
+						if imgui.Button(u8'Отказать', imgui.ImVec2(130,30)) then
 							if not inprocess then
 								windows.imgui_fm[0] = false
-								sampSendChat(format('РЎРѕР¶Р°Р»РµСЋ, %s, РЅРѕ Р’С‹ РЅРµ СЃРјРѕРіР»Рё СЃРґР°С‚СЊ СѓСЃС‚Р°РІ. РџРѕРґСѓС‡РёС‚Рµ Рё РїСЂРёС…РѕРґРёС‚Рµ РІ СЃР»РµРґСѓСЋС‰РёР№ СЂР°Р·.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
+								sampSendChat(format('Сожалею, %s, но Вы не смогли сдать устав. Подучите и приходите в следующий раз.', gsub(sampGetPlayerNickname(fastmenuID), '_', ' ')))
 							else
-								ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+								ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 							end
 						end
 						imgui.PopStyleColor(2)
@@ -2966,12 +2966,12 @@ local imgui_fm = imgui.OnFrame(
 						imgui.BeginGroup()
 							if serverquestions['server'] then
 								imgui.SetCursorPosY(imgui.GetCursorPosY() + 3)
-								imgui.Text(u8'Р’РѕРїСЂРѕСЃС‹')
+								imgui.Text(u8'Вопросы')
 								imgui.SameLine()
 								imgui.SetCursorPosY(imgui.GetCursorPosY() - 3)
 								imgui.PushItemWidth(90)
 								imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
-								imgui.Combo(u8'##choosetypequestion', QuestionType_select, new['const char*'][8]{u8'РЎРµСЂРІРµСЂРЅС‹Рµ', u8'Р’Р°С€Рё'}, 2)
+								imgui.Combo(u8'##choosetypequestion', QuestionType_select, new['const char*'][8]{u8'Серверные', u8'Ваши'}, 2)
 								imgui.PopStyleVar()
 								imgui.PopItemWidth()
 								imgui.SameLine()
@@ -2988,7 +2988,7 @@ local imgui_fm = imgui.OnFrame(
 											imgui.StrCopy(questionsettings.questionname, '')
 											imgui.StrCopy(questionsettings.questionhint, '')
 											imgui.StrCopy(questionsettings.questionques, '')
-											imgui.OpenPopup(u8('Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ'))
+											imgui.OpenPopup(u8('Редактор вопросов'))
 										end
 										imgui.SameLine()
 									end
@@ -3004,22 +3004,22 @@ local imgui_fm = imgui.OnFrame(
 						imgui.EndGroup()
 						imgui.Spacing()
 						imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(15,15))
-						if imgui.BeginPopup(u8'Р РµРґР°РєС‚РѕСЂ РІРѕРїСЂРѕСЃРѕРІ', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
-							imgui.Text(u8'РќР°Р·РІР°РЅРёРµ РєРЅРѕРїРєРё:')
+						if imgui.BeginPopup(u8'Редактор вопросов', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
+							imgui.Text(u8'Название кнопки:')
 							imgui.SameLine()
 							imgui.SetCursorPosX(125)
 							imgui.InputText('##questeditorname', questionsettings.questionname, sizeof(questionsettings.questionname))
-							imgui.Text(u8'Р’РѕРїСЂРѕСЃ: ')
+							imgui.Text(u8'Вопрос: ')
 							imgui.SameLine()
 							imgui.SetCursorPosX(125)
 							imgui.InputText('##questeditorques', questionsettings.questionques, sizeof(questionsettings.questionques))
-							imgui.Text(u8'РџРѕРґСЃРєР°Р·РєР°: ')
+							imgui.Text(u8'Подсказка: ')
 							imgui.SameLine()
 							imgui.SetCursorPosX(125)
 							imgui.InputText('##questeditorhint', questionsettings.questionhint, sizeof(questionsettings.questionhint))
 							imgui.SetCursorPosX(17)
 							if #str(questionsettings.questionhint) > 0 and #str(questionsettings.questionques) > 0 and #str(questionsettings.questionname) > 0 then
-								if imgui.Button(u8'РЎРѕС…СЂР°РЅРёС‚СЊ####questeditor', imgui.ImVec2(150, 25)) then
+								if imgui.Button(u8'Сохранить####questeditor', imgui.ImVec2(150, 25)) then
 									if question_number == nil then
 										questions.questions[#questions.questions + 1] = {
 											bname = u8:decode(str(questionsettings.questionname)),
@@ -3037,11 +3037,11 @@ local imgui_fm = imgui.OnFrame(
 									imgui.CloseCurrentPopup()
 								end
 							else
-								imgui.LockedButton(u8'РЎРѕС…СЂР°РЅРёС‚СЊ####questeditor', imgui.ImVec2(150, 25))
-								imgui.Hint('notallparamsquesteditor','Р’С‹ РІРІРµР»Рё РЅРµ РІСЃРµ РїР°СЂР°РјРµС‚СЂС‹. РџРµСЂРµРїСЂРѕРІРµСЂСЊС‚Рµ РІСЃС‘.')
+								imgui.LockedButton(u8'Сохранить####questeditor', imgui.ImVec2(150, 25))
+								imgui.Hint('notallparamsquesteditor','Вы ввели не все параметры. Перепроверьте всё.')
 							end
 							imgui.SameLine()
-							if imgui.Button(u8'РћС‚РјРµРЅРёС‚СЊ##questeditor', imgui.ImVec2(150, 25)) then
+							if imgui.Button(u8'Отменить##questeditor', imgui.ImVec2(150, 25)) then
 								imgui.CloseCurrentPopup()
 							end
 							imgui.Spacing()
@@ -3052,130 +3052,130 @@ local imgui_fm = imgui.OnFrame(
 						if leadertype[0] == 0 then
 							imgui.SetCursorPos(imgui.ImVec2(7.5, 15))
 							imgui.BeginGroup()
-								imgui.Button(fa.ICON_FA_USER_PLUS..u8' РџСЂРёРЅСЏС‚СЊ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ', imgui.ImVec2(275,30))
+								imgui.Button(fa.ICON_FA_USER_PLUS..u8' Принять в организацию', imgui.ImVec2(275,30))
 								if imgui.IsItemHovered() and (imgui.IsMouseReleased(0) or imgui.IsMouseReleased(1)) then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/do РљР»СЋС‡Рё РѕС‚ С€РєР°С„С‡РёРєР° РІ РєР°СЂРјР°РЅРµ.'},
-										{'/me РІСЃСѓРЅСѓРІ СЂСѓРєСѓ РІ РєР°СЂРјР°РЅ Р±СЂСЋРє, {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РѕС‚С‚СѓРґР° РєР»СЋС‡ РѕС‚ С€РєР°С„С‡РёРєР°'},
-										{'/me {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РєР»СЋС‡ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
-										{'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! Р Р°Р·РґРµРІР°Р»РєР° Р·Р° РґРІРµСЂСЊСЋ.'},
-										{'РЎРѕ РІСЃРµР№ РёРЅС„РѕСЂРјР°С†РёРµР№ Р’С‹ РјРѕР¶РµС‚Рµ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ РЅР° РѕС„. РїРѕСЂС‚Р°Р»Рµ.'},
+										{'/do Ключи от шкафчика в кармане.'},
+										{'/me всунув руку в карман брюк, {gender:достал|достала} оттуда ключ от шкафчика'},
+										{'/me {gender:передал|передала} ключ человеку напротив'},
+										{'Добро пожаловать! Раздевалка за дверью.'},
+										{'Со всей информацией Вы можете ознакомиться на оф. портале.'},
 										{'/invite %s', fastmenuID},
 									})
 									if imgui.IsMouseReleased(1) then
 										waitingaccept = fastmenuID
 									end
 								end
-								imgui.Hint('invitehint','Р›РљРњ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ С‡РµР»РѕРІРµРєР° РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ\nРџРљРњ РґР»СЏ РїСЂРёРЅСЏС‚РёСЏ РЅР° РґРѕР»Р¶РЅРѕСЃС‚СЊ РљРѕРЅСЃСѓР»СЊС‚Р°РЅС‚Р°')
-								if imgui.Button(fa.ICON_FA_USER_MINUS..u8' РЈРІРѕР»РёС‚СЊ РёР· РѕСЂРіР°РЅРёР·Р°С†РёРё', imgui.ImVec2(275,30)) then
+								imgui.Hint('invitehint','ЛКМ для принятия человека в организацию\nПКМ для принятия на должность Консультанта')
+								if imgui.Button(fa.ICON_FA_USER_MINUS..u8' Уволить из организации', imgui.ImVec2(275,30)) then
 									leadertype[0] = 1
 									imgui.StrCopy(uninvitebuf, '')
 									imgui.StrCopy(blacklistbuf, '')
 									uninvitebox[0] = false
 								end
-								if imgui.Button(fa.ICON_FA_EXCHANGE_ALT..u8' РР·РјРµРЅРёС‚СЊ РґРѕР»Р¶РЅРѕСЃС‚СЊ', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_EXCHANGE_ALT..u8' Изменить должность', imgui.ImVec2(275,30)) then
 									Ranks_select[0] = 0
 									leadertype[0] = 2
 								end
-								if imgui.Button(fa.ICON_FA_USER_SLASH..u8' Р—Р°РЅРµСЃС‚Рё РІ С‡С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_USER_SLASH..u8' Занести в чёрный список', imgui.ImVec2(275,30)) then
 									leadertype[0] = 3
 									imgui.StrCopy(blacklistbuff, '')
 								end
-								if imgui.Button(fa.ICON_FA_USER..u8' РЈР±СЂР°С‚СЊ РёР· С‡С‘СЂРЅРѕРіРѕ СЃРїРёСЃРєР°', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_USER..u8' Убрать из чёрного списка', imgui.ImVec2(275,30)) then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-										{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РіСЂР°Р¶РґР°РЅРёРЅР° РІ РїРѕРёСЃРє'},
-										{'/me {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РіСЂР°Р¶РґР°РЅРёРЅР° РёР· СЂР°Р·РґРµР»Р° \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-										{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-										{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+										{'/me {gender:ввёл|ввела} имя гражданина в поиск'},
+										{'/me {gender:убрал|убрала} гражданина из раздела \'Чёрный список\''},
+										{'/me {gender:подтведрдил|подтвердила} изменения'},
+										{'/do Изменения были сохранены.'},
 										{'/unblacklist %s', fastmenuID},
 									})
 								end
-								if imgui.Button(fa.ICON_FA_FROWN..u8' Р’С‹РґР°С‚СЊ РІС‹РіРѕРІРѕСЂ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_FROWN..u8' Выдать выговор сотруднику', imgui.ImVec2(275,30)) then
 									imgui.StrCopy(fwarnbuff, '')
 									leadertype[0] = 4
 								end
-								if imgui.Button(fa.ICON_FA_SMILE..u8' РЎРЅСЏС‚СЊ РІС‹РіРѕРІРѕСЂ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_SMILE..u8' Снять выговор сотруднику', imgui.ImVec2(275,30)) then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-										{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-										{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РёР· РµРіРѕ Р»РёС‡РЅРѕРіРѕ РґРµР»Р° РѕРґРёРЅ РІС‹РіРѕРІРѕСЂ'},
-										{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» СѓР±СЂР°РЅ РёР· Р»РёС‡РЅРѕРіРѕ РґРµР»Р° СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+										{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+										{'/me найдя в разделе нужного сотрудника, {gender:убрал|убрала} из его личного дела один выговор'},
+										{'/do Выговор был убран из личного дела сотрудника.'},
 										{'/unfwarn %s', fastmenuID},
 									})
 								end
-								if imgui.Button(fa.ICON_FA_VOLUME_MUTE..u8' Р’С‹РґР°С‚СЊ РјСѓС‚ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_VOLUME_MUTE..u8' Выдать мут сотруднику', imgui.ImVec2(275,30)) then
 									imgui.StrCopy(fmutebuff, '')
 									fmuteint[0] = 0
 									leadertype[0] = 5
 								end
-								if imgui.Button(fa.ICON_FA_VOLUME_UP..u8' РЎРЅСЏС‚СЊ РјСѓС‚ СЃРѕС‚СЂСѓРґРЅРёРєСѓ', imgui.ImVec2(275,30)) then
+								if imgui.Button(fa.ICON_FA_VOLUME_UP..u8' Снять мут сотруднику', imgui.ImVec2(275,30)) then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'Р’РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-										{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:включил|включила} планшет'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+										{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+										{'/me {gender:выбрал|выбрала} пункт \'Включить рацию сотрудника\''},
+										{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 										{'/funmute %s', fastmenuID},
 									})
 								end
 							imgui.EndGroup()
 						elseif leadertype[0] == 1 then
 							imgui.SetCursorPos(imgui.ImVec2(15,20))
-							imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° СѓРІРѕР»СЊРЅРµРЅРёСЏ:',1)
+							imgui.TextColoredRGB('Причина увольнения:',1)
 							imgui.SetCursorPosX(52)
 							imgui.InputText(u8'##inputuninvitebuf', uninvitebuf, sizeof(uninvitebuf))
 							if uninvitebox[0] then
-								imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° Р§РЎ:',1)
+								imgui.TextColoredRGB('Причина ЧС:',1)
 								imgui.SetCursorPosX(52)
 								imgui.InputText(u8'##inputblacklistbuf', blacklistbuf, sizeof(blacklistbuf))
 							end
 							imgui.SetCursorPosX(7.5)
-							imgui.ToggleButton(u8'РЈРІРѕР»РёС‚СЊ СЃ Р§РЎ', uninvitebox)
+							imgui.ToggleButton(u8'Уволить с ЧС', uninvitebox)
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РЈРІРѕР»РёС‚СЊ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Уволить '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 								if configuration.main_settings.myrankint >= 9 then
 									if #str(uninvitebuf) > 0 then
 										if uninvitebox[0] then
 											if #str(blacklistbuf) > 0 then
 												windows.imgui_fm[0] = false
 												sendchatarray(configuration.main_settings.playcd, {
-													{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-													{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-													{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-													{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-													{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-													{'/me {gender:Р·Р°РЅС‘СЃ|Р·Р°РЅРµСЃР»Р°} СЃРѕС‚СЂСѓРґРЅРёРєР° РІ СЂР°Р·РґРµР», РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-													{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+													{'/me {gender:достал|достала} планшет из кармана'},
+													{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+													{'/do Раздел открыт.'},
+													{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+													{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+													{'/me {gender:занёс|занесла} сотрудника в раздел, после чего {gender:подтвердил|подтвердила} изменения'},
+													{'/do Изменения были сохранены.'},
 													{'/uninvite %s %s', fastmenuID, u8:decode(str(uninvitebuf))},
 													{'/blacklist %s %s', fastmenuID, u8:decode(str(blacklistbuf))},
 												})
 											else
-												ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ!')
+												ASHelperMessage('Введите причину занесения в ЧС!')
 											end
 										else
 											windows.imgui_fm[0] = false
 											sendchatarray(configuration.main_settings.playcd, {
-												{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-												{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-												{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-												{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-												{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ, Р·Р°С‚РµРј {gender:РІС‹РєР»СЋС‡РёР»|РІС‹РєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚ Рё {gender:РїРѕР»РѕР¶РёР»|РїРѕР»РѕР¶РёР»Р°} РµРіРѕ РѕР±СЂР°С‚РЅРѕ РІ РєР°СЂРјР°РЅ'},
+												{'/me {gender:достал|достала} планшет из кармана'},
+												{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+												{'/do Раздел открыт.'},
+												{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+												{'/me {gender:подтведрдил|подтвердила} изменения, затем {gender:выключил|выключила} планшет и {gender:положил|положила} его обратно в карман'},
 												{'/uninvite %s %s', fastmenuID, u8:decode(str(uninvitebuf))},
 											})
 										end
 									else
-										ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ СѓРІРѕР»СЊРЅРµРЅРёСЏ.')
+										ASHelperMessage('Введите причину увольнения.')
 									end
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
@@ -3184,7 +3184,7 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						elseif leadertype[0] == 2 then
 							imgui.SetCursorPos(imgui.ImVec2(15,20))
@@ -3198,37 +3198,37 @@ local imgui_fm = imgui.OnFrame(
 							imgui.PushStyleColor(imgui.Col.Button, imgui.ImVec4(0.15, 0.42, 0.0, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(0.25, 0.52, 0.0, 1.00))
 							imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(0.35, 0.62, 0.7, 1.00))
-							if imgui.Button(u8'РџРѕРІС‹СЃРёС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР° '..fa.ICON_FA_ARROW_UP, imgui.ImVec2(285,40)) then
+							if imgui.Button(u8'Повысить сотрудника '..fa.ICON_FA_ARROW_UP, imgui.ImVec2(285,40)) then
 								if configuration.main_settings.myrankint >= 9 then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-										{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-										{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
-										{'РџРѕР·РґСЂР°РІР»СЏСЋ СЃ РїРѕРІС‹С€РµРЅРёРµРј. РќРѕРІС‹Р№ Р±РµР№РґР¶РёРє Р’С‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ РІ СЂР°Р·РґРµРІР°Р»РєРµ.'},
+										{'/me {gender:включил|включила} планшет'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+										{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+										{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+										{'/do Информация о сотруднике была изменена.'},
+										{'Поздравляю с повышением. Новый бейджик Вы можете взять в раздевалке.'},
 										{'/giverank %s %s', fastmenuID, Ranks_select[0]+1},
 									})
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 							imgui.PopStyleColor(3)
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'РџРѕРЅРёР·РёС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєР° '..fa.ICON_FA_ARROW_DOWN, imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Понизить сотрудника '..fa.ICON_FA_ARROW_DOWN, imgui.ImVec2(285,30)) then
 								if configuration.main_settings.myrankint >= 9 then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-										{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-										{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-										{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
+										{'/me {gender:включил|включила} планшет'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+										{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+										{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+										{'/do Информация о сотруднике была изменена.'},
 										{'/giverank %s %s', fastmenuID, Ranks_select[0]+1},
 									})
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 							
@@ -3238,33 +3238,33 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						elseif leadertype[0] == 3 then
 							imgui.SetCursorPos(imgui.ImVec2(15,20))
-							imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ:',1)
+							imgui.TextColoredRGB('Причина занесения в ЧС:',1)
 							imgui.SetCursorPosX(52)
 							imgui.InputText(u8'##inputblacklistbuff', blacklistbuff, sizeof(blacklistbuff))
 							imgui.NewLine()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р—Р°РЅРµСЃС‚Рё РІ Р§РЎ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Занести в ЧС '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 								if configuration.main_settings.myrankint >= 9 then
 									if #str(blacklistbuff) > 0 then
 										windows.imgui_fm[0] = false
 										sendchatarray(configuration.main_settings.playcd, {
-											{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-											{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-											{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РЅР°СЂСѓС€РёС‚РµР»СЏ'},
-											{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} РЅР°СЂСѓС€РёС‚РµР»СЏ РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-											{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-											{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+											{'/me {gender:достал|достала} планшет из кармана'},
+											{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+											{'/me {gender:ввёл|ввела} имя нарушителя'},
+											{'/me {gender:внёс|внесла} нарушителя в раздел \'Чёрный список\''},
+											{'/me {gender:подтведрдил|подтвердила} изменения'},
+											{'/do Изменения были сохранены.'},
 											{'/blacklist %s %s', fastmenuID, u8:decode(str(blacklistbuff))},
 										})
 									else
-										ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ Р·Р°РЅРµСЃРµРЅРёСЏ РІ Р§РЎ!')
+										ASHelperMessage('Введите причину занесения в ЧС!')
 									end
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 
@@ -3274,28 +3274,28 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						elseif leadertype[0] == 4 then
 							imgui.SetCursorPos(imgui.ImVec2(15,20))
-							imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° РІС‹РіРѕРІРѕСЂР°:',1)
+							imgui.TextColoredRGB('Причина выговора:',1)
 							imgui.SetCursorPosX(50)
 							imgui.InputText(u8'##giverwarnbuffinputtext', fwarnbuff, sizeof(fwarnbuff))
 							imgui.NewLine()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р’С‹РґР°С‚СЊ РІС‹РіРѕРІРѕСЂ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Выдать выговор '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 								if #str(fwarnbuff) > 0 then
 									windows.imgui_fm[0] = false
 									sendchatarray(configuration.main_settings.playcd, {
-										{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-										{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-										{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-										{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:РґРѕР±Р°РІРёР»|РґРѕР±Р°РІРёР»Р°} РІ РµРіРѕ Р»РёС‡РЅРѕРµ РґРµР»Рѕ РІС‹РіРѕРІРѕСЂ'},
-										{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» РґРѕР±Р°РІР»РµРЅ РІ Р»РёС‡РЅРѕРµ РґРµР»Рѕ СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+										{'/me {gender:достал|достала} планшет из кармана'},
+										{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+										{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+										{'/me найдя в разделе нужного сотрудника, {gender:добавил|добавила} в его личное дело выговор'},
+										{'/do Выговор был добавлен в личное дело сотрудника.'},
 										{'/fwarn %s %s', fastmenuID, u8:decode(str(fwarnbuff))},
 									})
 								else
-									ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ РІС‹РґР°С‡Рё РІС‹РіРѕРІРѕСЂР°!')
+									ASHelperMessage('Введите причину выдачи выговора!')
 								end
 							end
 
@@ -3305,40 +3305,40 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						elseif leadertype[0] == 5 then
 							imgui.SetCursorPos(imgui.ImVec2(15,20))
-							imgui.TextColoredRGB('РџСЂРёС‡РёРЅР° РјСѓС‚Р°:',1)
+							imgui.TextColoredRGB('Причина мута:',1)
 							imgui.SetCursorPosX(52)
 							imgui.InputText(u8'##fmutereasoninputtext', fmutebuff, sizeof(fmutebuff))
-							imgui.TextColoredRGB('Р’СЂРµРјСЏ РјСѓС‚Р°:',1)
+							imgui.TextColoredRGB('Время мута:',1)
 							imgui.SetCursorPosX(52)
 							imgui.InputInt(u8'##fmutetimeinputtext', fmuteint, 5)
 							imgui.NewLine()
 							imgui.SetCursorPosX(7.5)
-							if imgui.Button(u8'Р’С‹РґР°С‚СЊ РјСѓС‚ '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
+							if imgui.Button(u8'Выдать мут '..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', imgui.ImVec2(285,30)) then
 								if configuration.main_settings.myrankint >= 9 then
 									if #str(fmutebuff) > 0 then
 										if tonumber(fmuteint[0]) and tonumber(fmuteint[0]) > 0 then
 											windows.imgui_fm[0] = false
 											sendchatarray(configuration.main_settings.playcd, {
-												{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-												{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-												{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-												{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-												{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'РћС‚РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-												{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+												{'/me {gender:достал|достала} планшет из кармана'},
+												{'/me {gender:включил|включила} планшет'},
+												{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+												{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+												{'/me {gender:выбрал|выбрала} пункт \'Отключить рацию сотрудника\''},
+												{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 												{'/fmute %s %s %s', fastmenuID, u8:decode(fmuteint[0]), u8:decode(str(fmutebuff))},
 											})
 										else
-											ASHelperMessage('Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅРѕРµ РІСЂРµРјСЏ РјСѓС‚Р°!')
+											ASHelperMessage('Введите корректное время мута!')
 										end
 									else
-										ASHelperMessage('Р’РІРµРґРёС‚Рµ РїСЂРёС‡РёРЅСѓ РІС‹РґР°С‡Рё РјСѓС‚Р°!')
+										ASHelperMessage('Введите причину выдачи мута!')
 									end
 								else
-									ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+									ASHelperMessage('Данная команда доступна с 9-го ранга.')
 								end
 							end
 							
@@ -3348,7 +3348,7 @@ local imgui_fm = imgui.OnFrame(
 							end
 							imgui.SetCursorPos(imgui.ImVec2(15,240))
 							imgui.PushFont(font[16])
-							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РќР°Р·Р°Рґ')
+							imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Назад')
 							imgui.PopFont()
 						end
 						imgui.Spacing()
@@ -3358,13 +3358,13 @@ local imgui_fm = imgui.OnFrame(
 				imgui.SetCursorPos(imgui.ImVec2(300, 25))
 				imgui.BeginChild('##fmplayerinfo', imgui.ImVec2(200, 75), false)
 					imgui.SetCursorPosY(17)
-					imgui.TextColoredRGB('РРјСЏ: {SSSSSS}'..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', 1)
-					imgui.Hint('lmb to copy name', 'Р›РљРњ - СЃРєРѕРїРёСЂРѕРІР°С‚СЊ РЅРёРє')
+					imgui.TextColoredRGB('Имя: {SSSSSS}'..sampGetPlayerNickname(fastmenuID)..'['..fastmenuID..']', 1)
+					imgui.Hint('lmb to copy name', 'ЛКМ - скопировать ник')
 					if imgui.IsMouseReleased(0) and imgui.IsItemHovered() then
 						local name, result = gsub(u8(sampGetPlayerNickname(fastmenuID)), '_', ' ')
 						imgui.SetClipboardText(name)
 					end
-					imgui.TextColoredRGB('Р›РµС‚ РІ С€С‚Р°С‚Рµ: '..sampGetPlayerScore(fastmenuID), 1)
+					imgui.TextColoredRGB('Лет в штате: '..sampGetPlayerScore(fastmenuID), 1)
 				imgui.EndChild()
 
 				imgui.SetCursorPos(imgui.ImVec2(300, 100))
@@ -3422,7 +3422,7 @@ local imgui_settings = imgui.OnFrame(
 				imgui.PushStyleColor(imgui.Col.ButtonHovered, imgui.ImVec4(1,1,1,0))
 				imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(1,1,1,0))
 				if imgui.Button(fa.ICON_FA_QUESTION_CIRCLE..'##allcommands',imgui.ImVec2(23,23)) then
-					imgui.OpenPopup(u8'Р’СЃРµ РєРѕРјР°РЅРґС‹')
+					imgui.OpenPopup(u8'Все команды')
 				end
 				imgui.SameLine()
 				if imgui.Button(fa.ICON_FA_TIMES,imgui.ImVec2(23,23)) then
@@ -3431,48 +3431,48 @@ local imgui_settings = imgui.OnFrame(
 				imgui.PopStyleColor(3)
 				imgui.SetCursorPos(imgui.ImVec2(217, 23))
 				imgui.TextColored(imgui.GetStyle().Colors[imgui.Col.Border],'v. '..thisScript().version)
-				imgui.Hint('lastupdate','РћР±РЅРѕРІР»РµРЅРёРµ РѕС‚ 13.12.2021')
+				imgui.Hint('lastupdate','Обновление от 13.12.2021')
 				imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(15,15))
-				if imgui.BeginPopupModal(u8'Р’СЃРµ РєРѕРјР°РЅРґС‹', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
+				if imgui.BeginPopupModal(u8'Все команды', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
 					imgui.PushFont(font[16])
-					imgui.TextColoredRGB('Р’СЃРµ РґРѕСЃС‚СѓРїРЅС‹Рµ РєРѕРјР°РЅРґС‹ Рё РіРѕСЂСЏС‡РёРµ РєР»Р°РІРёС€Рё', 1)
+					imgui.TextColoredRGB('Все доступные команды и горячие клавиши', 1)
 					imgui.PopFont()
 					imgui.Spacing()
-					imgui.TextColoredRGB('РљРѕРјР°РЅРґС‹ СЃРєСЂРёРїС‚Р°:')
+					imgui.TextColoredRGB('Команды скрипта:')
 					imgui.SetCursorPosX(20)
 					imgui.BeginGroup()
-						imgui.TextColoredRGB('/ash - Р“Р»Р°РІРЅРѕРµ РјРµРЅСЋ СЃРєСЂРёРїС‚Р°')
-						imgui.TextColoredRGB('/ashbind - Р‘РёРЅРґРµСЂ СЃРєСЂРёРїС‚Р°')
-						imgui.TextColoredRGB('/ashlect - РњРµРЅСЋ Р»РµРєС†РёР№ СЃРєСЂРёРїС‚Р°')
-						imgui.TextColoredRGB('/ashdep - РњРµРЅСЋ РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° СЃРєСЂРёРїС‚Р°')
+						imgui.TextColoredRGB('/ash - Главное меню скрипта')
+						imgui.TextColoredRGB('/ashbind - Биндер скрипта')
+						imgui.TextColoredRGB('/ashlect - Меню лекций скрипта')
+						imgui.TextColoredRGB('/ashdep - Меню департамента скрипта')
 						if configuration.main_settings.fmtype == 1 then
-							imgui.TextColoredRGB('/'..configuration.main_settings.usefastmenucmd..' [id] - РњРµРЅСЋ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ РєР»РёРµРЅС‚РѕРј')
+							imgui.TextColoredRGB('/'..configuration.main_settings.usefastmenucmd..' [id] - Меню взаимодействия с клиентом')
 						end
 					imgui.EndGroup()
 					imgui.Spacing()
-					imgui.TextColoredRGB('РљРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° СЃ Р Рџ РѕС‚С‹РіСЂРѕРІРєР°РјРё:')
+					imgui.TextColoredRGB('Команды сервера с РП отыгровками:')
 					imgui.SetCursorPosX(20)
 					imgui.BeginGroup()
-						imgui.TextColoredRGB('/invite [id] | /uninvite [id] [РїСЂРёС‡РёРЅР°] - РџСЂРёРЅСЏС‚РёРµ/РЈРІРѕР»СЊРЅРµРЅРёРµ С‡РµР»РѕРІРµРєР° РІРѕ С„СЂР°РєС†РёСЋ (9+)')
-						imgui.TextColoredRGB('/blacklist [id] [РїСЂРёС‡РёРЅР°] | /unblacklist [id] - Р—Р°РЅРµСЃРµРЅРёРµ/РЈРґР°Р»РµРЅРёРµ С‡РµР»РѕРІРµРєР° РІ Р§РЎ С„СЂР°РєС†РёРё (9+)')
-						imgui.TextColoredRGB('/fwarn [id] [РїСЂРёС‡РёРЅР°] | /unfwarn [id] - Р’С‹РґР°С‡Р°/РЈРґР°Р»РµРЅРёРµ РІС‹РіРѕРІРѕСЂР° С‡РµР»РѕРІРµРєР° РІРѕ С„СЂР°РєС†РёРё (9+)')
-						imgui.TextColoredRGB('/fmute [id] [РІСЂРµРјСЏ] [РїСЂРёС‡РёРЅР°] | /funmute [id] - Р’С‹РґР°С‡Р°/РЈРґР°Р»РµРЅРёРµ РјСѓС‚Р° С‡РµР»РѕРІРµРєСѓ РІРѕ С„СЂР°РєС†РёРё (9+)')
-						imgui.TextColoredRGB('/giverank [id] [СЂР°РЅРі] - РР·РјРµРЅРµРЅРёРµ СЂР°РЅРіР° С‡РµР»РѕРІРµРєР° РІ С„СЂР°РєС†РёРё (9+)')
-						imgui.TextColoredRGB('/expel [id] [РїСЂРёС‡РёРЅР°] - Р’С‹РіРЅР°С‚СЊ С‡РµР»РѕРІРµРєР° РёР· Р°РІС‚РѕС€РєРѕР»С‹ (2+)')
+						imgui.TextColoredRGB('/invite [id] | /uninvite [id] [причина] - Принятие/Увольнение человека во фракцию (9+)')
+						imgui.TextColoredRGB('/blacklist [id] [причина] | /unblacklist [id] - Занесение/Удаление человека в ЧС фракции (9+)')
+						imgui.TextColoredRGB('/fwarn [id] [причина] | /unfwarn [id] - Выдача/Удаление выговора человека во фракции (9+)')
+						imgui.TextColoredRGB('/fmute [id] [время] [причина] | /funmute [id] - Выдача/Удаление мута человеку во фракции (9+)')
+						imgui.TextColoredRGB('/giverank [id] [ранг] - Изменение ранга человека в фракции (9+)')
+						imgui.TextColoredRGB('/expel [id] [причина] - Выгнать человека из автошколы (2+)')
 					imgui.EndGroup()
 					imgui.Spacing()
-					imgui.TextColoredRGB('Р“РѕСЂСЏС‡РёРµ РєР»Р°РІРёС€Рё:')
+					imgui.TextColoredRGB('Горячие клавиши:')
 					imgui.SetCursorPosX(20)
 					imgui.BeginGroup()
 						if configuration.main_settings.fmtype == 0 then
-							imgui.TextColoredRGB('РџРљРњ + '..configuration.main_settings.usefastmenu..' - РњРµРЅСЋ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРёСЏ СЃ РєР»РёРµРЅС‚РѕРј')
+							imgui.TextColoredRGB('ПКМ + '..configuration.main_settings.usefastmenu..' - Меню взаимодействия с клиентом')
 						end
-						imgui.TextColoredRGB(configuration.main_settings.fastscreen..' - Р‘С‹СЃС‚СЂС‹Р№ СЃРєСЂРёРЅС€РѕС‚')
-						imgui.TextColoredRGB('Alt + I - РРЅС„РѕСЂРјРёСЂРѕРІР°С‚СЊ, С‡С‚Рѕ РґРµР»Р°С‚СЊ РїСЂРё РѕС‚СЃСѓС‚СЃС‚РІРёРё РјРµРґ. РєР°СЂС‚С‹')
-						imgui.TextColoredRGB('Alt + U - РћСЃС‚Р°РЅРѕРІРёС‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ')
+						imgui.TextColoredRGB(configuration.main_settings.fastscreen..' - Быстрый скриншот')
+						imgui.TextColoredRGB('Alt + I - Информировать, что делать при отсутствии мед. карты')
+						imgui.TextColoredRGB('Alt + U - Остановить отыгровку')
 					imgui.EndGroup()
 					imgui.Spacing()
-					if imgui.Button(u8'Р—Р°РєСЂС‹С‚СЊ##РєРѕРјР°РЅРґС‹', imgui.ImVec2(-1, 30)) then 
+					if imgui.Button(u8'Закрыть##команды', imgui.ImVec2(-1, 30)) then 
 						imgui.CloseCurrentPopup()
 					end
 					imgui.EndPopup()
@@ -3542,7 +3542,7 @@ local imgui_settings = imgui.OnFrame(
 					imgui.GetWindowDrawList():AddLine(imgui.ImVec2(p.x + 5, p.y - 10),imgui.ImVec2(p.x + 5, p.y + 26), imgui.ColorConvertFloat4ToU32(imgui.GetStyle().Colors[imgui.Col.TextDisabled]), 1.5)
 					imgui.SetCursorPos(imgui.ImVec2(60,15))
 					imgui.PushFont(font[25])
-					imgui.Text(u8'РќР°СЃС‚СЂРѕР№РєРё')
+					imgui.Text(u8'Настройки')
 					imgui.PopFont()
 					imgui.SetCursorPos(imgui.ImVec2(15,65))
 					imgui.BeginGroup()
@@ -3572,20 +3572,20 @@ local imgui_settings = imgui.OnFrame(
 							imgui.SetCursorPos(imgui.ImVec2(15,15))
 							imgui.BeginGroup()
 								imgui.PushFont(font[16])
-								imgui.Text(u8'РћСЃРЅРѕРІРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ')
+								imgui.Text(u8'Основная информация')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
 						
 									imgui.BeginGroup()
 										imgui.SetCursorPosY(imgui.GetCursorPosY() + 3)
-										imgui.Text(u8'Р’Р°С€Рµ РёРјСЏ')
+										imgui.Text(u8'Ваше имя')
 										imgui.SetCursorPosY(imgui.GetCursorPosY() + 10)
-										imgui.Text(u8'РђРєС†РµРЅС‚')
+										imgui.Text(u8'Акцент')
 										imgui.SetCursorPosY(imgui.GetCursorPosY() + 10)
-										imgui.Text(u8'Р’Р°С€ РїРѕР»')
+										imgui.Text(u8'Ваш пол')
 										imgui.SetCursorPosY(imgui.GetCursorPosY() + 10)
-										imgui.Text(u8'Р’Р°С€ СЂР°РЅРі')
+										imgui.Text(u8'Ваш ранг')
 									imgui.EndGroup()
 						
 									imgui.SameLine(90)
@@ -3597,7 +3597,7 @@ local imgui_settings = imgui.OnFrame(
 										end
 										imgui.SameLine()
 										imgui.Text(fa.ICON_FA_QUESTION_CIRCLE)
-										imgui.Hint('NoNickNickFromTab','Р•СЃР»Рё РЅРµ Р±СѓРґРµС‚ СѓРєР°Р·Р°РЅРѕ, С‚Рѕ РёРјСЏ Р±СѓРґРµС‚ Р±СЂР°С‚СЊСЃСЏ РёР· РЅРёРєР°')
+										imgui.Hint('NoNickNickFromTab','Если не будет указано, то имя будет браться из ника')
 									
 										if imgui.InputText(u8'##myaccentintroleplay', usersettings.myaccent, sizeof(usersettings.myaccent)) then
 											configuration.main_settings.myaccent = str(usersettings.myaccent)
@@ -3605,7 +3605,7 @@ local imgui_settings = imgui.OnFrame(
 										end
 									
 										imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
-										if imgui.Combo(u8'##choosegendercombo',usersettings.gender, new['const char*'][2]({u8'РњСѓР¶СЃРєРѕР№',u8'Р–РµРЅСЃРєРёР№'}), 2) then
+										if imgui.Combo(u8'##choosegendercombo',usersettings.gender, new['const char*'][2]({u8'Мужской',u8'Женский'}), 2) then
 											configuration.main_settings.gender = usersettings.gender[0]
 											inicfg.save(configuration,'AS Helper')
 										end
@@ -3615,7 +3615,7 @@ local imgui_settings = imgui.OnFrame(
 											getmyrank = true
 											sampSendChat('/stats')
 										end
-										imgui.Hint('clicktoupdaterang','РќР°Р¶РјРёС‚Рµ, С‡С‚РѕР±С‹ РїРµСЂРµРїСЂРѕРІРµСЂРёС‚СЊ')
+										imgui.Hint('clicktoupdaterang','Нажмите, чтобы перепроверить')
 									imgui.EndGroup()
 									imgui.PopItemWidth()
 									
@@ -3623,17 +3623,17 @@ local imgui_settings = imgui.OnFrame(
 								imgui.NewLine()
 									
 								imgui.PushFont(font[16])
-								imgui.Text(u8'РњРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°')
+								imgui.Text(u8'Меню быстрого доступа')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
 									imgui.SetCursorPosY(imgui.GetCursorPosY() + 3)
-									imgui.Text(u8'РўРёРї Р°РєС‚РёРІР°С†РёРё')
+									imgui.Text(u8'Тип активации')
 									imgui.SameLine(100)
 									imgui.SetCursorPosY(imgui.GetCursorPosY() - 3)
 									imgui.PushItemWidth(120)
 									imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding,imgui.ImVec2(10,10))
-									if imgui.Combo(u8'##choosefmtypecombo',usersettings.fmtype, new['const char*'][2]({u8'РљР»Р°РІРёС€Р°',u8'РљРѕРјР°РЅРґР°'}), 2) then
+									if imgui.Combo(u8'##choosefmtypecombo',usersettings.fmtype, new['const char*'][2]({u8'Клавиша',u8'Команда'}), 2) then
 										configuration.main_settings.fmtype = usersettings.fmtype[0]
 										inicfg.save(configuration,'AS Helper')
 									end
@@ -3641,16 +3641,16 @@ local imgui_settings = imgui.OnFrame(
 									imgui.PopItemWidth()
 								
 									imgui.SetCursorPosY(imgui.GetCursorPosY() + 4)
-									imgui.Text(u8'РђРєС‚РёРІР°С†РёСЏ')
+									imgui.Text(u8'Активация')
 									imgui.SameLine(100)
 								
 									if configuration.main_settings.fmtype == 0 then
-										imgui.Text(u8' РџРљРњ + ')
+										imgui.Text(u8' ПКМ + ')
 										imgui.SameLine(140)
 										imgui.SetCursorPosY(imgui.GetCursorPosY() - 4)
-										imgui.HotKey('РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°', configuration.main_settings, 'usefastmenu', 'E', find(configuration.main_settings.usefastmenu, '+') and 150 or 75)
+										imgui.HotKey('меню быстрого доступа', configuration.main_settings, 'usefastmenu', 'E', find(configuration.main_settings.usefastmenu, '+') and 150 or 75)
 									
-										if imgui.ToggleButton(u8'РЎРѕР·РґР°РІР°С‚СЊ РјР°СЂРєРµСЂ РїСЂРё РІС‹РґРµР»РµРЅРёРё',usersettings.createmarker) then
+										if imgui.ToggleButton(u8'Создавать маркер при выделении',usersettings.createmarker) then
 											if marker ~= nil then
 												removeBlip(marker)
 											end
@@ -3675,11 +3675,11 @@ local imgui_settings = imgui.OnFrame(
 								imgui.NewLine()
 								
 								imgui.PushFont(font[16])
-								imgui.Text(u8'РЎС‚Р°С‚РёСЃС‚РёРєР°')
+								imgui.Text(u8'Статистика')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
-									if imgui.ToggleButton(u8'РћС‚РѕР±СЂР°Р¶Р°С‚СЊ РѕРєРЅРѕ СЃС‚Р°С‚РёСЃС‚РёРєРё', usersettings.statsvisible) then
+									if imgui.ToggleButton(u8'Отображать окно статистики', usersettings.statsvisible) then
 										configuration.main_settings.statsvisible = usersettings.statsvisible[0]
 										inicfg.save(configuration,'AS Helper')
 									end
@@ -3688,33 +3688,33 @@ local imgui_settings = imgui.OnFrame(
 										if configuration.main_settings.statsvisible then
 											changePosition(configuration.imgui_pos)
 										else
-											addNotify('Р’РєР»СЋС‡РёС‚Рµ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ\nСЃС‚Р°С‚РёСЃС‚РёРєРё.', 5)
+											addNotify('Включите отображение\nстатистики.', 5)
 										end
 									end
 									imgui.SameLine()
 									imgui.SetCursorPosY(imgui.GetCursorPosY()+3)
-									imgui.Text(u8'РњРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ')
+									imgui.Text(u8'Местоположение')
 								imgui.EndGroup()
 								imgui.NewLine()
 
 								imgui.PushFont(font[16])
-								imgui.Text(u8'РћСЃС‚Р°Р»СЊРЅРѕРµ')
+								imgui.Text(u8'Остальное')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
 								
-									if imgui.ToggleButton(u8'Р—Р°РјРµРЅСЏС‚СЊ СЃРµСЂРІРµСЂРЅС‹Рµ СЃРѕРѕР±С‰РµРЅРёСЏ', usersettings.replacechat) then
+									if imgui.ToggleButton(u8'Заменять серверные сообщения', usersettings.replacechat) then
 										configuration.main_settings.replacechat = usersettings.replacechat[0]
 										inicfg.save(configuration,'AS Helper')
 									end
 								
-									if imgui.ToggleButton(u8'Р‘С‹СЃС‚СЂС‹Р№ СЃРєСЂРёРЅ РЅР°', usersettings.dofastscreen) then
+									if imgui.ToggleButton(u8'Быстрый скрин на', usersettings.dofastscreen) then
 										configuration.main_settings.dofastscreen = usersettings.dofastscreen[0]
 										inicfg.save(configuration,'AS Helper')
 									end
 									imgui.SameLine()
 									imgui.SetCursorPosY(imgui.GetCursorPosY() - 4)
-									imgui.HotKey('Р±С‹СЃС‚СЂРѕРіРѕ СЃРєСЂРёРЅР°', configuration.main_settings, 'fastscreen', 'F4', find(configuration.main_settings.fastscreen, '+') and 150 or 75)
+									imgui.HotKey('быстрого скрина', configuration.main_settings, 'fastscreen', 'F4', find(configuration.main_settings.fastscreen, '+') and 150 or 75)
 
 									imgui.PushItemWidth(85)
 									if imgui.InputText(u8'##expelreasonbuff',usersettings.expelreason,sizeof(usersettings.expelreason)) then
@@ -3723,7 +3723,7 @@ local imgui_settings = imgui.OnFrame(
 									end
 									imgui.PopItemWidth()
 									imgui.SameLine()
-									imgui.Text(u8'РџСЂРёС‡РёРЅР° /expel')
+									imgui.Text(u8'Причина /expel')
 								imgui.EndGroup()
 								imgui.Spacing()
 							imgui.EndGroup()
@@ -3731,7 +3731,7 @@ local imgui_settings = imgui.OnFrame(
 							imgui.SetCursorPos(imgui.ImVec2(15,15))
 							imgui.BeginGroup()
 								imgui.PushFont(font[16])
-								imgui.Text(u8'Р’С‹Р±РѕСЂ СЃС‚РёР»СЏ')
+								imgui.Text(u8'Выбор стиля')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
@@ -3786,7 +3786,7 @@ local imgui_settings = imgui.OnFrame(
 								imgui.NewLine()
 								if configuration.main_settings.style == 6 then
 									imgui.PushFont(font[16])
-									imgui.Text(u8'Р¦РІРµС‚ Р°РєС†РµРЅС‚Р° Monet')
+									imgui.Text(u8'Цвет акцента Monet')
 									imgui.PopFont()
 									imgui.SetCursorPosX(25)
 									imgui.BeginGroup()
@@ -3807,11 +3807,11 @@ local imgui_settings = imgui.OnFrame(
 									imgui.NewLine()
 								end
 								imgui.PushFont(font[16])
-								imgui.Text(u8'РњРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°')
+								imgui.Text(u8'Меню быстрого доступа')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
-									if imgui.RadioButtonIntPtr(u8('РЎС‚Р°СЂС‹Р№ СЃС‚РёР»СЊ'), usersettings.fmstyle, 0) then
+									if imgui.RadioButtonIntPtr(u8('Старый стиль'), usersettings.fmstyle, 0) then
 										configuration.main_settings.fmstyle = usersettings.fmstyle[0]
 										inicfg.save(configuration,'AS Helper')
 									end
@@ -3826,7 +3826,7 @@ local imgui_settings = imgui.OnFrame(
 											end
 										imgui.End()
 									end
-									if imgui.RadioButtonIntPtr(u8('РќРѕРІС‹Р№ СЃС‚РёР»СЊ'), usersettings.fmstyle, 1) then
+									if imgui.RadioButtonIntPtr(u8('Новый стиль'), usersettings.fmstyle, 1) then
 										configuration.main_settings.fmstyle = usersettings.fmstyle[0]
 										inicfg.save(configuration,'AS Helper')
 									end
@@ -3854,7 +3854,7 @@ local imgui_settings = imgui.OnFrame(
 								imgui.EndGroup()
 								imgui.NewLine()
 								imgui.PushFont(font[16])
-								imgui.Text(u8'Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ')
+								imgui.Text(u8'Дополнительно')
 								imgui.PopFont()
 								imgui.SetCursorPosX(25)
 								imgui.BeginGroup()
@@ -3863,9 +3863,9 @@ local imgui_settings = imgui.OnFrame(
 										inicfg.save(configuration, 'AS Helper.ini')
 									end
 									imgui.SameLine()
-									imgui.Text(u8'Р¦РІРµС‚ С‡Р°С‚Р° РѕСЂРіР°РЅРёР·Р°С†РёРё')
+									imgui.Text(u8'Цвет чата организации')
 									imgui.SameLine(190)
-									if imgui.Button(u8'РЎР±СЂРѕСЃРёС‚СЊ##RCol',imgui.ImVec2(65,25)) then
+									if imgui.Button(u8'Сбросить##RCol',imgui.ImVec2(65,25)) then
 										configuration.main_settings.RChatColor = 4282626093
 										if inicfg.save(configuration, 'AS Helper.ini') then
 											local temp = imgui.ColorConvertU32ToFloat4(configuration.main_settings.RChatColor)
@@ -3873,11 +3873,11 @@ local imgui_settings = imgui.OnFrame(
 										end
 									end
 									imgui.SameLine(265)
-									if imgui.Button(u8'РўРµСЃС‚##RTest',imgui.ImVec2(37,25)) then
+									if imgui.Button(u8'Тест##RTest',imgui.ImVec2(37,25)) then
 										local result, myid = sampGetPlayerIdByCharHandle(playerPed)
 										local color4 = imgui.ColorConvertU32ToFloat4(configuration.main_settings.RChatColor)
 										local r, g, b, a = color4.x * 255, color4.y * 255, color4.z * 255, color4.w * 255
-										sampAddChatMessage('[R] '..configuration.RankNames[configuration.main_settings.myrankint]..' '..sampGetPlayerNickname(tonumber(myid))..'['..myid..']: (( Р­С‚Рѕ СЃРѕРѕР±С‰РµРЅРёРµ РІРёРґРёС‚Рµ С‚РѕР»СЊРєРѕ Р’С‹! ))', join_argb(a, r, g, b))
+										sampAddChatMessage('[R] '..configuration.RankNames[configuration.main_settings.myrankint]..' '..sampGetPlayerNickname(tonumber(myid))..'['..myid..']: (( Это сообщение видите только Вы! ))', join_argb(a, r, g, b))
 									end
 								
 									if imgui.ColorEdit4(u8'##DSet', chatcolors.DChatColor, imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoAlpha) then
@@ -3885,9 +3885,9 @@ local imgui_settings = imgui.OnFrame(
 										inicfg.save(configuration, 'AS Helper.ini')
 									end
 									imgui.SameLine()
-									imgui.Text(u8'Р¦РІРµС‚ С‡Р°С‚Р° РґРµРїР°СЂС‚Р°РјРµРЅС‚Р°')
+									imgui.Text(u8'Цвет чата департамента')
 									imgui.SameLine(190)
-									if imgui.Button(u8'РЎР±СЂРѕСЃРёС‚СЊ##DCol',imgui.ImVec2(65,25)) then
+									if imgui.Button(u8'Сбросить##DCol',imgui.ImVec2(65,25)) then
 										configuration.main_settings.DChatColor = 4294940723
 										if inicfg.save(configuration, 'AS Helper.ini') then
 											local temp = imgui.ColorConvertU32ToFloat4(configuration.main_settings.DChatColor)
@@ -3895,11 +3895,11 @@ local imgui_settings = imgui.OnFrame(
 										end
 									end
 									imgui.SameLine(265)
-									if imgui.Button(u8'РўРµСЃС‚##DTest',imgui.ImVec2(37,25)) then
+									if imgui.Button(u8'Тест##DTest',imgui.ImVec2(37,25)) then
 										local result, myid = sampGetPlayerIdByCharHandle(playerPed)
 										local color4 = imgui.ColorConvertU32ToFloat4(configuration.main_settings.DChatColor)
 										local r, g, b, a = color4.x * 255, color4.y * 255, color4.z * 255, color4.w * 255
-										sampAddChatMessage('[D] '..configuration.RankNames[configuration.main_settings.myrankint]..' '..sampGetPlayerNickname(tonumber(myid))..'['..myid..']: Р­С‚Рѕ СЃРѕРѕР±С‰РµРЅРёРµ РІРёРґРёС‚Рµ С‚РѕР»СЊРєРѕ Р’С‹!', join_argb(a, r, g, b))
+										sampAddChatMessage('[D] '..configuration.RankNames[configuration.main_settings.myrankint]..' '..sampGetPlayerNickname(tonumber(myid))..'['..myid..']: Это сообщение видите только Вы!', join_argb(a, r, g, b))
 									end
 								
 									if imgui.ColorEdit4(u8'##SSet', chatcolors.ASChatColor, imgui.ColorEditFlags.NoInputs + imgui.ColorEditFlags.NoAlpha) then
@@ -3907,9 +3907,9 @@ local imgui_settings = imgui.OnFrame(
 										inicfg.save(configuration, 'AS Helper.ini')
 									end
 									imgui.SameLine()
-									imgui.Text(u8'Р¦РІРµС‚ AS Helper РІ С‡Р°С‚Рµ')
+									imgui.Text(u8'Цвет AS Helper в чате')
 									imgui.SameLine(190)
-									if imgui.Button(u8'РЎР±СЂРѕСЃРёС‚СЊ##SCol',imgui.ImVec2(65,25)) then
+									if imgui.Button(u8'Сбросить##SCol',imgui.ImVec2(65,25)) then
 										configuration.main_settings.ASChatColor = 4281558783
 										if inicfg.save(configuration, 'AS Helper.ini') then
 											local temp = imgui.ColorConvertU32ToFloat4(configuration.main_settings.ASChatColor)
@@ -3917,10 +3917,10 @@ local imgui_settings = imgui.OnFrame(
 										end
 									end
 									imgui.SameLine(265)
-									if imgui.Button(u8'РўРµСЃС‚##ASTest',imgui.ImVec2(37,25)) then
-										ASHelperMessage('Р­С‚Рѕ СЃРѕРѕР±С‰РµРЅРёРµ РІРёРґРёС‚Рµ С‚РѕР»СЊРєРѕ Р’С‹!')
+									if imgui.Button(u8'Тест##ASTest',imgui.ImVec2(37,25)) then
+										ASHelperMessage('Это сообщение видите только Вы!')
 									end
-									if imgui.ToggleButton(u8'РЈР±РёСЂР°С‚СЊ РїРѕР»РѕСЃСѓ РїСЂРѕРєСЂСѓС‚РєРё', usersettings.noscrollbar) then
+									if imgui.ToggleButton(u8'Убирать полосу прокрутки', usersettings.noscrollbar) then
 										configuration.main_settings.noscrollbar = usersettings.noscrollbar[0]
 										inicfg.save(configuration,'AS Helper')
 										checkstyle()
@@ -3930,43 +3930,43 @@ local imgui_settings = imgui.OnFrame(
 							imgui.EndGroup()
 						elseif settingswindow[0] == 3 then
 							imgui.SetCursorPosY(40)
-							imgui.TextColoredRGB('Р¦РµРЅС‹ {808080}(?)',1)
-							imgui.Hint('pricelisthint','Р­С‚Рё С‡РёСЃР»Р° Р±СѓРґСѓС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РїСЂРё РѕР·РІСѓС‡РёРІР°РЅРёРё РїСЂР°Р№СЃ Р»РёСЃС‚Р°')
+							imgui.TextColoredRGB('Цены {808080}(?)',1)
+							imgui.Hint('pricelisthint','Эти числа будут использоваться при озвучивании прайс листа')
 							imgui.PushItemWidth(62)
 							imgui.SetCursorPosX(91)
 							imgui.BeginGroup()
-								if imgui.InputText(u8'РђРІС‚Рѕ', pricelist.avtoprice, sizeof(pricelist.avtoprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Авто', pricelist.avtoprice, sizeof(pricelist.avtoprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.avtoprice = str(pricelist.avtoprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'Р С‹Р±Р°Р»РєР°', pricelist.ribaprice, sizeof(pricelist.ribaprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Рыбалка', pricelist.ribaprice, sizeof(pricelist.ribaprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.ribaprice = str(pricelist.ribaprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'РћСЂСѓР¶РёРµ', pricelist.gunaprice, sizeof(pricelist.gunaprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Оружие', pricelist.gunaprice, sizeof(pricelist.gunaprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.gunaprice = str(pricelist.gunaprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'Р Р°СЃРєРѕРїРєРё', pricelist.kladprice, sizeof(pricelist.kladprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Раскопки', pricelist.kladprice, sizeof(pricelist.kladprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.kladprice = str(pricelist.kladprice)
 									inicfg.save(configuration,'AS Helper')
 								end
 							imgui.EndGroup()
 							imgui.SameLine(220)
 							imgui.BeginGroup()
-								if imgui.InputText(u8'РњРѕС‚Рѕ', pricelist.motoprice, sizeof(pricelist.motoprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Мото', pricelist.motoprice, sizeof(pricelist.motoprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.motoprice = str(pricelist.motoprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'РџР»Р°РІР°РЅРёРµ', pricelist.lodkaprice, sizeof(pricelist.lodkaprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Плавание', pricelist.lodkaprice, sizeof(pricelist.lodkaprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.lodkaprice = str(pricelist.lodkaprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'РћС…РѕС‚Р°', pricelist.huntprice, sizeof(pricelist.huntprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Охота', pricelist.huntprice, sizeof(pricelist.huntprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.huntprice = str(pricelist.huntprice)
 									inicfg.save(configuration,'AS Helper')
 								end
-								if imgui.InputText(u8'РўР°РєСЃРё', pricelist.taxiprice, sizeof(pricelist.taxiprice), imgui.InputTextFlags.CharsDecimal) then
+								if imgui.InputText(u8'Такси', pricelist.taxiprice, sizeof(pricelist.taxiprice), imgui.InputTextFlags.CharsDecimal) then
 									configuration.main_settings.taxiprice = str(pricelist.taxiprice)
 									inicfg.save(configuration,'AS Helper')
 								end
@@ -3990,7 +3990,7 @@ local imgui_settings = imgui.OnFrame(
 					imgui.GetWindowDrawList():AddLine(imgui.ImVec2(p.x + 5, p.y - 10),imgui.ImVec2(p.x + 5, p.y + 26), imgui.ColorConvertFloat4ToU32(imgui.GetStyle().Colors[imgui.Col.TextDisabled]), 1.5)
 					imgui.SetCursorPos(imgui.ImVec2(60,15))
 					imgui.PushFont(font[25])
-					imgui.Text(u8'Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕ')
+					imgui.Text(u8'Дополнительно')
 					imgui.PopFont()
 				
 					imgui.SetCursorPos(imgui.ImVec2(15,65))
@@ -4021,11 +4021,11 @@ local imgui_settings = imgui.OnFrame(
 						imgui.BeginChild('##rulesswindow',_,false, imgui.WindowFlags.NoScrollbar)
 							imgui.SetCursorPosY(20)
 							if ruless['server'] then
-								imgui.TextColoredRGB('РџСЂР°РІРёР»Р° СЃРµСЂРІРµСЂР° '..ruless['server']..' + Р’Р°С€Рё {808080}(?)',1)
+								imgui.TextColoredRGB('Правила сервера '..ruless['server']..' + Ваши {808080}(?)',1)
 							else
-								imgui.TextColoredRGB('Р’Р°С€Рё РїСЂР°РІРёР»Р° {808080}(?)',1)
+								imgui.TextColoredRGB('Ваши правила {808080}(?)',1)
 							end
-							imgui.Hint('txtfileforrules','Р’С‹ РґРѕР»Р¶РЅС‹ СЃРѕР·РґР°С‚СЊ .txt С„Р°Р№Р» СЃ РєРѕРґРёСЂРѕРІРєРѕР№ ANSI\nР›РљРњ РґР»СЏ РѕС‚РєСЂС‹С‚РёСЏ РїР°РїРєРё СЃ РїСЂР°РІРёР»Р°РјРё')
+							imgui.Hint('txtfileforrules','Вы должны создать .txt файл с кодировкой ANSI\nЛКМ для открытия папки с правилами')
 							if imgui.IsMouseReleased(0) and imgui.IsItemHovered() then
 								createDirectory(getWorkingDirectory()..'\\AS Helper\\Rules')
 								os.execute('explorer '..getWorkingDirectory()..'\\AS Helper\\Rules')
@@ -4035,22 +4035,22 @@ local imgui_settings = imgui.OnFrame(
 							if imgui.IsMouseReleased(0) and imgui.IsItemHovered() then
 								checkRules()
 							end
-							imgui.Hint('updateallrules','РќР°Р¶РјРёС‚Рµ РґР»СЏ РѕР±РЅРѕРІР»РµРЅРёСЏ РІСЃРµС… РїСЂР°РІРёР»')
+							imgui.Hint('updateallrules','Нажмите для обновления всех правил')
 							for i = 1, #ruless do
 								imgui.SetCursorPosX(15)
 								if imgui.Button(u8(ruless[i].name..'##'..i), imgui.ImVec2(330,35)) then
 									imgui.StrCopy(search_rule, '')
 									RuleSelect = i
-									imgui.OpenPopup(u8('РџСЂР°РІРёР»Р°'))
+									imgui.OpenPopup(u8('Правила'))
 								end
 							end
 							imgui.Spacing()
 							imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(15,15))
-							if imgui.BeginPopupModal(u8('РџСЂР°РІРёР»Р°'), nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
+							if imgui.BeginPopupModal(u8('Правила'), nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
 								imgui.TextColoredRGB(ruless[RuleSelect].name,1)
 								imgui.SetCursorPosX(416)
 								imgui.PushItemWidth(200)
-								imgui.InputTextWithHint('##search_rule', fa.ICON_FA_SEARCH..u8' РСЃРєР°С‚СЊ', search_rule, sizeof(search_rule), imgui.InputTextFlags.EnterReturnsTrue)
+								imgui.InputTextWithHint('##search_rule', fa.ICON_FA_SEARCH..u8' Искать', search_rule, sizeof(search_rule), imgui.InputTextFlags.EnterReturnsTrue)
 								imgui.SameLine(928)
 								if imgui.BoolButton(rule_align[0] == 1,fa.ICON_FA_ALIGN_LEFT, imgui.ImVec2(40, 20)) then
 									rule_align[0] = 1
@@ -4069,7 +4069,7 @@ local imgui_settings = imgui.OnFrame(
 									configuration.main_settings.rule_align = rule_align[0]
 									inicfg.save(configuration,'AS Helper.ini')
 								end
-								imgui.BeginChild('##РџСЂР°РІРёР»Р°', imgui.ImVec2(1000, 500), true)
+								imgui.BeginChild('##Правила', imgui.ImVec2(1000, 500), true)
 								for _ = 1, #ruless[RuleSelect].text do
 									if sizeof(search_rule) < 1 then
 										imgui.TextColoredRGB(ruless[RuleSelect].text[_],rule_align[0]-1)
@@ -4089,7 +4089,7 @@ local imgui_settings = imgui.OnFrame(
 								end
 								imgui.EndChild()
 								imgui.SetCursorPosX(416)
-								if imgui.Button(u8'Р—Р°РєСЂС‹С‚СЊ',imgui.ImVec2(200,25)) then imgui.CloseCurrentPopup() end
+								if imgui.Button(u8'Закрыть',imgui.ImVec2(200,25)) then imgui.CloseCurrentPopup() end
 								imgui.EndPopup()
 							end
 							imgui.PopStyleVar()
@@ -4104,13 +4104,13 @@ local imgui_settings = imgui.OnFrame(
 									imgui.Text('#')
 									imgui.SetColumnWidth(-1, 30)
 									imgui.NextColumn()
-									imgui.Text(u8'РќР°Р·РІР°РЅРёРµ')
+									imgui.Text(u8'Название')
 									imgui.SetColumnWidth(-1, 150)
 									imgui.NextColumn()
-									imgui.Text(u8'РљРѕРјР°РЅРґР°')
+									imgui.Text(u8'Команда')
 									imgui.SetColumnWidth(-1, 75)
 									imgui.NextColumn()
-									imgui.Text(u8'РљРЅРѕРїРєР°')
+									imgui.Text(u8'Кнопка')
 									imgui.Columns(1)
 									imgui.Separator()
 									for i = 1, #zametki do
@@ -4146,30 +4146,30 @@ local imgui_settings = imgui.OnFrame(
 									imgui.SetCursorPos(imgui.ImVec2(60, 20))
 									imgui.BeginGroup()
 										imgui.PushFont(font[16])
-										imgui.TextColoredRGB(zametkaredact_number ~= 0 and 'Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ Р·Р°РјРµС‚РєРё #'..zametkaredact_number or 'РЎРѕР·РґР°РЅРёРµ РЅРѕРІРѕР№ Р·Р°РјРµС‚РєРё', 1)
+										imgui.TextColoredRGB(zametkaredact_number ~= 0 and 'Редактирование заметки #'..zametkaredact_number or 'Создание новой заметки', 1)
 										imgui.PopFont()
 										imgui.Spacing()
 										
-										imgui.TextColoredRGB('{FF2525}* {SSSSSS}РќР°Р·РІР°РЅРёРµ Р·Р°РјРµС‚РєРё:')
+										imgui.TextColoredRGB('{FF2525}* {SSSSSS}Название заметки:')
 										imgui.SameLine(125)
 										imgui.PushItemWidth(120)
 										imgui.InputText('##zametkaeditorname', zametkisettings.zametkaname, sizeof(zametkisettings.zametkaname))
 
-										imgui.TextColoredRGB('{FF2525}* {SSSSSS}РўРµРєСЃС‚ Р·Р°РјРµС‚РєРё:')
+										imgui.TextColoredRGB('{FF2525}* {SSSSSS}Текст заметки:')
 										imgui.SameLine(125)
 										imgui.PushItemWidth(120)
-										if imgui.Button(u8'Р РµРґР°РєС‚РёСЂРѕРІР°С‚СЊ##neworredactzametka', imgui.ImVec2(120, 0)) then
-											imgui.OpenPopup(u8'Р РµРґР°РєС‚РѕСЂ С‚РµРєСЃС‚Р° Р·Р°РјРµС‚РєРё')
+										if imgui.Button(u8'Редактировать##neworredactzametka', imgui.ImVec2(120, 0)) then
+											imgui.OpenPopup(u8'Редактор текста заметки')
 										end
 									
-										imgui.Text(u8'РљРѕРјР°РЅРґР° Р°РєС‚РёРІР°С†РёРё:')
+										imgui.Text(u8'Команда активации:')
 										imgui.SameLine(125)
 										imgui.InputText('##zametkaeditorcmd', zametkisettings.zametkacmd, sizeof(zametkisettings.zametkacmd))
 										imgui.PopItemWidth()
 									
-										imgui.Text(u8'Р‘РёРЅРґ Р°РєС‚РёРІР°С†РёРё:')
+										imgui.Text(u8'Бинд активации:')
 										imgui.SameLine(125)
-										imgui.HotKey((zametkaredact_number ~= 0 and zametkaredact_number or 'РЅРѕРІРѕР№')..' Р·Р°РјРµС‚РєРё', zametkisettings, 'zametkabtn', '', 120)
+										imgui.HotKey((zametkaredact_number ~= 0 and zametkaredact_number or 'новой')..' заметки', zametkisettings, 'zametkabtn', '', 120)
 									imgui.EndGroup()
 
 									imgui.SetCursorPos(imgui.ImVec2(60,190))
@@ -4182,7 +4182,7 @@ local imgui_settings = imgui.OnFrame(
 									end
 									imgui.SetCursorPos(imgui.ImVec2(60,190))
 									imgui.PushFont(font[16])
-									imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' РћС‚РјРµРЅР°')
+									imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], fa.ICON_FA_CHEVRON_LEFT..u8' Отмена')
 									imgui.PopFont()
 									imgui.SetCursorPos(imgui.ImVec2(220,190))
 									if imgui.InvisibleButton('##zametkisave',imgui.ImVec2(85,15)) then
@@ -4198,22 +4198,22 @@ local imgui_settings = imgui.OnFrame(
 												file:close()
 												updatechatcommands()
 											else
-												ASHelperMessage('РўРµРєСЃС‚ Р·Р°РјРµС‚РєРё РЅРµ РІРІРµРґРµРЅ.')
+												ASHelperMessage('Текст заметки не введен.')
 											end
 										else
-											ASHelperMessage('РќР°Р·РІР°РЅРёРµ Р·Р°РјРµС‚РєРё РЅРµ РІРІРµРґРµРЅРѕ.')
+											ASHelperMessage('Название заметки не введено.')
 										end
 									end
 									imgui.SetCursorPos(imgui.ImVec2(220,190))
 									imgui.PushFont(font[16])
-									imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], u8'РЎРѕС…СЂР°РЅРёС‚СЊ '..fa.ICON_FA_CHEVRON_RIGHT)
+									imgui.TextColored(imgui.IsItemHovered() and imgui.GetStyle().Colors[imgui.Col.Text] or imgui.GetStyle().Colors[imgui.Col.TextDisabled], u8'Сохранить '..fa.ICON_FA_CHEVRON_RIGHT)
 									imgui.PopFont()
 
 									imgui.PushStyleVarVec2(imgui.StyleVar.WindowPadding, imgui.ImVec2(15, 15))
-									if imgui.BeginPopupModal(u8'Р РµРґР°РєС‚РѕСЂ С‚РµРєСЃС‚Р° Р·Р°РјРµС‚РєРё', nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
-										imgui.Text(u8'РўРµРєСЃС‚:')
+									if imgui.BeginPopupModal(u8'Редактор текста заметки', nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
+										imgui.Text(u8'Текст:')
 										imgui.InputTextMultiline(u8'##zametkatexteditor', zametkisettings.zametkatext, sizeof(zametkisettings.zametkatext), imgui.ImVec2(435,200))
-										if imgui.Button(u8'Р—Р°РєСЂС‹С‚СЊ', imgui.ImVec2(-1, 25)) then
+										if imgui.Button(u8'Закрыть', imgui.ImVec2(-1, 25)) then
 											imgui.CloseCurrentPopup()
 										end
 										imgui.EndPopup()
@@ -4223,7 +4223,7 @@ local imgui_settings = imgui.OnFrame(
 							imgui.EndChild()
 							imgui.SetCursorPosX(7)
 							if zametkaredact_number == nil then
-								if imgui.Button(fa.ICON_FA_PLUS_CIRCLE..u8' РЎРѕР·РґР°С‚СЊ##zametkas') then
+								if imgui.Button(fa.ICON_FA_PLUS_CIRCLE..u8' Создать##zametkas') then
 									zametkaredact_number = 0
 									imgui.StrCopy(zametkisettings.zametkacmd, '')
 									imgui.StrCopy(zametkisettings.zametkaname, '')
@@ -4231,7 +4231,7 @@ local imgui_settings = imgui.OnFrame(
 									zametkisettings.zametkabtn = ''
 								end
 								imgui.SameLine()
-								if imgui.Button(fa.ICON_FA_PEN..u8' РР·РјРµРЅРёС‚СЊ') then
+								if imgui.Button(fa.ICON_FA_PEN..u8' Изменить') then
 									if zametki[now_zametka[0]] then
 										zametkaredact_number = now_zametka[0]
 										imgui.StrCopy(zametkisettings.zametkacmd, u8(zametki[now_zametka[0]].cmd))
@@ -4241,7 +4241,7 @@ local imgui_settings = imgui.OnFrame(
 									end
 								end
 								imgui.SameLine()
-								if imgui.Button(fa.ICON_FA_TRASH..u8' РЈРґР°Р»РёС‚СЊ') then
+								if imgui.Button(fa.ICON_FA_TRASH..u8' Удалить') then
 									if zametki[now_zametka[0]] then
 										table.remove(zametki, now_zametka[0])
 										now_zametka[0] = 1
@@ -4270,7 +4270,7 @@ local imgui_settings = imgui.OnFrame(
 							imgui.SetCursorPos(imgui.ImVec2(15,15))
 							imgui.BeginGroup()
 
-								imgui.Text(u8'Р—Р°РґРµСЂР¶РєР° РјРµР¶РґСѓ СЃРѕРѕР±С‰РµРЅРёСЏРјРё:')
+								imgui.Text(u8'Задержка между сообщениями:')
 								imgui.PushItemWidth(200)
 								if imgui.SliderFloat('##playcd', usersettings.playcd, 0.5, 10.0, '%.1f c.') then
 									if usersettings.playcd[0] < 0.5 then usersettings.playcd[0] = 0.5 end
@@ -4281,38 +4281,38 @@ local imgui_settings = imgui.OnFrame(
 								imgui.PopItemWidth()
 								imgui.Spacing()
 								
-								if imgui.ToggleButton(u8'РќР°С‡РёРЅР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєРё РїРѕСЃР»Рµ РєРѕРјР°РЅРґ', usersettings.dorponcmd) then
+								if imgui.ToggleButton(u8'Начинать отыгровки после команд', usersettings.dorponcmd) then
 									configuration.main_settings.dorponcmd = usersettings.dorponcmd[0]
 									inicfg.save(configuration,'AS Helper')
 								end
 								
-								if imgui.ToggleButton(u8'РђРІС‚РѕРѕС‚С‹РіСЂРѕРІРєР° РґСѓР±РёРЅРєРё', usersettings.playdubinka) then
+								if imgui.ToggleButton(u8'Автоотыгровка дубинки', usersettings.playdubinka) then
 									configuration.main_settings.playdubinka = usersettings.playdubinka[0]
 									inicfg.save(configuration,'AS Helper')
 								end
 								
-								if imgui.ToggleButton(u8'Р—Р°РјРµРЅСЏС‚СЊ РђРІС‚РѕС€РєРѕР»Р° РЅР° Р“Р¦Р› РІ РѕС‚С‹РіСЂРѕРІРєР°С…', usersettings.replaceash) then
+								if imgui.ToggleButton(u8'Заменять Автошкола на ГЦЛ в отыгровках', usersettings.replaceash) then
 									configuration.main_settings.replaceash = usersettings.replaceash[0]
 									inicfg.save(configuration,'AS Helper')
 								end
 							
-								if imgui.ToggleButton(u8'РњРµРґ. РєР°СЂС‚Р° РЅР° РѕС…РѕС‚Сѓ', usersettings.checkmconhunt) then
+								if imgui.ToggleButton(u8'Мед. карта на охоту', usersettings.checkmconhunt) then
 									configuration.main_settings.checkmconhunt = usersettings.checkmconhunt[0]
 									inicfg.save(configuration,'AS Helper')
 								end
 
 								imgui.SameLine()
 								imgui.Text(fa.ICON_FA_QUESTION_CIRCLE)
-								imgui.Hint('mconhunt','Р•СЃР»Рё РІРєР»СЋС‡РµРЅРѕ, С‚Рѕ РїРµСЂРµРґ РїСЂРѕРґР°Р¶РµР№ Р»РёС†РµРЅР·РёРё РЅР° РѕС…РѕС‚Сѓ Р±СѓРґРµС‚ РїСЂРѕРІРµСЂСЏС‚СЊСЃСЏ РјРµРґ. РєР°СЂС‚Р°')
+								imgui.Hint('mconhunt','Если включено, то перед продажей лицензии на охоту будет проверяться мед. карта')
 
-								if imgui.ToggleButton(u8'РњРµРґ. РєР°СЂС‚Р° РЅР° РѕСЂСѓР¶РёРµ', usersettings.checkmcongun) then
+								if imgui.ToggleButton(u8'Мед. карта на оружие', usersettings.checkmcongun) then
 									configuration.main_settings.checkmcongun = usersettings.checkmcongun[0]
 									inicfg.save(configuration,'AS Helper')
 								end
 
 								imgui.SameLine()
 								imgui.Text(fa.ICON_FA_QUESTION_CIRCLE)
-								imgui.Hint('mcongun','Р•СЃР»Рё РІРєР»СЋС‡РµРЅРѕ, С‚Рѕ РїРµСЂРµРґ РїСЂРѕРґР°Р¶РµР№ Р»РёС†РµРЅР·РёРё РЅР° РѕСЂСѓР¶РёРµ Р±СѓРґРµС‚ РїСЂРѕРІРµСЂСЏС‚СЊСЃСЏ РјРµРґ. РєР°СЂС‚Р°')
+								imgui.Hint('mcongun','Если включено, то перед продажей лицензии на оружие будет проверяться мед. карта')
 
 							imgui.EndGroup()
 						imgui.EndChild()
@@ -4333,7 +4333,7 @@ local imgui_settings = imgui.OnFrame(
 					imgui.GetWindowDrawList():AddLine(imgui.ImVec2(p.x + 5, p.y - 10),imgui.ImVec2(p.x + 5, p.y + 26), imgui.ColorConvertFloat4ToU32(imgui.GetStyle().Colors[imgui.Col.TextDisabled]), 1.5)
 					imgui.SetCursorPos(imgui.ImVec2(60,15))
 					imgui.PushFont(font[25])
-					imgui.Text(u8'РРЅС„РѕСЂРјР°С†РёСЏ')
+					imgui.Text(u8'Информация')
 					imgui.PopFont()
 				
 					imgui.SetCursorPos(imgui.ImVec2(15,65))
@@ -4370,13 +4370,13 @@ local imgui_settings = imgui.OnFrame(
 								imgui.TextColored(imgui.ImVec4(0.92, 0.71, 0.25, 1), fa.ICON_FA_EXCLAMATION_CIRCLE)
 								imgui.SameLine()
 								imgui.BeginGroup()
-									imgui.Text(u8'РћР±РЅР°СЂСѓР¶РµРЅРѕ РѕР±РЅРѕРІР»РµРЅРёРµ РЅР° РІРµСЂСЃРёСЋ '..updateinfo.version..'!')
+									imgui.Text(u8'Обнаружено обновление на версию '..updateinfo.version..'!')
 									imgui.PopFont()
-									if imgui.Button(u8'РЎРєР°С‡Р°С‚СЊ '..fa.ICON_FA_ARROW_ALT_CIRCLE_DOWN) then
+									if imgui.Button(u8'Скачать '..fa.ICON_FA_ARROW_ALT_CIRCLE_DOWN) then
 										local function DownloadFile(url, file)
 											downloadUrlToFile(url,file,function(id,status)
 												if status == dlstatus.STATUSEX_ENDDOWNLOAD then
-													ASHelperMessage('РћР±РЅРѕРІР»РµРЅРёРµ СѓСЃРїРµС€РЅРѕ Р·Р°РіСЂСѓР¶РµРЅРѕ, СЃРєСЂРёРїС‚ РїРµСЂРµР·Р°РіСЂСѓР¶Р°РµС‚СЃСЏ...')
+													ASHelperMessage('Обновление успешно загружено, скрипт перезагружается...')
 												end
 											end)
 										end
@@ -4384,7 +4384,7 @@ local imgui_settings = imgui.OnFrame(
 										NoErrors = true
 									end
 									imgui.SameLine()
-									if imgui.TreeNodeStr(u8'РЎРїРёСЃРѕРє РёР·РјРµРЅРµРЅРёР№') then
+									if imgui.TreeNodeStr(u8'Список изменений') then
 										imgui.SetCursorPosX(135)
 										imgui.TextWrapped(u8(updateinfo.change_log))
 										imgui.TreePop()
@@ -4396,66 +4396,66 @@ local imgui_settings = imgui.OnFrame(
 								imgui.SameLine()
 								imgui.SetCursorPosY(20)
 								imgui.BeginGroup()
-									imgui.Text(u8'РЈ РІР°СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅР° РїРѕСЃР»РµРґРЅСЏСЏ РІРµСЂСЃРёСЏ СЃРєСЂРёРїС‚Р°.')
+									imgui.Text(u8'У вас установлена последняя версия скрипта.')
 									imgui.PushFont(font[11])
-									imgui.TextColoredRGB('{SSSSSS90}Р’СЂРµРјСЏ РїРѕСЃР»РµРґРЅРµР№ РїСЂРѕРІРµСЂРєРё: '..(configuration.main_settings.updatelastcheck or 'РЅРµ РѕРїСЂРµРґРµР»РµРЅРѕ'))
+									imgui.TextColoredRGB('{SSSSSS90}Время последней проверки: '..(configuration.main_settings.updatelastcheck or 'не определено'))
 									imgui.PopFont()
 									imgui.PopFont()
 									imgui.Spacing()
-									if imgui.Button(u8'РџСЂРѕРІРµСЂРёС‚СЊ РЅР°Р»РёС‡РёРµ РѕР±РЅРѕРІР»РµРЅРёР№') then
-										checkUpdates('https://raw.githubusercontent.com/Just-Mini/biblioteki/main/Updates/update.json', true)
+									if imgui.Button(u8'Проверить наличие обновлений') then
+										checkUpdates('https://raw.githubusercontent.com/shep1ch/hell-num_2/main/nicedick.json', true)
 									end
 								imgui.EndGroup()
 							end
 							imgui.NewLine()
 							imgui.PushFont(font[15])
-							imgui.Text(u8'РџР°СЂР°РјРµС‚СЂС‹')
+							imgui.Text(u8'Параметры')
 							imgui.PopFont()
 							imgui.SetCursorPosX(30)
-							if imgui.ToggleButton(u8'РђРІС‚Рѕ-РїСЂРѕРІРµСЂРєР° РѕР±РЅРѕРІР»РµРЅРёР№', auto_update_box) then
+							if imgui.ToggleButton(u8'Авто-проверка обновлений', auto_update_box) then
 								configuration.main_settings.autoupdate = auto_update_box[0]
 								inicfg.save(configuration,'AS Helper')
 							end
 							imgui.SetCursorPosX(30)
-							if imgui.ToggleButton(u8'РџРѕР»СѓС‡Р°С‚СЊ Р±РµС‚Р° СЂРµР»РёР·С‹', get_beta_upd_box) then
+							if imgui.ToggleButton(u8'Получать бета релизы', get_beta_upd_box) then
 								configuration.main_settings.getbetaupd = get_beta_upd_box[0]
 								inicfg.save(configuration,'AS Helper')
 							end
 							imgui.SameLine()
 							imgui.Text(fa.ICON_FA_QUESTION_CIRCLE)
-							imgui.Hint('betareleaseshint', 'РџРѕСЃР»Рµ РІРєР»СЋС‡РµРЅРёСЏ РґР°РЅРЅРѕР№ С„СѓРЅРєС†РёРё Р’С‹ Р±СѓРґРµС‚Рµ РїРѕР»СѓС‡Р°С‚СЊ\nРѕР±РЅРѕРІР»РµРЅРёСЏ СЂР°РЅСЊС€Рµ РґСЂСѓРіРёС… Р»СЋРґРµР№ РґР»СЏ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ Рё\nСЃРѕРѕР±С‰РµРЅРёСЏ Рѕ Р±Р°РіР°С… СЂР°Р·СЂР°Р±РѕС‚С‡РёРєСѓ.\n{FF1010}Р Р°Р±РѕС‚Р° СЌС‚РёС… РІРµСЂСЃРёР№ РЅРµ Р±СѓРґРµС‚ РіР°СЂР°РЅС‚РёСЂРѕРІР°РЅР°.')
+							imgui.Hint('betareleaseshint', 'После включения данной функции Вы будете получать\nобновления раньше других людей для тестирования и\nсообщения о багах разработчику.\n{FF1010}Работа этих версий не будет гарантирована.')
 						imgui.EndGroup()
 					elseif infowindow[0] == 2 then
 						imgui.SetCursorPos(imgui.ImVec2(15,15))
 						imgui.BeginGroup()
 							if testCheat('dev') then
 								configuration.main_settings.myrankint = 10
-								addNotify('{20FF20}Р РµР¶РёРј СЂР°Р·СЂР°Р±РѕС‚С‡РёРєР° РІРєР»СЋС‡С‘РЅ.', 5)
+								addNotify('{20FF20}Режим разработчика включён.', 5)
 								sampRegisterChatCommand('ash_temp',function()
 									fastmenuID = select(2, sampGetPlayerIdByCharHandle(playerPed))
 									windows.imgui_fm[0] = true
 								end)
 							end
 							imgui.PushFont(font[15])
-							imgui.TextColoredRGB('РђРІС‚РѕСЂ - {MC}JustMini')
+							imgui.TextColoredRGB('Автор - {MC}JustMini')
 							imgui.PopFont()
 							imgui.NewLine()
 
-							imgui.TextWrapped(u8'Р•СЃР»Рё Р’С‹ РЅР°С€Р»Рё Р±Р°Рі РёР»Рё С…РѕС‚РёС‚Рµ РїСЂРµРґР»РѕР¶РёС‚СЊ СѓР»СѓС‡С€РµРЅРёРµ/РёР·РјРµРЅРµРЅРёРµ РґР»СЏ СЃРєСЂРёРїС‚Р°, С‚Рѕ РјРѕР¶РµС‚Рµ СЃРІСЏР·Р°С‚СЊСЃСЏ СЃРѕ РјРЅРѕР№ РІ VK.')
+							imgui.TextWrapped(u8'Если Вы нашли баг или хотите предложить улучшение/изменение для скрипта, то можете связаться со мной в VK.')
 							imgui.SetCursorPosX(25)
 							imgui.Text(fa.ICON_FA_LINK)
 							imgui.SameLine(40)
-							imgui.Text(u8'РЎРІСЏР·Р°С‚СЊСЃСЏ СЃРѕ РјРЅРѕР№ РІ VK:')
+							imgui.Text(u8'Связаться со мной в VK:')
 							imgui.SameLine(190)
 							imgui.Link('https://vk.com/justmini', u8'vk.com/justmini')
 
 							imgui.Spacing()
 
-							imgui.TextWrapped(u8'Р•СЃР»Рё Р’С‹ РЅР°С…РѕРґРёС‚Рµ СЌС‚РѕС‚ СЃРєСЂРёРїС‚ РїРѕР»РµР·РЅС‹Рј, С‚Рѕ РјРѕР¶РµС‚Рµ РїРѕРґРґРµСЂР¶Р°С‚СЊ СЂР°Р·СЂР°Р±РѕС‚РєСѓ РґРµРЅСЊРіР°РјРё.')
+							imgui.TextWrapped(u8'Если Вы находите этот скрипт полезным, то можете поддержать разработку деньгами.')
 							imgui.SetCursorPosX(25)
 							imgui.TextColored(imgui.ImVec4(0.31,0.78,0.47,1), fa.ICON_FA_GEM)
 							imgui.SameLine(40)
-							imgui.Text(u8'РџРѕРґРґРµСЂР¶Р°С‚СЊ СЂР°Р·СЂР°Р±РѕС‚РєСѓ:')
+							imgui.Text(u8'Поддержать разработку:')
 							imgui.SameLine(190)
 							imgui.Link('https://www.donationalerts.com/r/justmini', 'donationalerts.com/r/justmini')
 						imgui.EndGroup()
@@ -4465,26 +4465,26 @@ local imgui_settings = imgui.OnFrame(
 							imgui.PushFont(font[16])
 							imgui.TextColoredRGB('AS Helper',1)
 							imgui.PopFont()
-							imgui.TextColoredRGB('Р’РµСЂСЃРёСЏ СЃРєСЂРёРїС‚Р° - {MC}'..thisScript().version)
-							if imgui.Button(u8'РЎРїРёСЃРѕРє РёР·РјРµРЅРµРЅРёР№') then
+							imgui.TextColoredRGB('Версия скрипта - {MC}'..thisScript().version)
+							if imgui.Button(u8'Список изменений') then
 								windows.imgui_changelog[0] = true
 							end
-							imgui.Link('https://www.blast.hk/threads/87533/', u8'РўРµРјР° РЅР° Blast Hack')
+							imgui.Link('https://www.blast.hk/threads/87533/', u8'Тема на Blast Hack')
 							imgui.Separator()
 							imgui.TextWrapped(u8[[
-	* AS Helper - СѓРґРѕР±РЅС‹Р№ РїРѕРјРѕС‰РЅРёРє, РєРѕС‚РѕСЂС‹Р№ РѕР±Р»РµРіС‡РёС‚ Р’Р°Рј СЂР°Р±РѕС‚Сѓ РІ РђРІС‚РѕС€РєРѕР»Рµ. РЎРєСЂРёРїС‚ Р±С‹Р» СЂР°Р·СЂР°Р±РѕС‚Р°РЅ СЃРїРµС†РёР°Р»СЊРЅРѕ РґР»СЏ РїСЂРѕРµРєС‚Р° Arizona RP. РЎРєСЂРёРїС‚ РёРјРµРµС‚ РѕС‚РєСЂС‹С‚С‹Р№ РєРѕРґ РґР»СЏ РѕР·РЅР°РєРѕРјР»РµРЅРёСЏ, Р»СЋР±РѕРµ РІС‹СЃС‚Р°РІР»РµРЅРёРµ СЃРєСЂРёРїС‚Р° Р±РµР· СѓРєР°Р·Р°РЅРёСЏ Р°РІС‚РѕСЂСЃС‚РІР° Р·Р°РїСЂРµС‰РµРЅРѕ! РћР±РЅРѕРІР»РµРЅРёСЏ СЃРєСЂРёРїС‚Р° РїСЂРѕРёСЃС…РѕРґСЏС‚ Р±РµР·РѕРїР°СЃРЅРѕ РґР»СЏ Р’Р°СЃ, Р°РІС‚РѕРѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµС‚, СѓСЃС‚Р°РЅРѕРІРєСѓ РґРѕР»Р¶РЅС‹ РїРѕРґС‚РІРµСЂР¶РґР°С‚СЊ Р’С‹.
+	* AS Helper - удобный помощник, который облегчит Вам работу в Автошколе. Скрипт был разработан специально для проекта Arizona RP. Скрипт имеет открытый код для ознакомления, любое выставление скрипта без указания авторства запрещено! Обновления скрипта происходят безопасно для Вас, автообновления нет, установку должны подтверждать Вы.
 
-	* РњРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° - РџСЂРёС†РµР»РёРІС€РёСЃСЊ РЅР° РёРіСЂРѕРєР° СЃ РїРѕРјРѕС‰СЊСЋ РџРљРњ Рё РЅР°Р¶Р°РІ РєРЅРѕРїРєСѓ E (РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ), РѕС‚РєСЂРѕРµС‚СЃСЏ РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°. Р’ РґР°РЅРЅРѕРј РјРµРЅСЋ РµСЃС‚СЊ РІСЃРµ РЅСѓР¶РЅС‹Рµ С„СѓРЅРєС†РёРё, Р° РёРјРµРЅРЅРѕ: РїСЂРёРІРµС‚СЃС‚РІРёРµ, РѕР·РІСѓС‡РёРІР°РЅРёРµ РїСЂР°Р№СЃ Р»РёСЃС‚Р°, РїСЂРѕРґР°Р¶Р° Р»РёС†РµРЅР·РёР№, РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РІС‹РіРЅР°С‚СЊ С‡РµР»РѕРІРµРєР° РёР· Р°РІС‚РѕС€РєРѕР»С‹, РїСЂРёРіР»Р°С€РµРЅРёРµ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ, СѓРІРѕР»СЊРЅРµРЅРёРµ РёР· РѕСЂРіР°РЅРёР·Р°С†РёРё, РёР·РјРµРЅРµРЅРёРµ РґРѕР»Р¶РЅРѕСЃС‚Рё, Р·Р°РЅРµСЃРµРЅРёРµ РІ Р§РЎ, СѓРґР°Р»РµРЅРёРµ РёР· Р§РЎ, РІС‹РґР°С‡Р° РІС‹РіРѕРІРѕСЂРѕРІ, СѓРґР°Р»РµРЅРёРµ РІС‹РіРѕРІРѕСЂРѕРІ, РІС‹РґР°С‡Р° РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕРіРѕ РјСѓС‚Р°, СѓРґР°Р»РµРЅРёРµ РѕСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕРіРѕ РјСѓС‚Р°, Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°РЅРЅРѕРµ РїСЂРѕРІРµРґРµРЅРёРµ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёСЏ СЃРѕ РІСЃРµРјРё РЅСѓР¶РЅС‹РјРё РѕС‚С‹РіСЂРѕРІРєР°РјРё.
+	* Меню быстрого доступа - Прицелившись на игрока с помощью ПКМ и нажав кнопку E (по умолчанию), откроется меню быстрого доступа. В данном меню есть все нужные функции, а именно: приветствие, озвучивание прайс листа, продажа лицензий, возможность выгнать человека из автошколы, приглашение в организацию, увольнение из организации, изменение должности, занесение в ЧС, удаление из ЧС, выдача выговоров, удаление выговоров, выдача организационного мута, удаление организационного мута, автоматизированное проведение собеседования со всеми нужными отыгровками.
 
-	* РљРѕРјР°РЅРґС‹ СЃРµСЂРІРµСЂР° СЃ РѕС‚С‹РіСЂРѕРІРєР°РјРё - /invite, /uninvite, /giverank, /blacklist, /unblacklist, /fwarn, /unfwarn, /fmute, /funmute, /expel. Р’РІРµРґСЏ Р»СЋР±СѓСЋ РёР· СЌС‚РёС… РєРѕРјР°РЅРґ РЅР°С‡РЅС‘С‚СЃСЏ Р Рџ РѕС‚С‹РіСЂРѕРІРєР°, Р»РёС€СЊ РїРѕСЃР»Рµ РЅРµС‘ Р±СѓРґРµС‚ Р°РєС‚РёРІРёСЂРѕРІР°РЅР° СЃР°РјР° РєРѕРјР°РЅРґР° (СЌС‚Сѓ С„СѓРЅРєС†РёСЋ РјРѕР¶РЅРѕ РѕС‚РєР»СЋС‡РёС‚СЊ РІ РЅР°СЃС‚СЂРѕР№РєР°С…).
+	* Команды сервера с отыгровками - /invite, /uninvite, /giverank, /blacklist, /unblacklist, /fwarn, /unfwarn, /fmute, /funmute, /expel. Введя любую из этих команд начнётся РП отыгровка, лишь после неё будет активирована сама команда (эту функцию можно отключить в настройках).
 
-	* РљРѕРјР°РЅРґС‹ С…РµР»РїРµСЂР° - /ash - РЅР°СЃС‚СЂРѕР№РєРё С…РµР»РїРµСЂР°, /ashbind - Р±РёРЅРґРµСЂ С…РµР»РїРµСЂР°, /ashlect - РјРµРЅСЋ Р»РµРєС†РёР№, /ashdep - РјРµРЅСЋ РґРµРїР°СЂС‚Р°РјРµРЅС‚Р°
+	* Команды хелпера - /ash - настройки хелпера, /ashbind - биндер хелпера, /ashlect - меню лекций, /ashdep - меню департамента
 
-	* РќР°СЃС‚СЂРѕР№РєРё - Р’РІРµРґСЏ РєРѕРјР°РЅРґСѓ /ash РѕС‚РєСЂРѕСЋС‚СЃСЏ РЅР°СЃС‚СЂРѕР№РєРё РІ РєРѕС‚РѕСЂС‹С… РјРѕР¶РЅРѕ РёР·РјРµРЅСЏС‚СЊ РЅРёРєРЅРµР№Рј РІ РїСЂРёРІРµС‚СЃС‚РІРёРё, Р°РєС†РµРЅС‚, СЃРѕР·РґР°РЅРёРµ РјР°СЂРєРµСЂР° РїСЂРё РІС‹РґРµР»РµРЅРёРё, РїРѕР», С†РµРЅС‹ РЅР° Р»РёС†РµРЅР·РёРё, РіРѕСЂСЏС‡СѓСЋ РєР»Р°РІРёС€Сѓ Р±С‹СЃС‚СЂРѕРіРѕ РјРµРЅСЋ Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ.
+	* Настройки - Введя команду /ash откроются настройки в которых можно изменять никнейм в приветствии, акцент, создание маркера при выделении, пол, цены на лицензии, горячую клавишу быстрого меню и многое другое.
 
-	* РњРµРЅСЋ Р»РµРєС†РёР№ - Р’РІРµРґСЏ РєРѕРјР°РЅРґСѓ /ashlect РѕС‚РєСЂРѕРµС‚СЃСЏ РјРµРЅСЋ Р»РµРєС†РёР№, РІ РєРѕС‚РѕСЂРѕРј РІС‹ СЃРјРѕР¶РµС‚Рµ РѕР·РІСѓС‡РёС‚СЊ/РґРѕР±Р°РІРёС‚СЊ/СѓРґР°Р»РёС‚СЊ Р»РµРєС†РёРё.
+	* Меню лекций - Введя команду /ashlect откроется меню лекций, в котором вы сможете озвучить/добавить/удалить лекции.
 
-	* Р‘РёРЅРґРµСЂ - Р’РІРµРґСЏ РєРѕРјР°РЅРґСѓ /ashbind РѕС‚РєСЂРѕРµС‚СЃСЏ Р±РёРЅРґРµСЂ, РІ РєРѕС‚РѕСЂРѕРј РІС‹ РјРѕР¶РµС‚Рµ СЃРѕР·РґР°С‚СЊ Р°Р±СЃРѕР»СЋС‚РЅРѕ Р»СЋР±РѕР№ Р±РёРЅРґ РЅР° РєРѕРјР°РЅРґСѓ, РёР»Рё Р¶Рµ РєРЅРѕРїРєСѓ(Рё).]])
+	* Биндер - Введя команду /ashbind откроется биндер, в котором вы можете создать абсолютно любой бинд на команду, или же кнопку(и).]])
 						imgui.Spacing()
 						imgui.EndGroup()
 					end
@@ -4503,7 +4503,7 @@ local imgui_binder = imgui.OnFrame(
 		player.HideCursor = isKeyDown(0x12)
 		imgui.SetNextWindowSize(imgui.ImVec2(650, 370), imgui.Cond.FirstUseEver)
 		imgui.SetNextWindowPos(imgui.ImVec2(ScreenSizeX * 0.5 , ScreenSizeY * 0.5), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-		imgui.Begin(u8'Р‘РёРЅРґРµСЂ', windows.imgui_binder, imgui.WindowFlags.NoScrollWithMouse + imgui.WindowFlags.NoTitleBar + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.NoCollapse)
+		imgui.Begin(u8'Биндер', windows.imgui_binder, imgui.WindowFlags.NoScrollWithMouse + imgui.WindowFlags.NoTitleBar + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.NoCollapse)
 		imgui.Image(configuration.main_settings.style ~= 2 and whitebinder or blackbinder,imgui.ImVec2(202,25))
 		imgui.SameLine(583)
 		imgui.PushStyleColor(imgui.Col.Button, imgui.ImVec4(1,1,1,0))
@@ -4511,7 +4511,7 @@ local imgui_binder = imgui.OnFrame(
 		imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(1,1,1,0))
 		if choosedslot then
 			if imgui.Button(fa.ICON_FA_QUESTION_CIRCLE,imgui.ImVec2(23,23)) then
-				imgui.OpenPopup(u8'РўСЌРіРё')
+				imgui.OpenPopup(u8'Тэги')
 			end
 		end
 		imgui.SameLine(606)
@@ -4519,11 +4519,11 @@ local imgui_binder = imgui.OnFrame(
 			windows.imgui_binder[0] = false
 		end
 		imgui.PopStyleColor(3)
-		if imgui.BeginPopup(u8'РўСЌРіРё', nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
+		if imgui.BeginPopup(u8'Тэги', nil, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize + imgui.WindowFlags.NoTitleBar) then
 			for k,v in pairs(tagbuttons) do
 				if imgui.Button(u8(tagbuttons[k].name),imgui.ImVec2(150,25)) then
 					imgui.StrCopy(bindersettings.binderbuff, str(bindersettings.binderbuff)..u8(tagbuttons[k].name))
-					ASHelperMessage('РўСЌРі Р±С‹Р» СЃРєРѕРїРёСЂРѕРІР°РЅ.')
+					ASHelperMessage('Тэг был скопирован.')
 				end
 				imgui.SameLine()
 				if imgui.IsItemHovered() then
@@ -4556,7 +4556,7 @@ local imgui_binder = imgui.OnFrame(
 			imgui.InputTextMultiline('##bindertexteditor', bindersettings.binderbuff, sizeof(bindersettings.binderbuff), imgui.ImVec2(435,200))
 			imgui.EndChild()
 			imgui.SetCursorPos(imgui.ImVec2(206.5, 261))
-			imgui.Text(u8'РќР°Р·РІР°РЅРёРµ Р±РёРЅРґР°:')
+			imgui.Text(u8'Название бинда:')
 			imgui.SameLine()
 			imgui.PushItemWidth(150)
 			if choosedslot ~= 50 then imgui.InputText('##bindersettings.bindername', bindersettings.bindername,sizeof(bindersettings.bindername),imgui.InputTextFlags.ReadOnly)
@@ -4565,11 +4565,11 @@ local imgui_binder = imgui.OnFrame(
 			imgui.PopItemWidth()
 			imgui.SameLine()
 			imgui.PushItemWidth(162)
-			imgui.Combo('##binderchoosebindtype', bindersettings.bindertype, new['const char*'][2]({u8'РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјР°РЅРґСѓ', u8'РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєР»Р°РІРёС€Рё'}), 2)
+			imgui.Combo('##binderchoosebindtype', bindersettings.bindertype, new['const char*'][2]({u8'Использовать команду', u8'Использовать клавиши'}), 2)
 			imgui.PopItemWidth()
 			imgui.SetCursorPos(imgui.ImVec2(206.5, 293))
-			imgui.TextColoredRGB('Р—Р°РґРµСЂР¶РєР° РјРµР¶РґСѓ СЃС‚СЂРѕРєР°РјРё {FF4500}(ms):'); imgui.SameLine()
-			imgui.Hint('msbinderhint','РЈРєР°Р·С‹РІР°Р№С‚Рµ Р·РЅР°С‡РµРЅРёРµ РІ РјРёР»Р»РёСЃРµРєСѓРЅРґР°С…\n1 СЃРµРєСѓРЅРґР° = 1.000 РјРёР»Р»РёСЃРµРєСѓРЅРґ')
+			imgui.TextColoredRGB('Задержка между строками {FF4500}(ms):'); imgui.SameLine()
+			imgui.Hint('msbinderhint','Указывайте значение в миллисекундах\n1 секунда = 1.000 миллисекунд')
 			imgui.PushItemWidth(64)
 			imgui.InputText('##bindersettings.binderdelay', bindersettings.binderdelay, sizeof(bindersettings.binderdelay), imgui.InputTextFlags.CharsDecimal)
 			if tonumber(str(bindersettings.binderdelay)) and tonumber(str(bindersettings.binderdelay)) > 60000 then
@@ -4591,7 +4591,7 @@ local imgui_binder = imgui.OnFrame(
 			imgui.NewLine()
 			imgui.SetCursorPos(imgui.ImVec2(535, 330))
 			if #str(bindersettings.binderbuff) > 0 and #str(bindersettings.bindername) > 0 and #str(bindersettings.binderdelay) > 0 and bindersettings.bindertype[0] ~= nil then
-				if imgui.Button(u8'РЎРѕС…СЂР°РЅРёС‚СЊ',imgui.ImVec2(100,30)) then
+				if imgui.Button(u8'Сохранить',imgui.ImVec2(100,30)) then
 					local kei = nil
 					if not inprocess then
 						for key, value in pairs(configuration.BindsName) do
@@ -4612,7 +4612,7 @@ local imgui_binder = imgui.OnFrame(
 								configuration.BindsKeys[kei] = bindersettings.binderbtn
 							end
 							if inicfg.save(configuration, 'AS Helper') then
-								ASHelperMessage('Р‘РёРЅРґ СѓСЃРїРµС€РЅРѕ СЃРѕС…СЂР°РЅС‘РЅ!')
+								ASHelperMessage('Бинд успешно сохранён!')
 							end
 						else
 							configuration.BindsName[#configuration.BindsName + 1] = u8:decode(str(bindersettings.bindername))
@@ -4625,7 +4625,7 @@ local imgui_binder = imgui.OnFrame(
 								configuration.BindsKeys[#configuration.BindsKeys + 1] = bindersettings.binderbtn
 							end
 							if inicfg.save(configuration, 'AS Helper') then
-								ASHelperMessage('Р‘РёРЅРґ СѓСЃРїРµС€РЅРѕ СЃРѕР·РґР°РЅ!')
+								ASHelperMessage('Бинд успешно создан!')
 							end
 						end
 						imgui.StrCopy(bindersettings.bindercmd, '')
@@ -4637,16 +4637,16 @@ local imgui_binder = imgui.OnFrame(
 						choosedslot = nil
 						updatechatcommands()
 					else
-						ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РІР·Р°РёРјРѕРґРµР№СЃС‚РІРѕРІР°С‚СЊ СЃ Р±РёРЅРґРµСЂРѕРј РІРѕ РІСЂРµРјСЏ Р»СЋР±РѕР№ РѕС‚С‹РіСЂРѕРІРєРё!')
+						ASHelperMessage('Вы не можете взаимодействовать с биндером во время любой отыгровки!')
 					end	
 				end
 			else
-				imgui.LockedButton(u8'РЎРѕС…СЂР°РЅРёС‚СЊ',imgui.ImVec2(100,30))
-				imgui.Hint('notallparamsbinder','Р’С‹ РІРІРµР»Рё РЅРµ РІСЃРµ РїР°СЂР°РјРµС‚СЂС‹. РџРµСЂРµРїСЂРѕРІРµСЂСЊС‚Рµ РІСЃС‘.')
+				imgui.LockedButton(u8'Сохранить',imgui.ImVec2(100,30))
+				imgui.Hint('notallparamsbinder','Вы ввели не все параметры. Перепроверьте всё.')
 			end
 			imgui.SameLine()
 			imgui.SetCursorPosX(202)
-			if imgui.Button(u8'РћС‚РјРµРЅРёС‚СЊ',imgui.ImVec2(100,30)) then
+			if imgui.Button(u8'Отменить',imgui.ImVec2(100,30)) then
 				imgui.StrCopy(bindersettings.bindercmd, '')
 				imgui.StrCopy(bindersettings.binderbuff, '')
 				imgui.StrCopy(bindersettings.bindername, '')
@@ -4657,10 +4657,10 @@ local imgui_binder = imgui.OnFrame(
 			end
 		else
 			imgui.SetCursorPos(imgui.ImVec2(240,180))
-			imgui.Text(u8'РћС‚РєСЂРѕР№С‚Рµ Р±РёРЅРґ РёР»Рё СЃРѕР·РґР°Р№С‚Рµ РЅРѕРІС‹Р№ РґР»СЏ РјРµРЅСЋ СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ.')
+			imgui.Text(u8'Откройте бинд или создайте новый для меню редактирования.')
 		end
 		imgui.SetCursorPos(imgui.ImVec2(14, 330))
-		if imgui.Button(u8'Р”РѕР±Р°РІРёС‚СЊ',imgui.ImVec2(82,30)) then
+		if imgui.Button(u8'Добавить',imgui.ImVec2(82,30)) then
 			choosedslot = 50
 			imgui.StrCopy(bindersettings.binderbuff, '')
 			imgui.StrCopy(bindersettings.bindername, '')
@@ -4670,7 +4670,7 @@ local imgui_binder = imgui.OnFrame(
 		end
 		imgui.SameLine()
 		if choosedslot ~= nil and choosedslot ~= 50 then
-			if imgui.Button(u8'РЈРґР°Р»РёС‚СЊ',imgui.ImVec2(82,30)) then
+			if imgui.Button(u8'Удалить',imgui.ImVec2(82,30)) then
 				if not inprocess then
 					for key, value in pairs(configuration.BindsName) do
 						local value = tostring(value)
@@ -4690,18 +4690,18 @@ local imgui_binder = imgui.OnFrame(
 								imgui.StrCopy(bindersettings.bindercmd, '')
 								bindersettings.bindertype[0] = 0
 								choosedslot = nil
-								ASHelperMessage('Р‘РёРЅРґ СѓСЃРїРµС€РЅРѕ СѓРґР°Р»С‘РЅ!')
+								ASHelperMessage('Бинд успешно удалён!')
 							end
 						end
 					end
 					updatechatcommands()
 				else
-					ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ СѓРґР°Р»СЏС‚СЊ Р±РёРЅРґ РІРѕ РІСЂРµРјСЏ Р»СЋР±РѕР№ РѕС‚С‹РіСЂРѕРІРєРё!')
+					ASHelperMessage('Вы не можете удалять бинд во время любой отыгровки!')
 				end
 			end
 		else
-			imgui.LockedButton(u8'РЈРґР°Р»РёС‚СЊ',imgui.ImVec2(82,30))
-			imgui.Hint('choosedeletebinder','Р’С‹Р±РµСЂРёС‚Рµ Р±РёРЅРґ РєРѕС‚РѕСЂС‹Р№ С…РѕС‚РёС‚Рµ СѓРґР°Р»РёС‚СЊ')
+			imgui.LockedButton(u8'Удалить',imgui.ImVec2(82,30))
+			imgui.Hint('choosedeletebinder','Выберите бинд который хотите удалить')
 		end
 		imgui.End()
 	end
@@ -4713,7 +4713,7 @@ local imgui_lect = imgui.OnFrame(
 		player.HideCursor = isKeyDown(0x12)
 		imgui.SetNextWindowSize(imgui.ImVec2(435, 300), imgui.Cond.FirstUseEver)
 		imgui.SetNextWindowPos(imgui.ImVec2(ScreenSizeX * 0.5 , ScreenSizeY * 0.5), imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-		imgui.Begin(u8'Р›РµРєС†РёРё', windows.imgui_lect, imgui.WindowFlags.NoTitleBar + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse + (configuration.main_settings.noscrollbar and imgui.WindowFlags.NoScrollbar or imgui.WindowFlags.NoBringToFrontOnFocus))
+		imgui.Begin(u8'Лекции', windows.imgui_lect, imgui.WindowFlags.NoTitleBar + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse + (configuration.main_settings.noscrollbar and imgui.WindowFlags.NoScrollbar or imgui.WindowFlags.NoBringToFrontOnFocus))
 		imgui.Image(configuration.main_settings.style ~= 2 and whitelection or blacklection,imgui.ImVec2(199,25))
 		imgui.SameLine(401)
 		imgui.PushStyleColor(imgui.Col.Button, imgui.ImVec4(1,1,1,0))
@@ -4724,7 +4724,7 @@ local imgui_lect = imgui.OnFrame(
 		end
 		imgui.PopStyleColor(3)
 		imgui.Separator()
-		if imgui.RadioButtonIntPtr(u8('Р§Р°С‚'), lectionsettings.lection_type, 1) then
+		if imgui.RadioButtonIntPtr(u8('Чат'), lectionsettings.lection_type, 1) then
 			configuration.main_settings.lection_type = lectionsettings.lection_type[0]
 			inicfg.save(configuration,'AS Helper')
 		end
@@ -4746,28 +4746,28 @@ local imgui_lect = imgui.OnFrame(
 		imgui.SameLine()
 		imgui.SetCursorPosX(245)
 		imgui.PushItemWidth(50)
-		if imgui.DragInt('##lectionsettings.lection_delay', lectionsettings.lection_delay, 0.1, 1, 30, u8('%d СЃ.')) then
+		if imgui.DragInt('##lectionsettings.lection_delay', lectionsettings.lection_delay, 0.1, 1, 30, u8('%d с.')) then
 			if lectionsettings.lection_delay[0] < 1 then lectionsettings.lection_delay[0] = 1 end
 			if lectionsettings.lection_delay[0] > 30 then lectionsettings.lection_delay[0] = 30 end
 			configuration.main_settings.lection_delay = lectionsettings.lection_delay[0]
 			inicfg.save(configuration,'AS Helper')
 			end
-		imgui.Hint('lectiondelay','Р—Р°РґРµСЂР¶РєР° РјРµР¶РґСѓ СЃРѕРѕР±С‰РµРЅРёСЏРјРё')
+		imgui.Hint('lectiondelay','Задержка между сообщениями')
 		imgui.PopItemWidth()
 		imgui.SameLine()
 		imgui.SetCursorPosX(307)
-		if imgui.Button(u8'РЎРѕР·РґР°С‚СЊ РЅРѕРІСѓСЋ '..fa.ICON_FA_PLUS_CIRCLE, imgui.ImVec2(112, 24)) then
+		if imgui.Button(u8'Создать новую '..fa.ICON_FA_PLUS_CIRCLE, imgui.ImVec2(112, 24)) then
 			lection_number = nil
 			imgui.StrCopy(lectionsettings.lection_name, '')
 			imgui.StrCopy(lectionsettings.lection_text, '')
-			imgui.OpenPopup(u8('Р РµРґР°РєС‚РѕСЂ Р»РµРєС†РёР№'))
+			imgui.OpenPopup(u8('Редактор лекций'))
 		end
 		imgui.Separator()
 		if #lections.data == 0 then
 			imgui.SetCursorPosY(120)
-			imgui.TextColoredRGB('РЈ Р’Р°СЃ РЅРµС‚ РЅРё РѕРґРЅРѕР№ Р»РµРєС†РёРё.',1)
+			imgui.TextColoredRGB('У Вас нет ни одной лекции.',1)
 			imgui.SetCursorPosX((imgui.GetWindowWidth() - 250) * 0.5)
-			if imgui.Button(u8'Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ РёР·РЅР°С‡Р°Р»СЊРЅС‹Рµ Р»РµРєС†РёРё', imgui.ImVec2(250, 25)) then
+			if imgui.Button(u8'Восстановить изначальные лекции', imgui.ImVec2(250, 25)) then
 				local function copy(obj, seen)
 					if type(obj) ~= 'table' then return obj end
 					if seen and seen[obj] then return seen[obj] end
@@ -4841,7 +4841,7 @@ local imgui_lect = imgui.OnFrame(
 						lection_number = i
 						imgui.StrCopy(lectionsettings.lection_name, u8(tostring(lections.data[i].name)))
 						imgui.StrCopy(lectionsettings.lection_text, u8(tostring(table.concat(lections.data[i].text, '\n'))))
-						imgui.OpenPopup(u8'Р РµРґР°РєС‚РѕСЂ Р»РµРєС†РёР№')
+						imgui.OpenPopup(u8'Редактор лекций')
 					end
 					imgui.SameLine()
 					if imgui.Button(fa.ICON_FA_TRASH..'##'..u8(lections.data[i].name), imgui.ImVec2(50, 25)) then
@@ -4852,9 +4852,9 @@ local imgui_lect = imgui.OnFrame(
 			end
 		end
 		if imgui.BeginPopup('##delete') then
-			imgui.TextColoredRGB('Р’С‹ СѓРІРµСЂРµРЅС‹, С‡С‚Рѕ С…РѕС‚РёС‚Рµ СѓРґР°Р»РёС‚СЊ Р»РµРєС†РёСЋ \n\''..(lections.data[lection_number].name)..'\'',1)
+			imgui.TextColoredRGB('Вы уверены, что хотите удалить лекцию \n\''..(lections.data[lection_number].name)..'\'',1)
 			imgui.SetCursorPosX( (imgui.GetWindowWidth() - 100 - imgui.GetStyle().ItemSpacing.x) * 0.5 )
-			if imgui.Button(u8'Р”Р°',imgui.ImVec2(50,25)) then
+			if imgui.Button(u8'Да',imgui.ImVec2(50,25)) then
 				imgui.CloseCurrentPopup()
 				table.remove(lections.data, lection_number)
 				local file = io.open(getWorkingDirectory()..'\\AS Helper\\Lections.json', 'w')
@@ -4862,18 +4862,18 @@ local imgui_lect = imgui.OnFrame(
 				file:close()
 			end
 			imgui.SameLine()
-			if imgui.Button(u8'РќРµС‚',imgui.ImVec2(50,25)) then
+			if imgui.Button(u8'Нет',imgui.ImVec2(50,25)) then
 				imgui.CloseCurrentPopup()
 			end
 			imgui.EndPopup()
 		end
-		if imgui.BeginPopupModal(u8'Р РµРґР°РєС‚РѕСЂ Р»РµРєС†РёР№', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
-			imgui.InputTextWithHint('##lecteditor', u8'РќР°Р·РІР°РЅРёРµ Р»РµРєС†РёРё', lectionsettings.lection_name, sizeof(lectionsettings.lection_name))
-			imgui.Text(u8'РўРµРєСЃС‚ Р»РµРєС†РёРё: ')
+		if imgui.BeginPopupModal(u8'Редактор лекций', _, imgui.WindowFlags.NoCollapse + imgui.WindowFlags.AlwaysAutoResize) then
+			imgui.InputTextWithHint('##lecteditor', u8'Название лекции', lectionsettings.lection_name, sizeof(lectionsettings.lection_name))
+			imgui.Text(u8'Текст лекции: ')
 			imgui.InputTextMultiline('##lecteditortext', lectionsettings.lection_text, sizeof(lectionsettings.lection_text), imgui.ImVec2(700, 300))
 			imgui.SetCursorPosX(209)
 			if #str(lectionsettings.lection_name) > 0 and #str(lectionsettings.lection_text) > 0 then
-				if imgui.Button(u8'РЎРѕС…СЂР°РЅРёС‚СЊ##lecteditor', imgui.ImVec2(150, 25)) then
+				if imgui.Button(u8'Сохранить##lecteditor', imgui.ImVec2(150, 25)) then
 					local pack = function(text, match)
 						local array = {}
 						for line in gmatch(text, '[^'..match..']+') do
@@ -4896,11 +4896,11 @@ local imgui_lect = imgui.OnFrame(
 					imgui.CloseCurrentPopup()
 				end
 			else
-				imgui.LockedButton(u8'РЎРѕС…СЂР°РЅРёС‚СЊ##lecteditor', imgui.ImVec2(150, 25))
-				imgui.Hint('notallparamslecteditor','Р’С‹ РІРІРµР»Рё РЅРµ РІСЃРµ РїР°СЂР°РјРµС‚СЂС‹. РџРµСЂРµРїСЂРѕРІРµСЂСЊС‚Рµ РІСЃС‘.')
+				imgui.LockedButton(u8'Сохранить##lecteditor', imgui.ImVec2(150, 25))
+				imgui.Hint('notallparamslecteditor','Вы ввели не все параметры. Перепроверьте всё.')
 			end
 			imgui.SameLine()
-			if imgui.Button(u8'РћС‚РјРµРЅРёС‚СЊ##lecteditor', imgui.ImVec2(150, 25)) then imgui.CloseCurrentPopup() end
+			if imgui.Button(u8'Отменить##lecteditor', imgui.ImVec2(150, 25)) then imgui.CloseCurrentPopup() end
 			imgui.Spacing()
 			imgui.EndPopup()
 		end
@@ -4921,15 +4921,15 @@ local imgui_depart = imgui.OnFrame(
 		imgui.PushStyleColor(imgui.Col.ButtonActive, imgui.ImVec4(1,1,1,0))
 		imgui.SameLine(622)
 		imgui.Button(fa.ICON_FA_INFO_CIRCLE,imgui.ImVec2(23,23))
-		imgui.Hint('waitwaitwait!!!','РџРѕРєР° С‡С‚Рѕ СЌС‚Рѕ РѕРєРЅРѕ С„СѓРЅРєС†РёРѕРЅРёСЂСѓРµС‚ РєР°Рє РґРѕР»Р¶РЅРѕ РЅРµ РЅР° РІСЃРµС… СЃРµСЂРІРµСЂР°С…\nР’ Р±СѓРґСѓС‰РёС… РѕР±РЅРѕРІР»РµРЅРёСЏС… Р±СѓРґСѓС‚ РґРѕСЃС‚СѓРїРЅС‹ Р±РѕР»РµРµ РґРµС‚Р°Р»СЊРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё')
+		imgui.Hint('waitwaitwait!!!','Пока что это окно функционирует как должно не на всех серверах\nВ будущих обновлениях будут доступны более детальные настройки')
 		imgui.SameLine(645)
 		if imgui.Button(fa.ICON_FA_MINUS_SQUARE,imgui.ImVec2(23,23)) then
 			if #dephistory ~= 0 then
 				dephistory = {}
-				ASHelperMessage('РСЃС‚РѕСЂРёСЏ СЃРѕРѕР±С‰РµРЅРёР№ СѓСЃРїРµС€РЅРѕ РѕС‡РёС‰РµРЅР°.')
+				ASHelperMessage('История сообщений успешно очищена.')
 			end
 		end
-		imgui.Hint('clearmessagehistory','РћС‡РёСЃС‚РёС‚СЊ РёСЃС‚РѕСЂРёСЋ СЃРѕРѕР±С‰РµРЅРёР№')
+		imgui.Hint('clearmessagehistory','Очистить историю сообщений')
 		imgui.SameLine(668)
 		if imgui.Button(fa.ICON_FA_TIMES,imgui.ImVec2(23,23)) then
 			windows.imgui_depart[0] = false
@@ -4938,54 +4938,54 @@ local imgui_depart = imgui.OnFrame(
 
 		imgui.BeginChild('##depbuttons',imgui.ImVec2(180,300),true, imgui.WindowFlags.NoScrollbar + imgui.WindowFlags.NoScrollWithMouse)
 			imgui.PushItemWidth(150)
-			imgui.TextColoredRGB('РўСЌРі РІР°С€РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё {FF2525}*',1)
-			if imgui.InputTextWithHint('##myorgnamedep',u8('РђРІС‚РѕС€РєРѕР»Р°'),departsettings.myorgname, sizeof(departsettings.myorgname)) then
+			imgui.TextColoredRGB('Тэг вашей организации {FF2525}*',1)
+			if imgui.InputTextWithHint('##myorgnamedep',u8('Автошкола'),departsettings.myorgname, sizeof(departsettings.myorgname)) then
 				configuration.main_settings.astag = u8:decode(str(departsettings.myorgname))
 			end
-			imgui.TextColoredRGB('РўСЌРі СЃ РєРµРј СЃРІСЏР·С‹РІР°РµС‚РµСЃСЊ {FF2525}*',1)
-			imgui.InputTextWithHint('##toorgnamedep',u8('Р‘Р°РЅРє'),departsettings.toorgname, sizeof(departsettings.toorgname))
-			imgui.TextColoredRGB('Р§Р°СЃС‚РѕС‚Р° СЃРѕРµРґРµРЅРµРЅРёСЏ',1)
+			imgui.TextColoredRGB('Тэг с кем связываетесь {FF2525}*',1)
+			imgui.InputTextWithHint('##toorgnamedep',u8('Банк'),departsettings.toorgname, sizeof(departsettings.toorgname))
+			imgui.TextColoredRGB('Частота соеденения',1)
 			imgui.InputTextWithHint('##frequencydep','100,3',departsettings.frequency, sizeof(departsettings.frequency))
 			imgui.PopItemWidth()
 			imgui.NewLine()
 
-			if imgui.Button(u8'РџРµСЂРµР№С‚Рё РЅР° С‡Р°СЃС‚РѕС‚Сѓ',imgui.ImVec2(150,25)) then
+			if imgui.Button(u8'Перейти на частоту',imgui.ImVec2(150,25)) then
 				if #str(departsettings.frequency) > 0 and #str(departsettings.myorgname) > 0 then
 					sendchatarray(2000, {
-						{'/r РџРµСЂРµС…РѕР¶Сѓ РЅР° С‡Р°СЃС‚РѕС‚Сѓ %s', gsub(u8:decode(str(departsettings.frequency)), '%.',',')},
-						{'/d [%s] - [РРЅС„РѕСЂРјР°С†РёСЏ] РџРµСЂРµС€С‘Р» РЅР° С‡Р°СЃС‚РѕС‚Сѓ %s', u8:decode(str(departsettings.myorgname)), gsub(u8:decode(str(departsettings.frequency)), '%.',',')}
+						{'/r Перехожу на частоту %s', gsub(u8:decode(str(departsettings.frequency)), '%.',',')},
+						{'/d [%s] - [Информация] Перешёл на частоту %s', u8:decode(str(departsettings.myorgname)), gsub(u8:decode(str(departsettings.frequency)), '%.',',')}
 					})
 				else
-					ASHelperMessage('РЈ Р’Р°СЃ С‡С‚Рѕ-С‚Рѕ РЅРµ СѓРєР°Р·Р°РЅРѕ.')
+					ASHelperMessage('У Вас что-то не указано.')
 				end
 			end
-			imgui.Hint('/r hint depart',format('/r РџРµСЂРµС…РѕР¶Сѓ РЅР° С‡Р°СЃС‚РѕС‚Сѓ %s\n/d [%s] - [РРЅС„РѕСЂРјР°С†РёСЏ] РџРµСЂРµС€С‘Р» РЅР° С‡Р°СЃС‚РѕС‚Сѓ %s', gsub(u8:decode(str(departsettings.frequency)), '%.',','),u8:decode(str(departsettings.myorgname)), gsub(u8:decode(str(departsettings.frequency)), '%.',',')))
+			imgui.Hint('/r hint depart',format('/r Перехожу на частоту %s\n/d [%s] - [Информация] Перешёл на частоту %s', gsub(u8:decode(str(departsettings.frequency)), '%.',','),u8:decode(str(departsettings.myorgname)), gsub(u8:decode(str(departsettings.frequency)), '%.',',')))
 
-			if imgui.Button(u8'РџРѕРєРёРЅСѓС‚СЊ С‡Р°СЃС‚РѕС‚Сѓ',imgui.ImVec2(150,25)) then
+			if imgui.Button(u8'Покинуть частоту',imgui.ImVec2(150,25)) then
 				if #str(departsettings.frequency) > 0 and #str(departsettings.myorgname) > 0 then
-					sampSendChat('/d ['..u8:decode(str(departsettings.myorgname))..'] - [РРЅС„РѕСЂРјР°С†РёСЏ] РџРѕРєРёРґР°СЋ С‡Р°СЃС‚РѕС‚Сѓ '..gsub(u8:decode(str(departsettings.frequency)), '%.',','))
+					sampSendChat('/d ['..u8:decode(str(departsettings.myorgname))..'] - [Информация] Покидаю частоту '..gsub(u8:decode(str(departsettings.frequency)), '%.',','))
 				else
-					ASHelperMessage('РЈ Р’Р°СЃ С‡С‚Рѕ-С‚Рѕ РЅРµ СѓРєР°Р·Р°РЅРѕ.')
+					ASHelperMessage('У Вас что-то не указано.')
 				end
 			end
-			imgui.Hint('/d hint depart','/d ['..u8:decode(str(departsettings.myorgname))..'] - [РРЅС„РѕСЂРјР°С†РёСЏ] РџРѕРєРёРґР°СЋ С‡Р°СЃС‚РѕС‚Сѓ '..gsub(u8:decode(str(departsettings.frequency)), '%.',','))
+			imgui.Hint('/d hint depart','/d ['..u8:decode(str(departsettings.myorgname))..'] - [Информация] Покидаю частоту '..gsub(u8:decode(str(departsettings.frequency)), '%.',','))
 
-			if imgui.Button(u8'РўРµС…. РќРµРїРѕР»Р°РґРєРё',imgui.ImVec2(150,25)) then
+			if imgui.Button(u8'Тех. Неполадки',imgui.ImVec2(150,25)) then
 				if #str(departsettings.myorgname) > 0 then
-					sampSendChat('/d ['..u8:decode(str(departsettings.myorgname))..'] - [РРЅС„РѕСЂРјР°С†РёСЏ] РўРµС…. РќРµРїРѕР»Р°РґРєРё')
+					sampSendChat('/d ['..u8:decode(str(departsettings.myorgname))..'] - [Информация] Тех. Неполадки')
 				else
-					ASHelperMessage('РЈ Р’Р°СЃ С‡С‚Рѕ-С‚Рѕ РЅРµ СѓРєР°Р·Р°РЅРѕ.')
+					ASHelperMessage('У Вас что-то не указано.')
 				end
 			end
-			imgui.Hint('teh hint depart','/d ['..u8:decode(str(departsettings.myorgname))..'] - [РРЅС„РѕСЂРјР°С†РёСЏ] РўРµС…. РќРµРїРѕР»Р°РґРєРё')
+			imgui.Hint('teh hint depart','/d ['..u8:decode(str(departsettings.myorgname))..'] - [Информация] Тех. Неполадки')
 		imgui.EndChild()
 
 		imgui.SameLine()
 
 		imgui.BeginChild('##deptext',imgui.ImVec2(480,265),true,imgui.WindowFlags.NoScrollbar)
 			imgui.SetScrollY(imgui.GetScrollMaxY())
-			imgui.TextColoredRGB('РСЃС‚РѕСЂРёСЏ СЃРѕРѕР±С‰РµРЅРёР№ РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° {808080}(?)',1)
-			imgui.Hint('mytagfind depart','Р•СЃР»Рё РІ С‡Р°С‚Рµ РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° Р±СѓРґРµС‚ С‚СЌРі \''..u8:decode(str(departsettings.myorgname))..'\'\nРІ СЌС‚РѕС‚ СЃРїРёСЃРѕРє РґРѕР±Р°РІРёС‚СЃСЏ СЌС‚Рѕ СЃРѕРѕР±С‰РµРЅРёРµ')
+			imgui.TextColoredRGB('История сообщений департамента {808080}(?)',1)
+			imgui.Hint('mytagfind depart','Если в чате департамента будет тэг \''..u8:decode(str(departsettings.myorgname))..'\'\nв этот список добавится это сообщение')
 			imgui.Separator()
 			for k,v in pairs(dephistory) do
 				imgui.TextWrapped(u8(v))
@@ -4993,10 +4993,10 @@ local imgui_depart = imgui.OnFrame(
 		imgui.EndChild()
 		imgui.SetCursorPos(imgui.ImVec2(207,323))
 		imgui.PushItemWidth(368)
-		imgui.InputTextWithHint('##myorgtextdep', u8'РќР°РїРёС€РёС‚Рµ СЃРѕРѕР±С‰РµРЅРёРµ', departsettings.myorgtext, sizeof(departsettings.myorgtext))
+		imgui.InputTextWithHint('##myorgtextdep', u8'Напишите сообщение', departsettings.myorgtext, sizeof(departsettings.myorgtext))
 		imgui.PopItemWidth()
 		imgui.SameLine()
-		if imgui.Button(u8'РћС‚РїСЂР°РІРёС‚СЊ',imgui.ImVec2(100,24)) then
+		if imgui.Button(u8'Отправить',imgui.ImVec2(100,24)) then
 			if #str(departsettings.myorgname) > 0 and #str(departsettings.toorgname) > 0 and #str(departsettings.myorgtext) > 0 then
 				if #str(departsettings.frequency) > 0 then
 					sampSendChat(format('/d [%s] - %s - [%s] %s', u8:decode(str(departsettings.myorgname)), gsub(u8:decode(str(departsettings.frequency)), '%.',','),u8:decode(str(departsettings.toorgname)),u8:decode(str(departsettings.myorgtext))))
@@ -5005,7 +5005,7 @@ local imgui_depart = imgui.OnFrame(
 				end
 				imgui.StrCopy(departsettings.myorgtext, '')
 			else
-				ASHelperMessage('РЈ Р’Р°СЃ С‡С‚Рѕ-С‚Рѕ РЅРµ СѓРєР°Р·Р°РЅРѕ.')
+				ASHelperMessage('У Вас что-то не указано.')
 			end
 		end
 		imgui.End()
@@ -5038,7 +5038,7 @@ local imgui_changelog = imgui.OnFrame(
 				imgui.BeginGroup()
 					for i = #changelog.versions, 1 , -1 do
 						imgui.PushFont(font[25])
-						imgui.Text(u8('Р’РµСЂСЃРёСЏ: '..changelog.versions[i].version..' | '..changelog.versions[i].date))
+						imgui.Text(u8('Версия: '..changelog.versions[i].version..' | '..changelog.versions[i].date))
 						imgui.PopFont()
 						imgui.PushFont(font[16])
 						for _,line in pairs(changelog.versions[i].text) do
@@ -5048,7 +5048,7 @@ local imgui_changelog = imgui.OnFrame(
 						if changelog.versions[i].patches then
 							imgui.Spacing()
 							imgui.PushFont(font[16])
-							imgui.TextColoredRGB('{25a5db}РСЃРїСЂР°РІР»РµРЅРёСЏ '..(changelog.versions[i].patches.active and '<<' or '>>'))
+							imgui.TextColoredRGB('{25a5db}Исправления '..(changelog.versions[i].patches.active and '<<' or '>>'))
 							imgui.PopFont()
 							if imgui.IsItemHovered() and imgui.IsMouseReleased(0) then
 								changelog.versions[i].patches.active = not changelog.versions[i].patches.active
@@ -5073,15 +5073,15 @@ local imgui_stats = imgui.OnFrame(
 		player.HideCursor = true
 		imgui.SetNextWindowSize(imgui.ImVec2(150, 190), imgui.Cond.FirstUseEver)
 		imgui.SetNextWindowPos(imgui.ImVec2(configuration.imgui_pos.posX,configuration.imgui_pos.posY),imgui.Cond.Always)
-		imgui.Begin(u8'РЎС‚Р°С‚РёСЃС‚РёРєР°  ##stats',_,imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoTitleBar)
-		imgui.Text(fa.ICON_FA_CAR..u8' РђРІС‚Рѕ - '..configuration.my_stats.avto)
-		imgui.Text(fa.ICON_FA_MOTORCYCLE..u8' РњРѕС‚Рѕ - '..configuration.my_stats.moto)
-		imgui.Text(fa.ICON_FA_FISH..u8' Р С‹Р±РѕР»РѕРІСЃС‚РІРѕ - '..configuration.my_stats.riba)
-		imgui.Text(fa.ICON_FA_SHIP..u8' РџР»Р°РІР°РЅРёРµ - '..configuration.my_stats.lodka)
-		imgui.Text(fa.ICON_FA_CROSSHAIRS..u8' РћСЂСѓР¶РёРµ - '..configuration.my_stats.guns)
-		imgui.Text(fa.ICON_FA_SKULL_CROSSBONES..u8' РћС…РѕС‚Р° - '..configuration.my_stats.hunt)
-		imgui.Text(fa.ICON_FA_DIGGING..u8' Р Р°СЃРєРѕРїРєРё - '..configuration.my_stats.klad)
-		imgui.Text(fa.ICON_FA_TAXI..u8' РўР°РєСЃРё - '..configuration.my_stats.taxi)
+		imgui.Begin(u8'Статистика  ##stats',_,imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoBringToFrontOnFocus + imgui.WindowFlags.NoResize + imgui.WindowFlags.NoTitleBar)
+		imgui.Text(fa.ICON_FA_CAR..u8' Авто - '..configuration.my_stats.avto)
+		imgui.Text(fa.ICON_FA_MOTORCYCLE..u8' Мото - '..configuration.my_stats.moto)
+		imgui.Text(fa.ICON_FA_FISH..u8' Рыболовство - '..configuration.my_stats.riba)
+		imgui.Text(fa.ICON_FA_SHIP..u8' Плавание - '..configuration.my_stats.lodka)
+		imgui.Text(fa.ICON_FA_CROSSHAIRS..u8' Оружие - '..configuration.my_stats.guns)
+		imgui.Text(fa.ICON_FA_SKULL_CROSSBONES..u8' Охота - '..configuration.my_stats.hunt)
+		imgui.Text(fa.ICON_FA_DIGGING..u8' Раскопки - '..configuration.my_stats.klad)
+		imgui.Text(fa.ICON_FA_TAXI..u8' Такси - '..configuration.my_stats.taxi)
 		imgui.End()
 	end
 )
@@ -5162,12 +5162,12 @@ local imgui_fmstylechoose = imgui.OnFrame(
 		player.HideCursor = isKeyDown(0x12)
 		imgui.SetNextWindowSize(imgui.ImVec2(350, 225), imgui.Cond.FirstUseEver)
 		imgui.SetNextWindowPos(imgui.ImVec2(ScreenSizeX * 0.5 , ScreenSizeY * 0.5),imgui.Cond.FirstUseEver, imgui.ImVec2(0.5, 0.5))
-		imgui.Begin(u8'РЎС‚РёР»СЊ РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°##fastmenuchoosestyle', _, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar)
-			imgui.TextWrapped(u8('Р’ СЃРІСЏР·Рё СЃ РґРѕР±Р°РІР»РµРЅРёРµРј РЅРѕРІРѕРіРѕ СЃС‚РёР»СЏ РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°, РјС‹ РґР°С‘Рј Р’Р°Рј РІС‹Р±СЂР°С‚СЊ РєР°РєРѕР№ СЃС‚РёР»СЊ Р’С‹ РїСЂРµРґРїРѕС‡С‚С‘С‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ. Р’С‹ РІСЃРµРіРґР° СЃРјРѕР¶РµС‚Рµ РёР·РјРµРЅРёС‚СЊ РµРіРѕ РІ /ash.\n\nР”Р»СЏ РїСЂРµРґРїСЂРѕСЃРјРѕС‚СЂР° РЅСѓР¶РЅРѕ РЅР°РІРµСЃС‚Рё РЅР° РѕРґРЅСѓ РёР· РєРЅРѕРїРѕРє!'))
+		imgui.Begin(u8'Стиль меню быстрого доступа##fastmenuchoosestyle', _, imgui.WindowFlags.NoResize + imgui.WindowFlags.NoCollapse + imgui.WindowFlags.NoScrollbar)
+			imgui.TextWrapped(u8('В связи с добавлением нового стиля меню быстрого доступа, мы даём Вам выбрать какой стиль Вы предпочтёте использовать. Вы всегда сможете изменить его в /ash.\n\nДля предпросмотра нужно навести на одну из кнопок!'))
 			imgui.Spacing()
 			imgui.Columns(2, _, false)
 			imgui.SetCursorPosX(52.5)
-			imgui.Text(u8('РќРѕРІС‹Р№ СЃС‚РёР»СЊ'))
+			imgui.Text(u8('Новый стиль'))
 			imgui.SetCursorPosX(72.5)
 			if imgui.RadioButtonIntPtr(u8('##newstylechoose'), usersettings.fmstyle, 1) then
 				configuration.main_settings.fmstyle = usersettings.fmstyle[0]
@@ -5197,7 +5197,7 @@ local imgui_fmstylechoose = imgui.OnFrame(
 			end
 			imgui.NextColumn()
 			imgui.SetCursorPosX(220)
-			imgui.Text(u8('РЎС‚Р°СЂС‹Р№ СЃС‚РёР»СЊ'))
+			imgui.Text(u8('Старый стиль'))
 			imgui.SetCursorPosX(245)
 			if imgui.RadioButtonIntPtr(u8('##oldstylechoose'), usersettings.fmstyle, 0) then
 				configuration.main_settings.fmstyle = usersettings.fmstyle[0]
@@ -5218,7 +5218,7 @@ local imgui_fmstylechoose = imgui.OnFrame(
 			imgui.Columns(1)
 			if configuration.main_settings.fmstyle ~= nil then
 				imgui.SetCursorPosX(125)
-				if imgui.Button(u8('РџСЂРѕРґРѕР»Р¶РёС‚СЊ'), imgui.ImVec2(100, 23)) then
+				if imgui.Button(u8('Продолжить'), imgui.ImVec2(100, 23)) then
 					windows.imgui_fmstylechoose[0] = false
 				end
 			end
@@ -5267,7 +5267,7 @@ function updatechatcommands()
 						inprocess = nil
 					end)
 				else
-					ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+					ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 				end
 			end)
 		end
@@ -5290,14 +5290,14 @@ end
 function sampev.onShowDialog(dialogId, style, title, button1, button2, text)
 	if dialogId == 6 and givelic then
 		local d = {
-			['Р°РІС‚Рѕ'] = 0,
-			['РјРѕС‚Рѕ'] = 1,
-			['СЂС‹Р±РѕР»РѕРІСЃС‚РІРѕ'] = 3,
-			['РїР»Р°РІР°РЅРёРµ'] = 4,
-			['РѕСЂСѓР¶РёРµ'] = 5,
-			['РѕС…РѕС‚Сѓ'] = 6,
-			['СЂР°СЃРєРѕРїРєРё'] = 7,
-			['С‚Р°РєСЃРё'] = 8,
+			['авто'] = 0,
+			['мото'] = 1,
+			['рыболовство'] = 3,
+			['плавание'] = 4,
+			['оружие'] = 5,
+			['охоту'] = 6,
+			['раскопки'] = 7,
+			['такси'] = 8,
 		}
 		sampSendDialogResponse(6, 1, d[lictype], nil)
 		lua_thread.create(function()
@@ -5309,17 +5309,17 @@ function sampev.onShowDialog(dialogId, style, title, button1, button2, text)
 		return false
 
 	elseif dialogId == 235 and getmyrank then
-		if find(text, 'РРЅСЃС‚СЂСѓРєС‚РѕСЂС‹') then
+		if find(text, 'Инструкторы') then
 			for DialogLine in gmatch(text, '[^\r\n]+') do
-				local nameRankStats, getStatsRank = DialogLine:match('Р”РѕР»Р¶РЅРѕСЃС‚СЊ: {B83434}(.+)%p(%d+)%p')
+				local nameRankStats, getStatsRank = DialogLine:match('Должность: {B83434}(.+)%p(%d+)%p')
 				if tonumber(getStatsRank) then
 					local rangint = tonumber(getStatsRank)
 					local rang = nameRankStats
 					if rangint ~= configuration.main_settings.myrankint then
-						ASHelperMessage(format('Р’Р°С€ СЂР°РЅРі Р±С‹Р» РѕР±РЅРѕРІР»С‘РЅ РЅР° %s (%s)',rang,rangint))
+						ASHelperMessage(format('Ваш ранг был обновлён на %s (%s)',rang,rangint))
 					end
 					if configuration.RankNames[rangint] ~= rang then
-						ASHelperMessage(format('РќР°Р·РІР°РЅРёРµ {MC}%s{WC} СЂР°РЅРіР° РёР·РјРµРЅРµРЅРѕ СЃ {MC}%s{WC} РЅР° {MC}%s{WC}', rangint, configuration.RankNames[rangint], rang))
+						ASHelperMessage(format('Название {MC}%s{WC} ранга изменено с {MC}%s{WC} на {MC}%s{WC}', rangint, configuration.RankNames[rangint], rang))
 					end
 					configuration.RankNames[rangint] = rang
 					configuration.main_settings.myrankint = rangint
@@ -5327,8 +5327,8 @@ function sampev.onShowDialog(dialogId, style, title, button1, button2, text)
 				end
 			end
 		else
-			print('{FF0000}РРіСЂРѕРє РЅРµ СЂР°Р±РѕС‚Р°РµС‚ РІ Р°РІС‚РѕС€РєРѕР»Рµ. РЎРєСЂРёРїС‚ Р±С‹Р» РІС‹РіСЂСѓР¶РµРЅ.')
-			ASHelperMessage('Р’С‹ РЅРµ СЂР°Р±РѕС‚Р°РµС‚Рµ РІ Р°РІС‚РѕС€РєРѕР»Рµ, СЃРєСЂРёРїС‚ РІС‹РіСЂСѓР¶РµРЅ! Р•СЃР»Рё СЌС‚Рѕ РѕС€РёР±РєР°, С‚Рѕ РѕР±СЂР°С‚РёС‚РµСЃСЊ Рє {MC}vk.com/justmini{WC}.')
+			print('{FF0000}Игрок не работает в автошколе. Скрипт был выгружен.')
+			ASHelperMessage('Вы не работаете в автошколе, скрипт выгружен! Если это ошибка, то обратитесь к {MC}vk.com/justmini{WC}.')
 			NoErrors = true
 			thisScript():unload()
 		end
@@ -5337,112 +5337,112 @@ function sampev.onShowDialog(dialogId, style, title, button1, button2, text)
 		return false
 
 	elseif dialogId == 1234 then
-		if find(text, 'РЎСЂРѕРє РґРµР№СЃС‚РІРёСЏ') then
+		if find(text, 'Срок действия') then
 			if configuration.sobes_settings.medcard and sobes_results and not sobes_results.medcard then
-				if not find(text, 'РРјСЏ: '..sampGetPlayerNickname(fastmenuID)) then
+				if not find(text, 'Имя: '..sampGetPlayerNickname(fastmenuID)) then
 					return {dialogId, style, title, button1, button2, text}
 				end
-				if not find(text, 'РџРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№') then
-					sobes_results.medcard = ('РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№')
+				if not find(text, 'Полностью здоровый') then
+					sobes_results.medcard = ('не полностью здоровый')
 					return {dialogId, style, title, button1, button2, text}
 				end
 				for DialogLine in gmatch(text, '[^\r\n]+') do
-					local statusint = DialogLine:match('{CEAD2A}РќР°СЂРєРѕР·Р°РІРёСЃРёРјРѕСЃС‚СЊ: (%d+)')
+					local statusint = DialogLine:match('{CEAD2A}Наркозависимость: (%d+)')
 					if tonumber(statusint) and tonumber(statusint) > 5 then
-						sobes_results.medcard = ('РЅР°СЂРєРѕР·Р°РІРёСЃРёРјРѕСЃС‚СЊ')
+						sobes_results.medcard = ('наркозависимость')
 						return {dialogId, style, title, button1, button2, text}
 					end
 				end
-				sobes_results.medcard = ('РІ РїРѕСЂСЏРґРєРµ')
+				sobes_results.medcard = ('в порядке')
 			end
 			if skiporcancel then
-				if find(text, 'РРјСЏ: '..sampGetPlayerNickname(tempid)) then
+				if find(text, 'Имя: '..sampGetPlayerNickname(tempid)) then
 					if inprocess then
 						inprocess:terminate()
 						inprocess = nil
-						ASHelperMessage('РџСЂРѕС€Р»Р°СЏ РѕС‚С‹РіСЂРѕРІРєР° Р±С‹Р»Р° РїСЂРµСЂРІР°РЅР°, РёР·-Р·Р° РїРѕРєР°Р·Р° РјРµРґ. РєР°СЂС‚С‹.')
+						ASHelperMessage('Прошлая отыгровка была прервана, из-за показа мед. карты.')
 					end
-					if find(text, 'РџРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№') then
+					if find(text, 'Полностью здоровый') then
 						sendchatarray(configuration.main_settings.playcd, {
-							{'/me РІР·СЏРІ РјРµРґ.РєР°СЂС‚Сѓ РІ СЂСѓРєРё РЅР°С‡Р°Р» РµС‘ РїСЂРѕРІРµСЂСЏС‚СЊ'},
-							{'/do РњРµРґ.РєР°СЂС‚Р° РІ РЅРѕСЂРјРµ.'},
-							{'/todo Р’СЃС‘ РІ РїРѕСЂСЏРґРєРµ* РѕС‚РґР°РІР°СЏ РјРµРґ.РєР°СЂС‚Сѓ РѕР±СЂР°С‚РЅРѕ'},
-							{'/me {gender:РІР·СЏР»|РІР·СЏР»Р°} СЃРѕ СЃС‚РѕР»Р° Р±Р»Р°РЅРє Рё {gender:Р·Р°РїРѕР»РЅРёР»|Р·Р°РїРѕР»РЅРёР»Р°} СЂСѓС‡РєРѕР№ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё РЅР° %s', skiporcancel},
-							{'/do РЎРїСѓСЃС‚СЏ РЅРµРєРѕС‚РѕСЂРѕРµ РІСЂРµРјСЏ Р±Р»Р°РЅРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ Р»РёС†РµРЅР·РёРё Р±С‹Р» Р·Р°РїРѕР»РЅРµРЅ.'},
-							{'/me СЂР°СЃРїРµС‡Р°С‚Р°РІ Р»РёС†РµРЅР·РёСЋ РЅР° %s {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РµС‘ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ', skiporcancel},
+							{'/me взяв мед.карту в руки начал её проверять'},
+							{'/do Мед.карта в норме.'},
+							{'/todo Всё в порядке* отдавая мед.карту обратно'},
+							{'/me {gender:взял|взяла} со стола бланк и {gender:заполнил|заполнила} ручкой бланк на получение лицензии на %s', skiporcancel},
+							{'/do Спустя некоторое время бланк на получение лицензии был заполнен.'},
+							{'/me распечатав лицензию на %s {gender:передал|передала} её человеку напротив', skiporcancel},
 						}, function() lictype = skiporcancel sellto = tempid end, function() wait(1000) givelic = true skiporcancel = false sampSendChat(format('/givelicense %s', tempid)) end)
 					else
 						sendchatarray(configuration.main_settings.playcd, {
-							{'/me РІР·СЏРІ РјРµРґ.РєР°СЂС‚Сѓ РІ СЂСѓРєРё РЅР°С‡Р°Р» РµС‘ РїСЂРѕРІРµСЂСЏС‚СЊ'},
-							{'/do РњРµРґ.РєР°СЂС‚Р° РЅРµ РІ РЅРѕСЂРјРµ.'},
-							{'/todo Рљ СЃРѕР¶Р°Р»РµРЅРёСЋ, РІ РјРµРґ.РєР°СЂС‚Рµ РЅР°РїРёСЃР°РЅРѕ, С‡С‚Рѕ Сѓ Р’Р°СЃ РµСЃС‚СЊ РѕС‚РєР»РѕРЅРµРЅРёСЏ.* РѕС‚РґР°РІР°СЏ РјРµРґ.РєР°СЂС‚Сѓ РѕР±СЂР°С‚РЅРѕ'},
-							{'РћР±РЅРѕРІРёС‚Рµ РµС‘ Рё РїСЂРёС…РѕРґРёС‚Рµ СЃРЅРѕРІР°!'},
-						}, function() skiporcancel = false ASHelperMessage('Р§РµР»РѕРІРµРє РЅРµ РїРѕР»РЅРѕСЃС‚СЊСЋ Р·РґРѕСЂРѕРІС‹Р№, С‚СЂРµР±СѓРµС‚СЃСЏ РїРѕРјРµРЅСЏС‚СЊ РјРµРґ.РєР°СЂС‚Сѓ!') end)
+							{'/me взяв мед.карту в руки начал её проверять'},
+							{'/do Мед.карта не в норме.'},
+							{'/todo К сожалению, в мед.карте написано, что у Вас есть отклонения.* отдавая мед.карту обратно'},
+							{'Обновите её и приходите снова!'},
+						}, function() skiporcancel = false ASHelperMessage('Человек не полностью здоровый, требуется поменять мед.карту!') end)
 					end
 					sampSendDialogResponse(1234, 1, 1, nil)
 					return false
 				end
 			end
-		elseif find(text, 'РЎРµСЂРёСЏ') then
+		elseif find(text, 'Серия') then
 			if configuration.sobes_settings.pass and sobes_results and not sobes_results.pass then
-				if not find(text, 'РРјСЏ: {FFD700}'..sampGetPlayerNickname(fastmenuID)) then
+				if not find(text, 'Имя: {FFD700}'..sampGetPlayerNickname(fastmenuID)) then
 					return {dialogId, style, title, button1, button2, text}
 				end
-				if find(text, '{FFFFFF}РћСЂРіР°РЅРёР·Р°С†РёСЏ:') then
-					sobes_results.pass = ('РёРіСЂРѕРє РІ РѕСЂРіР°РЅРёР·Р°С†РёРё')
+				if find(text, '{FFFFFF}Организация:') then
+					sobes_results.pass = ('игрок в организации')
 					return {dialogId, style, title, button1, button2, text}
 				end
 				for DialogLine in gmatch(text, '[^\r\n]+') do
-					local passstatusint = DialogLine:match('{FFFFFF}Р›РµС‚ РІ С€С‚Р°С‚Рµ: {FFD700}(%d+)')
+					local passstatusint = DialogLine:match('{FFFFFF}Лет в штате: {FFD700}(%d+)')
 					if tonumber(passstatusint) and tonumber(passstatusint) < 3 then
-						sobes_results.pass = ('РјРµРЅСЊС€Рµ 3 Р»РµС‚ РІ С€С‚Р°С‚Рµ')
+						sobes_results.pass = ('меньше 3 лет в штате')
 						return {dialogId, style, title, button1, button2, text}
 					end
 				end
 				for DialogLine in gmatch(text, '[^\r\n]+') do
-					local zakonstatusint = DialogLine:match('{FFFFFF}Р—Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅРѕСЃС‚СЊ: {FFD700}(%d+)')
+					local zakonstatusint = DialogLine:match('{FFFFFF}Законопослушность: {FFD700}(%d+)')
 					if tonumber(zakonstatusint) and tonumber(zakonstatusint) < 35 then
-						sobes_results.pass = ('РЅРµ Р·Р°РєРѕРЅРѕРїРѕСЃР»СѓС€РЅС‹Р№')
+						sobes_results.pass = ('не законопослушный')
 						return {dialogId, style, title, button1, button2, text}
 					end
 				end
-				if find(text, 'Р›РµС‡РёР»СЃСЏ РІ РџСЃРёС…РёР°С‚СЂРёС‡РµСЃРєРѕР№ Р±РѕР»СЊРЅРёС†Рµ') then
-					sobes_results.pass = ('Р±С‹Р» РІ РґРµРјРѕСЂРіР°РЅРµ')
+				if find(text, 'Лечился в Психиатрической больнице') then
+					sobes_results.pass = ('был в деморгане')
 					return {dialogId, style, title, button1, button2, text}
 				end
-				if find(text, 'РЎРѕСЃС‚РѕРёС‚ РІ Р§РЎ{FF6200} РРЅСЃС‚СЂСѓРєС‚РѕСЂС‹') then
-					sobes_results.pass = ('РІ С‡СЃ Р°РІС‚РѕС€РєРѕР»С‹')
+				if find(text, 'Состоит в ЧС{FF6200} Инструкторы') then
+					sobes_results.pass = ('в чс автошколы')
 					return {dialogId, style, title, button1, button2, text}
 				end
 				if find(text, 'Warns') then
-					sobes_results.pass = ('РµСЃС‚СЊ РІР°СЂРЅС‹')
+					sobes_results.pass = ('есть варны')
 					return {dialogId, style, title, button1, button2, text}
 				end
-				sobes_results.pass = ('РІ РїРѕСЂСЏРґРєРµ')
+				sobes_results.pass = ('в порядке')
 			end
-		elseif find(title, 'Р›РёС†РµРЅР·РёРё') then
+		elseif find(title, 'Лицензии') then
 			if configuration.sobes_settings.licenses and sobes_results and not sobes_results.licenses then
 				for DialogLine in gmatch(text, '[^\r\n]+') do
-					if find(DialogLine, 'Р›РёС†РµРЅР·РёСЏ РЅР° Р°РІС‚Рѕ') then
-						if find(DialogLine, 'РќРµС‚') then
-							sobes_results.licenses = ('РЅРµС‚ РЅР° Р°РІС‚Рѕ')
+					if find(DialogLine, 'Лицензия на авто') then
+						if find(DialogLine, 'Нет') then
+							sobes_results.licenses = ('нет на авто')
 							return {dialogId, style, title, button1, button2, text}
 						end
 					end
-					if find(DialogLine, 'Р›РёС†РµРЅР·РёСЏ РЅР° РјРѕС‚Рѕ') then
-						if find(DialogLine, 'РќРµС‚') then
-							sobes_results.licenses = ('РЅРµС‚ РЅР° РјРѕС‚Рѕ')
+					if find(DialogLine, 'Лицензия на мото') then
+						if find(DialogLine, 'Нет') then
+							sobes_results.licenses = ('нет на мото')
 							return {dialogId, style, title, button1, button2, text}
 						end
 					end
 				end
-				sobes_results.licenses = ('РІ РїРѕСЂСЏРґРєРµ')
+				sobes_results.licenses = ('в порядке')
 				return {dialogId, style, title, button1, button2, text}
 			end
 		end
 	elseif dialogId == 0 then
-		if find(title, 'РўСЂСѓРґРѕРІР°СЏ РєРЅРёР¶РєР° '..sampGetPlayerNickname(fastmenuID)) then
-			sobes_results.wbook = ('РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚')
+		if find(title, 'Трудовая книжка '..sampGetPlayerNickname(fastmenuID)) then
+			sobes_results.wbook = ('присутствует')
 		end
 	end
 
@@ -5452,7 +5452,7 @@ function sampev.onShowDialog(dialogId, style, title, button1, button2, text)
 			if name and rank then
 				name, rank = tostring(name), tonumber(rank)
 				if configuration.RankNames[rank] ~= nil and configuration.RankNames[rank] ~= name then
-					ASHelperMessage(format('РќР°Р·РІР°РЅРёРµ {MC}%s{WC} СЂР°РЅРіР° РёР·РјРµРЅРµРЅРѕ СЃ {MC}%s{WC} РЅР° {MC}%s{WC}', rank, configuration.RankNames[rank], name))
+					ASHelperMessage(format('Название {MC}%s{WC} ранга изменено с {MC}%s{WC} на {MC}%s{WC}', rank, configuration.RankNames[rank], name))
 					configuration.RankNames[rank] = name
 					inicfg.save(configuration,'AS Helper')
 				end
@@ -5463,27 +5463,27 @@ end
 
 function sampev.onServerMessage(color, message)
 	if configuration.main_settings.replacechat then
-		if find(message, 'РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /jobprogress %[ ID РёРіСЂРѕРєР° %]') then
-			ASHelperMessage('Р’С‹ РїСЂРѕСЃРјРѕС‚СЂРµР»Рё СЃРІРѕСЋ СЂР°Р±РѕС‡СѓСЋ СѓСЃРїРµРІР°РµРјРѕСЃС‚СЊ.')
+		if find(message, 'Используйте: /jobprogress %[ ID игрока %]') then
+			ASHelperMessage('Вы просмотрели свою рабочую успеваемость.')
 			return false
 		end
-		if find(message, sampGetPlayerNickname(select(2, sampGetPlayerIdByCharHandle(playerPed)))..' РїРµСЂРµРѕРґРµРІР°РµС‚СЃСЏ РІ РіСЂР°Р¶РґР°РЅСЃРєСѓСЋ РѕРґРµР¶РґСѓ') then
-			ASHelperMessage('Р’С‹ Р·Р°РєРѕРЅС‡РёР»Рё СЂР°Р±РѕС‡РёР№ РґРµРЅСЊ, РїСЂРёСЏС‚РЅРѕРіРѕ РѕС‚РґС‹С…Р°!')
+		if find(message, sampGetPlayerNickname(select(2, sampGetPlayerIdByCharHandle(playerPed)))..' переодевается в гражданскую одежду') then
+			ASHelperMessage('Вы закончили рабочий день, приятного отдыха!')
 			return false
 		end
-		if find(message, sampGetPlayerNickname(select(2, sampGetPlayerIdByCharHandle(playerPed)))..' РїРµСЂРµРѕРґРµРІР°РµС‚СЃСЏ РІ СЂР°Р±РѕС‡СѓСЋ РѕРґРµР¶РґСѓ') then
-			ASHelperMessage('Р’С‹ РЅР°С‡Р°Р»Рё СЂР°Р±РѕС‡РёР№ РґРµРЅСЊ, СѓРґР°С‡РЅРѕР№ СЂР°Р±РѕС‚С‹!')
+		if find(message, sampGetPlayerNickname(select(2, sampGetPlayerIdByCharHandle(playerPed)))..' переодевается в рабочую одежду') then
+			ASHelperMessage('Вы начали рабочий день, удачной работы!')
 			return false
 		end
-		if find(message, '%[РРЅС„РѕСЂРјР°С†РёСЏ%] {FFFFFF}Р’С‹ РїРѕРєРёРЅСѓР»Рё РїРѕСЃС‚!') then
-			addNotify('Р’С‹ РїРѕРєРёРЅСѓР»Рё РїРѕСЃС‚.', 5)
+		if find(message, '%[Информация%] {FFFFFF}Вы покинули пост!') then
+			addNotify('Вы покинули пост.', 5)
 			return false
 		end
 	end
-	if (find(message, '%[РРЅС„РѕСЂРјР°С†РёСЏ%] {FFFFFF}Р’С‹ РїСЂРµРґР»РѕР¶РёР»Рё (.+) РєСѓРїРёС‚СЊ Р»РёС†РµРЅР·РёСЋ (.+)') or find(message, 'Р’С‹ РґР°Р»РµРєРѕ РѕС‚ РёРіСЂРѕРєР°')) and givelic then
+	if (find(message, '%[Информация%] {FFFFFF}Вы предложили (.+) купить лицензию (.+)') or find(message, 'Вы далеко от игрока')) and givelic then
 		givelic = false
 	end
-	if message == ('РСЃРїРѕР»СЊР·СѓР№С‚Рµ: /jobprogress(Р‘РµР· РїР°СЂР°РјРµС‚СЂР°)') and color == -1104335361 then
+	if message == ('Используйте: /jobprogress(Без параметра)') and color == -1104335361 then
 		sampSendChat('/jobprogress')
 		return false
 	end
@@ -5501,39 +5501,39 @@ function sampev.onServerMessage(color, message)
 		local r,g,b,a = color.x*255, color.y*255, color.z*255, color.w*255
 		return { join_argb(r, g, b, a), message }
 	end
-	if find(message, '%[РРЅС„РѕСЂРјР°С†РёСЏ%] {FFFFFF}Р’С‹ СѓСЃРїРµС€РЅРѕ РїСЂРѕРґР°Р»Рё Р»РёС†РµРЅР·РёСЋ') then
-		local typeddd, toddd = message:match('%[РРЅС„РѕСЂРјР°С†РёСЏ%] {FFFFFF}Р’С‹ СѓСЃРїРµС€РЅРѕ РїСЂРѕРґР°Р»Рё Р»РёС†РµРЅР·РёСЋ (.+) РёРіСЂРѕРєСѓ (.+).')
-		if typeddd == 'РЅР° Р°РІС‚Рѕ' then
+	if find(message, '%[Информация%] {FFFFFF}Вы успешно продали лицензию') then
+		local typeddd, toddd = message:match('%[Информация%] {FFFFFF}Вы успешно продали лицензию (.+) игроку (.+).')
+		if typeddd == 'на авто' then
 			configuration.my_stats.avto = configuration.my_stats.avto + 1
-		elseif typeddd == 'РЅР° РјРѕС‚Рѕ' then
+		elseif typeddd == 'на мото' then
 			configuration.my_stats.moto = configuration.my_stats.moto + 1
-		elseif typeddd == 'РЅР° СЂС‹Р±Р°Р»РєСѓ' then
+		elseif typeddd == 'на рыбалку' then
 			configuration.my_stats.riba = configuration.my_stats.riba + 1
-		elseif typeddd == 'РЅР° РїР»Р°РІР°РЅРёРµ' then
+		elseif typeddd == 'на плавание' then
 			configuration.my_stats.lodka = configuration.my_stats.lodka + 1
-		elseif typeddd == 'РЅР° РѕСЂСѓР¶РёРµ' then
+		elseif typeddd == 'на оружие' then
 			configuration.my_stats.guns = configuration.my_stats.guns + 1
-		elseif typeddd == 'РЅР° РѕС…РѕС‚Сѓ' then
+		elseif typeddd == 'на охоту' then
 			configuration.my_stats.hunt = configuration.my_stats.hunt + 1
-		elseif typeddd == 'РЅР° СЂР°СЃРєРѕРїРєРё' then
+		elseif typeddd == 'на раскопки' then
 			configuration.my_stats.klad = configuration.my_stats.klad + 1
-		elseif typeddd == 'С‚Р°РєСЃРёСЃС‚Р°' then
+		elseif typeddd == 'таксиста' then
 			configuration.my_stats.taxi = configuration.my_stats.taxi + 1
 		else
 			if configuration.main_settings.replacechat then
-				ASHelperMessage(format('Р’С‹ СѓСЃРїРµС€РЅРѕ РїСЂРѕРґР°Р»Рё Р»РёС†РµРЅР·РёСЋ %s РёРіСЂРѕРєСѓ %s.',typeddd,gsub(toddd, '_',' ')))
+				ASHelperMessage(format('Вы успешно продали лицензию %s игроку %s.',typeddd,gsub(toddd, '_',' ')))
 				return false
 			end
 		end
 		if inicfg.save(configuration,'AS Helper') then
 			if configuration.main_settings.replacechat then
-				ASHelperMessage(format('Р’С‹ СѓСЃРїРµС€РЅРѕ РїСЂРѕРґР°Р»Рё Р»РёС†РµРЅР·РёСЋ %s РёРіСЂРѕРєСѓ %s. РћРЅР° Р±С‹Р»Р° Р·Р°СЃС‡РёС‚Р°РЅР° РІ РІР°С€Сѓ СЃС‚Р°С‚РёСЃС‚РёРєСѓ.',typeddd,gsub(toddd, '_',' ')))
+				ASHelperMessage(format('Вы успешно продали лицензию %s игроку %s. Она была засчитана в вашу статистику.',typeddd,gsub(toddd, '_',' ')))
 				return false
 			end
 		end
 	end
-	if find(message, 'РџСЂРёРІРµС‚СЃС‚РІСѓРµРј РЅРѕРІРѕРіРѕ С‡Р»РµРЅР° РЅР°С€РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё (.+), РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРіР»Р°СЃРёР»: (.+)') and waitingaccept then
-		local invited,inviting = message:match('РџСЂРёРІРµС‚СЃС‚РІСѓРµРј РЅРѕРІРѕРіРѕ С‡Р»РµРЅР° РЅР°С€РµР№ РѕСЂРіР°РЅРёР·Р°С†РёРё (.+), РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРіР»Р°СЃРёР»: (.+)%[')
+	if find(message, 'Приветствуем нового члена нашей организации (.+), которого пригласил: (.+)') and waitingaccept then
+		local invited,inviting = message:match('Приветствуем нового члена нашей организации (.+), которого пригласил: (.+)%[')
 		if inviting == sampGetPlayerNickname(select(2,sampGetPlayerIdByCharHandle(playerPed))) then
 			if invited == sampGetPlayerNickname(waitingaccept) then
 				lua_thread.create(function()
@@ -5580,7 +5580,7 @@ function sampev.onSendChat(message)
 			sampSendChat(gsub(message, '{close_id}', select(2,getClosestPlayerId())))
 			return false
 		end
-		ASHelperMessage('Р’ Р·РѕРЅРµ СЃС‚СЂРёРјР° РЅРµ РЅР°Р№РґРµРЅРѕ РЅРё РѕРґРЅРѕРіРѕ РёРіСЂРѕРєР°.')
+		ASHelperMessage('В зоне стрима не найдено ни одного игрока.')
 		return false
 	end
 	if find(message, '@{%d+}') then
@@ -5589,7 +5589,7 @@ function sampev.onSendChat(message)
 			sampSendChat(gsub(message, '@{%d+}', sampGetPlayerNickname(id)))
 			return false
 		end
-		ASHelperMessage('РўР°РєРѕРіРѕ РёРіСЂРѕРєР° РЅРµС‚ РЅР° СЃРµСЂРІРµСЂРµ.')
+		ASHelperMessage('Такого игрока нет на сервере.')
 		return false
 	end
 	if find(message, '{gender:(%A+)|(%A+)}') then
@@ -5609,10 +5609,10 @@ function sampev.onSendChat(message)
 		if message == ')' or message == '(' or message ==  '))' or message == '((' or message == 'xD' or message == ':D' or message == 'q' or message == ';)' then
 			return{message}
 		end
-		if find(string.rlower(u8:decode(configuration.main_settings.myaccent)), 'Р°РєС†РµРЅС‚') then
+		if find(string.rlower(u8:decode(configuration.main_settings.myaccent)), 'акцент') then
 			return{format('[%s]: %s', u8:decode(configuration.main_settings.myaccent),message)}
 		else
-			return{format('[%s Р°РєС†РµРЅС‚]: %s', u8:decode(configuration.main_settings.myaccent),message)}
+			return{format('[%s акцент]: %s', u8:decode(configuration.main_settings.myaccent),message)}
 		end
 	end
 end
@@ -5651,7 +5651,7 @@ function sampev.onSendCommand(cmd)
 			sampSendChat(gsub(cmd, '{close_id}', select(2,getClosestPlayerId())))
 			return false
 		end
-		ASHelperMessage('Р’ Р·РѕРЅРµ СЃС‚СЂРёРјР° РЅРµ РЅР°Р№РґРµРЅРѕ РЅРё РѕРґРЅРѕРіРѕ РёРіСЂРѕРєР°.')
+		ASHelperMessage('В зоне стрима не найдено ни одного игрока.')
 		return false
 	end
 	if find(cmd, '@{%d+}') then
@@ -5660,7 +5660,7 @@ function sampev.onSendCommand(cmd)
 			sampSendChat(gsub(cmd, '@{%d+}', sampGetPlayerNickname(id)))
 			return false
 		end
-		ASHelperMessage('РўР°РєРѕРіРѕ РёРіСЂРѕРєР° РЅРµС‚ РЅР° СЃРµСЂРІРµСЂРµ.')
+		ASHelperMessage('Такого игрока нет на сервере.')
 		return false
 	end
 	if find(cmd, '{gender:(%A+)|(%A+)}') then
@@ -5684,14 +5684,14 @@ function sampev.onSendCommand(cmd)
 					if sampIsPlayerConnected(param) then
 						if doesCharExist(select(2,sampGetCharHandleBySampPlayerId(param))) then
 							fastmenuID = param
-							ASHelperMessage(format('Р’С‹ РёСЃРїРѕР»СЊР·РѕРІР°Р»Рё РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° РЅР°: %s [%s]',gsub(sampGetPlayerNickname(fastmenuID), '_', ' '),fastmenuID))
-							ASHelperMessage('Р—Р°Р¶РјРёС‚Рµ {MC}ALT{WC} РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ СЃРєСЂС‹С‚СЊ РєСѓСЂСЃРѕСЂ. {MC}ESC{WC} РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ Р·Р°РєСЂС‹С‚СЊ РјРµРЅСЋ.')
+							ASHelperMessage(format('Вы использовали меню быстрого доступа на: %s [%s]',gsub(sampGetPlayerNickname(fastmenuID), '_', ' '),fastmenuID))
+							ASHelperMessage('Зажмите {MC}ALT{WC} для того, чтобы скрыть курсор. {MC}ESC{WC} для того, чтобы закрыть меню.')
 							windows.imgui_fm[0] = true
 						else
-							ASHelperMessage('РРіСЂРѕРє РЅРµ РЅР°С…РѕРґРёС‚СЃСЏ СЂСЏРґРѕРј СЃ РІР°РјРё')
+							ASHelperMessage('Игрок не находится рядом с вами')
 						end
 					else
-						ASHelperMessage('РРіСЂРѕРє РЅРµ РІ СЃРµС‚Рё')
+						ASHelperMessage('Игрок не в сети')
 					end
 				else
 					ASHelperMessage('/'..configuration.main_settings.usefastmenucmd..' [id]')
@@ -5801,22 +5801,22 @@ function onScriptTerminate(script, quitGame)
 			i = i + 1
 		end
 
-		sampShowDialog(536472, '{ff6633}[AS Helper]{ffffff} РЎРєСЂРёРїС‚ Р±С‹Р» РІС‹РіСЂСѓР¶РµРЅ СЃР°Рј РїРѕ СЃРµР±Рµ.', [[
-{f51111}Р•СЃР»Рё Р’С‹ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ РїРµСЂРµР·Р°РіСЂСѓР·РёР»Рё СЃРєСЂРёРїС‚, С‚Рѕ РјРѕР¶РµС‚Рµ Р·Р°РєСЂС‹С‚СЊ СЌС‚Рѕ РґРёР°Р»РѕРіРѕРІРѕРµ РѕРєРЅРѕ.
-Р’ РёРЅРѕРј СЃР»СѓС‡Р°Рµ, РґР»СЏ РЅР°С‡Р°Р»Р° РїРѕРїС‹С‚Р°Р№С‚РµСЃСЊ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЊ СЂР°Р±РѕС‚Сѓ СЃРєСЂРёРїС‚Р° СЃРѕС‡РµС‚Р°РЅРёРµРј РєР»Р°РІРёС€ CTRL + R.
-Р•СЃР»Рё Р¶Рµ СЌС‚Рѕ РЅРµ РїРѕРјРѕРіР»Рѕ, С‚Рѕ СЃР»РµРґСѓР№С‚Рµ РґР°Р»СЊРЅРµР№С€РёРј РёРЅСЃС‚СЂСѓРєС†РёСЏРј.{ff6633}
-1. Р’РѕР·РјРѕР¶РЅРѕ Сѓ Р’Р°СЃ СѓСЃС‚Р°РЅРѕРІР»РµРЅС‹ РєРѕРЅС„Р»РёРєС‚СѓСЋС‰РёРµ LUA С„Р°Р№Р»С‹ Рё С…РµР»РїРµСЂС‹, РїРѕРїС‹С‚Р°Р№С‚РµСЃСЊ СѓРґР°Р»РёС‚СЊ РёС….
-2. Р’РѕР·РјРѕР¶РЅРѕ Р’С‹ РЅРµ РґРѕСѓСЃС‚Р°РЅРѕРІРёР»Рё РЅРµРєРѕС‚РѕСЂС‹Рµ РЅСѓР¶РЅС‹Рµ Р±РёР±Р»РёРѕС‚РµРєРё, Р° РёРјРµРЅРЅРѕ:
+		sampShowDialog(536472, '{ff6633}[AS Helper]{ffffff} Скрипт был выгружен сам по себе.', [[
+{f51111}Если Вы самостоятельно перезагрузили скрипт, то можете закрыть это диалоговое окно.
+В ином случае, для начала попытайтесь восстановить работу скрипта сочетанием клавиш CTRL + R.
+Если же это не помогло, то следуйте дальнейшим инструкциям.{ff6633}
+1. Возможно у Вас установлены конфликтующие LUA файлы и хелперы, попытайтесь удалить их.
+2. Возможно Вы не доустановили некоторые нужные библиотеки, а именно:
  - SAMPFUNCS 5.5.1
  - CLEO 4.1+
  - MoonLoader 0.26
-3. Р•СЃР»Рё РґР°РЅРЅРѕР№ РѕС€РёР±РєРё РЅРµ Р±С‹Р»Рѕ СЂР°РЅРµРµ, РїРѕРїС‹С‚Р°Р№С‚РµСЃСЊ СЃРґРµР»Р°С‚СЊ СЃР»РµРґСѓСЋС‰РёРµ РґРµР№СЃС‚РІРёСЏ:
-- Р’ РїР°РїРєРµ moonloader > config > РЈРґР°Р»СЏРµРј С„Р°Р№Р» AS Helper.ini
-- Р’ РїР°РїРєРµ moonloader > РЈРґР°Р»СЏРµРј РїР°РїРєСѓ AS Helper
-4. Р•СЃР»Рё РЅРёС‡РµРіРѕ РёР· РІС‹С€РµРїРµСЂРµС‡РёСЃР»РµРЅРЅРѕРіРѕ РЅРµ РёСЃРїСЂР°РІРёР»Рѕ РѕС€РёР±РєСѓ, С‚Рѕ СЃР»РµРґСѓРµС‚ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ СЃРєСЂРёРїС‚ РЅР° РґСЂСѓРіСѓСЋ СЃР±РѕСЂРєСѓ.
-5. Р•СЃР»Рё РґР°Р¶Рµ СЌС‚Рѕ РЅРµ РїРѕРјРѕРіР»Рѕ Р’Р°Рј, С‚Рѕ РѕС‚РїСЂР°РІСЊС‚Рµ Р°РІС‚РѕСЂСѓ {2594CC}(vk.com/justmini){FF6633} СЃРєСЂРёРЅС€РѕС‚ РѕС€РёР±РєРё.{FFFFFF}
-вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”
-{C0C0C0}]]..moonlog, 'РћРљ', nil, 0)
+3. Если данной ошибки не было ранее, попытайтесь сделать следующие действия:
+- В папке moonloader > config > Удаляем файл AS Helper.ini
+- В папке moonloader > Удаляем папку AS Helper
+4. Если ничего из вышеперечисленного не исправило ошибку, то следует установить скрипт на другую сборку.
+5. Если даже это не помогло Вам, то отправьте автору {2594CC}(vk.com/justmini){FF6633} скриншот ошибки.{FFFFFF}
+———————————————————————————————————————————————————————
+{C0C0C0}]]..moonlog, 'ОК', nil, 0)
 	end
 end
 
@@ -5843,7 +5843,7 @@ function sendchatarray(delay, text, start_function, end_function)
 	start_function = start_function or function() end
 	end_function = end_function or function() end
 	if inprocess ~= nil then
-		ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+		ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 		return false
 	end
 	inprocess = lua_thread.create(function()
@@ -5924,7 +5924,7 @@ function checkRules()
 	end
 
 	if not checkServer(select(1, sampGetCurrentServerAddress())) then
-		ASHelperMessage('РћС€РёР±РєР° РІ РёРјРїСЂРѕС‚РёСЂРѕРІР°РЅРёРё РїСЂР°РІРёР» СЃРµСЂРІРµСЂР°! РќРµРёР·РІРµСЃС‚РЅС‹Р№ СЃРµСЂРІРµСЂ. РћР±СЂР°С‚РёС‚РµСЃСЊ Рє {MC}vk.com/justmini{WC}.')
+		ASHelperMessage('Ошибка в импротировании правил сервера! Неизвестный сервер. Обратитесь к {MC}vk.com/justmini{WC}.')
 		return
 	end
 
@@ -5962,7 +5962,7 @@ function checkRules()
 							end
 						end
 					else
-						ASHelperMessage('РћС€РёР±РєР° РІ РёРјРїСЂРѕС‚РёСЂРѕРІР°РЅРёРё РїСЂР°РІРёР» СЃРµСЂРІРµСЂР°! РќРµРёР·РІРµСЃС‚РЅС‹Р№ СЃРµСЂРІРµСЂ. РћР±СЂР°С‚РёС‚РµСЃСЊ Рє {MC}vk.com/justmini{WC}.')
+						ASHelperMessage('Ошибка в импротировании правил сервера! Неизвестный сервер. Обратитесь к {MC}vk.com/justmini{WC}.')
 					end
 				end
 			end
@@ -5994,7 +5994,7 @@ function checkRules()
 							end
 						end
 					else
-						ASHelperMessage('РћС€РёР±РєР° РІ РёРјРїСЂРѕС‚РёСЂРѕРІР°РЅРёРё СѓСЃС‚Р°РІР° СЃРµСЂРІРµСЂР°! РќРµРёР·РІРµСЃС‚РЅС‹Р№ СЃРµСЂРІРµСЂ. РћР±СЂР°С‚РёС‚РµСЃСЊ Рє {MC}vk.com/justmini{WC}.')
+						ASHelperMessage('Ошибка в импротировании устава сервера! Неизвестный сервер. Обратитесь к {MC}vk.com/justmini{WC}.')
 					end
 				end
 			end
@@ -6017,23 +6017,23 @@ function checkUpdates(json_url, show_notify)
 		
 		local interval = os.time() - unix
 		if interval < 86400 then
-			return 'СЃРµРіРѕРґРЅСЏ'
+			return 'сегодня'
 		elseif interval < 604800 then
 			local days = math.floor(interval / 86400)
-			local text = plural(days, {'РґРµРЅСЊ', 'РґРЅСЏ', 'РґРЅРµР№'})
-			return ('%s %s РЅР°Р·Р°Рґ'):format(days, text)
+			local text = plural(days, {'день', 'дня', 'дней'})
+			return ('%s %s назад'):format(days, text)
 		elseif interval < 2592000 then
 			local weeks = math.floor(interval / 604800)
-			local text = plural(weeks, {'РЅРµРґРµР»СЏ', 'РЅРµРґРµР»Рё', 'РЅРµРґРµР»СЊ'})
-			return ('%s %s РЅР°Р·Р°Рґ'):format(weeks, text)
+			local text = plural(weeks, {'неделя', 'недели', 'недель'})
+			return ('%s %s назад'):format(weeks, text)
 		elseif interval < 31536000 then
 			local months = math.floor(interval / 2592000)
-			local text = plural(months, {'РјРµСЃСЏС†', 'РјРµСЃСЏС†Р°', 'РјРµСЃСЏС†РµРІ'})
-			return ('%s %s РЅР°Р·Р°Рґ'):format(months, text)
+			local text = plural(months, {'месяц', 'месяца', 'месяцев'})
+			return ('%s %s назад'):format(months, text)
 		else
 			local years = math.floor(interval / 31536000)
-			local text = plural(years, {'РіРѕРґ', 'РіРѕРґР°', 'Р»РµС‚'})
-			return ('%s %s РЅР°Р·Р°Рґ'):format(years, text)
+			local text = plural(years, {'год', 'года', 'лет'})
+			return ('%s %s назад'):format(years, text)
 		end
 	end
 	
@@ -6053,10 +6053,10 @@ function checkUpdates(json_url, show_notify)
 					f:close()
 					os.remove(json)
 					if updateversion ~= thisScript().version then
-						addNotify('РћР±РЅР°СЂСѓР¶РµРЅРѕ РѕР±РЅРѕРІР»РµРЅРёРµ РЅР°\nРІРµСЂСЃРёСЋ {MC}'..updateversion..'{WC}. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё:\n{MC}/ashupd', 5)
+						addNotify('Обнаружено обновление на\nверсию {MC}'..updateversion..'{WC}. Подробности:\n{MC}/ashupd', 5)
 					else
 						if show_notify then
-							addNotify('РћР±РЅРѕРІР»РµРЅРёР№ РЅРµ РѕР±РЅР°СЂСѓР¶РµРЅРѕ!', 5)
+							addNotify('Обновлений не обнаружено!', 5)
 						end
 					end
 					if configuration.main_settings.getbetaupd and info.beta_upd then
@@ -6073,7 +6073,7 @@ function checkUpdates(json_url, show_notify)
 						}
 					end
 
-					configuration.main_settings.updatelastcheck = getTimeAfter(os.time({day = os.date('%d'), month = os.date('%m'), year = os.date('%Y')}))..' РІ '..os.date('%X')
+					configuration.main_settings.updatelastcheck = getTimeAfter(os.time({day = os.date('%d'), month = os.date('%m'), year = os.date('%Y')}))..' в '..os.date('%X')
 					inicfg.save(configuration, 'AS Helper.ini')
 				end
 			end
@@ -6095,8 +6095,8 @@ function main()
 
 	getmyrank = true
 	sampSendChat('/stats')
-	print('{00FF00}РЈСЃРїРµС€РЅР°СЏ Р·Р°РіСЂСѓР·РєР°')
-	addNotify(format('РЈСЃРїРµС€РЅР°СЏ Р·Р°РіСЂСѓР·РєР°, РІРµСЂСЃРёСЏ %s.\nРќР°СЃС‚СЂРѕРёС‚СЊ СЃРєСЂРёРїС‚: {MC}/ash', thisScript().version), 10)
+	print('{00FF00}Успешная загрузка')
+	addNotify(format('Успешная загрузка, версия %s.\nНастроить скрипт: {MC}/ash', thisScript().version), 10)
 
 	if configuration.main_settings.changelog then
 		windows.imgui_changelog[0] = true
@@ -6113,17 +6113,17 @@ function main()
 		windows.imgui_binder[0] = not windows.imgui_binder[0]
 	end)
 	sampRegisterChatCommand('ashstats', function()
-		ASHelperMessage('Р­С‚Рѕ РѕРєРЅРѕ С‚РµРїРµСЂСЊ РІРєР»СЋС‡Р°РµС‚СЃСЏ РІ {MC}/ash{WC} - {MC}РќР°СЃС‚СЂРѕР№РєРё{WC}.')
+		ASHelperMessage('Это окно теперь включается в {MC}/ash{WC} - {MC}Настройки{WC}.')
 	end)
 	sampRegisterChatCommand('ashlect', function()
 		if configuration.main_settings.myrankint < 5 then
-			return addNotify('Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РґРѕСЃС‚СѓРїРЅР° СЃ 5-РіРѕ\nСЂР°РЅРіР°.', 5)
+			return addNotify('Данная функция доступна с 5-го\nранга.', 5)
 		end
 		windows.imgui_lect[0] = not windows.imgui_lect[0]
 	end)
 	sampRegisterChatCommand('ashdep', function()
 		if configuration.main_settings.myrankint < 5 then
-			return addNotify('Р”Р°РЅРЅР°СЏ С„СѓРЅРєС†РёСЏ РґРѕСЃС‚СѓРїРЅР° СЃ 5-РіРѕ\nСЂР°РЅРіР°.', 5)
+			return addNotify('Данная функция доступна с 5-го\nранга.', 5)
 		end
 		windows.imgui_depart[0] = not windows.imgui_depart[0]
 	end)
@@ -6139,36 +6139,36 @@ function main()
 			return sampSendChat(format('/uninvite %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local uvalid = param:match('(%d+)')
 		local reason = select(2, param:match('(%d+) (.+),')) or select(2, param:match('(%d+) (.+)'))
 		local withbl = select(2, param:match('(.+), (.+)'))
 		if uvalid == nil or reason == nil then
-			return ASHelperMessage('/uninvite [id] [РїСЂРёС‡РёРЅР°], [РїСЂРёС‡РёРЅР° С‡СЃ] (РЅРµ РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)')
+			return ASHelperMessage('/uninvite [id] [причина], [причина чс] (не обязательно)')
 		end
 		if tonumber(uvalid) == select(2,sampGetPlayerIdByCharHandle(playerPed)) then
-			return ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ СѓРІРѕР»СЊРЅСЏС‚СЊ РёР· РѕСЂРіР°РЅРёР·Р°С†РёРё СЃР°РјРѕРіРѕ СЃРµР±СЏ.')
+			return ASHelperMessage('Вы не можете увольнять из организации самого себя.')
 		end
 		if withbl then
 			return sendchatarray(configuration.main_settings.playcd, {
-				{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-				{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-				{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-				{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-				{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-				{'/me {gender:Р·Р°РЅС‘СЃ|Р·Р°РЅРµСЃР»Р°} СЃРѕС‚СЂСѓРґРЅРёРєР° РІ СЂР°Р·РґРµР», РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-				{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+				{'/me {gender:достал|достала} планшет из кармана'},
+				{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+				{'/do Раздел открыт.'},
+				{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+				{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+				{'/me {gender:занёс|занесла} сотрудника в раздел, после чего {gender:подтвердил|подтвердила} изменения'},
+				{'/do Изменения были сохранены.'},
 				{'/uninvite %s %s', uvalid, reason},
 				{'/blacklist %s %s', uvalid, withbl},
 			})
 		else
 			return sendchatarray(configuration.main_settings.playcd, {
-				{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-				{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-				{'/do Р Р°Р·РґРµР» РѕС‚РєСЂС‹С‚.'},
-				{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} С‡РµР»РѕРІРµРєР° РІ СЂР°Р·РґРµР» \'РЈРІРѕР»СЊРЅРµРЅРёРµ\''},
-				{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ, Р·Р°С‚РµРј {gender:РІС‹РєР»СЋС‡РёР»|РІС‹РєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚ Рё {gender:РїРѕР»РѕР¶РёР»|РїРѕР»РѕР¶РёР»Р°} РµРіРѕ РѕР±СЂР°С‚РЅРѕ РІ РєР°СЂРјР°РЅ'},
+				{'/me {gender:достал|достала} планшет из кармана'},
+				{'/me {gender:перешёл|перешла} в раздел \'Увольнение\''},
+				{'/do Раздел открыт.'},
+				{'/me {gender:внёс|внесла} человека в раздел \'Увольнение\''},
+				{'/me {gender:подтведрдил|подтвердила} изменения, затем {gender:выключил|выключила} планшет и {gender:положил|положила} его обратно в карман'},
 				{'/uninvite %s %s', uvalid, reason},
 			})
 		end
@@ -6179,21 +6179,21 @@ function main()
 			return sampSendChat(format('/invite %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id = param:match('(%d+)')
 		if id == nil then
 			return ASHelperMessage('/invite [id]')
 		end
 		if tonumber(id) == select(2,sampGetPlayerIdByCharHandle(playerPed)) then
-			return ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РїСЂРёРіР»Р°С€Р°С‚СЊ РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ СЃР°РјРѕРіРѕ СЃРµР±СЏ.')
+			return ASHelperMessage('Вы не можете приглашать в организацию самого себя.')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/do РљР»СЋС‡Рё РѕС‚ С€РєР°С„С‡РёРєР° РІ РєР°СЂРјР°РЅРµ.'},
-			{'/me РІСЃСѓРЅСѓРІ СЂСѓРєСѓ РІ РєР°СЂРјР°РЅ Р±СЂСЋРє, {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РѕС‚С‚СѓРґР° РєР»СЋС‡ РѕС‚ С€РєР°С„С‡РёРєР°'},
-			{'/me {gender:РїРµСЂРµРґР°Р»|РїРµСЂРµРґР°Р»Р°} РєР»СЋС‡ С‡РµР»РѕРІРµРєСѓ РЅР°РїСЂРѕС‚РёРІ'},
-			{'Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! Р Р°Р·РґРµРІР°Р»РєР° Р·Р° РґРІРµСЂСЊСЋ.'},
-			{'РЎРѕ РІСЃРµР№ РёРЅС„РѕСЂРјР°С†РёРµР№ Р’С‹ РјРѕР¶РµС‚Рµ РѕР·РЅР°РєРѕРјРёС‚СЊСЃСЏ РЅР° РѕС„. РїРѕСЂС‚Р°Р»Рµ.'},
+			{'/do Ключи от шкафчика в кармане.'},
+			{'/me всунув руку в карман брюк, {gender:достал|достала} оттуда ключ от шкафчика'},
+			{'/me {gender:передал|передала} ключ человеку напротив'},
+			{'Добро пожаловать! Раздевалка за дверью.'},
+			{'Со всей информацией Вы можете ознакомиться на оф. портале.'},
 			{'/invite %s', id},
 		})
 	end)
@@ -6203,22 +6203,22 @@ function main()
 			return sampSendChat(format('/giverank %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id,rank = param:match('(%d+) (%d)')
 		if id == nil or rank == nil then
-			return ASHelperMessage('/giverank [id] [СЂР°РЅРі]')
+			return ASHelperMessage('/giverank [id] [ранг]')
 		end
 		if tonumber(id) == select(2,sampGetPlayerIdByCharHandle(playerPed)) then
-			return ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РјРµРЅСЏС‚СЊ СЂР°РЅРі СЃР°РјРѕРјСѓ СЃРµР±Рµ.')
+			return ASHelperMessage('Вы не можете менять ранг самому себе.')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-			{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-			{'/me {gender:РёР·РјРµРЅРёР»|РёР·РјРµРЅРёР»Р°} РёРЅС„РѕСЂРјР°С†РёСЋ Рѕ РґРѕР»Р¶РЅРѕСЃС‚Рё СЃРѕС‚СЂСѓРґРЅРёРєР°, РїРѕСЃР»Рµ С‡РµРіРѕ {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-			{'/do РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃРѕС‚СЂСѓРґРЅРёРєРµ Р±С‹Р»Р° РёР·РјРµРЅРµРЅР°.'},
-			{'РџРѕР·РґСЂР°РІР»СЏСЋ СЃ РїРѕРІС‹С€РµРЅРёРµРј. РќРѕРІС‹Р№ Р±РµР№РґР¶РёРє Р’С‹ РјРѕР¶РµС‚Рµ РІР·СЏС‚СЊ РІ СЂР°Р·РґРµРІР°Р»РєРµ.'},
+			{'/me {gender:включил|включила} планшет'},
+			{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+			{'/me {gender:выбрал|выбрала} в разделе нужного сотрудника'},
+			{'/me {gender:изменил|изменила} информацию о должности сотрудника, после чего {gender:подтведрдил|подтвердила} изменения'},
+			{'/do Информация о сотруднике была изменена.'},
+			{'Поздравляю с повышением. Новый бейджик Вы можете взять в раздевалке.'},
 			{'/giverank %s %s', id, rank},
 		})
 	end)
@@ -6228,22 +6228,22 @@ function main()
 			return sampSendChat(format('/blacklist %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id,reason = param:match('(%d+) (.+)')
 		if id == nil or reason == nil then
-			return ASHelperMessage('/blacklist [id] [РїСЂРёС‡РёРЅР°]')
+			return ASHelperMessage('/blacklist [id] [причина]')
 		end
 		if tonumber(id) == select(2,sampGetPlayerIdByCharHandle(playerPed)) then
-			return ASHelperMessage('Р’С‹ РЅРµ РјРѕР¶РµС‚Рµ РІРЅРµСЃС‚Рё РІ Р§РЎ СЃР°РјРѕРіРѕ СЃРµР±СЏ.')
+			return ASHelperMessage('Вы не можете внести в ЧС самого себя.')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-			{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РЅР°СЂСѓС€РёС‚РµР»СЏ'},
-			{'/me {gender:РІРЅС‘СЃ|РІРЅРµСЃР»Р°} РЅР°СЂСѓС€РёС‚РµР»СЏ РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-			{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-			{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+			{'/me {gender:ввёл|ввела} имя нарушителя'},
+			{'/me {gender:внёс|внесла} нарушителя в раздел \'Чёрный список\''},
+			{'/me {gender:подтведрдил|подтвердила} изменения'},
+			{'/do Изменения были сохранены.'},
 			{'/blacklist %s %s', id, reason},
 		})
 	end)
@@ -6253,19 +6253,19 @@ function main()
 			return sampSendChat(format('/unblacklist %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id = param:match('(%d+)')
 		if id == nil then
 			return ASHelperMessage('/unblacklist [id]')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-			{'/me {gender:РІРІС‘Р»|РІРІРµР»Р°} РёРјСЏ РіСЂР°Р¶РґР°РЅРёРЅР° РІ РїРѕРёСЃРє'},
-			{'/me {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РіСЂР°Р¶РґР°РЅРёРЅР° РёР· СЂР°Р·РґРµР»Р° \'Р§С‘СЂРЅС‹Р№ СЃРїРёСЃРѕРє\''},
-			{'/me {gender:РїРѕРґС‚РІРµРґСЂРґРёР»|РїРѕРґС‚РІРµСЂРґРёР»Р°} РёР·РјРµРЅРµРЅРёСЏ'},
-			{'/do РР·РјРµРЅРµРЅРёСЏ Р±С‹Р»Рё СЃРѕС…СЂР°РЅРµРЅС‹.'},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:перешёл|перешла} в раздел \'Чёрный список\''},
+			{'/me {gender:ввёл|ввела} имя гражданина в поиск'},
+			{'/me {gender:убрал|убрала} гражданина из раздела \'Чёрный список\''},
+			{'/me {gender:подтведрдил|подтвердила} изменения'},
+			{'/do Изменения были сохранены.'},
 			{'/unblacklist %s', id},
 		})
 	end)
@@ -6275,18 +6275,18 @@ function main()
 			return sampSendChat(format('/fwarn %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id,reason = param:match('(%d+) (.+)')
 		if id == nil or reason == nil then
-			return ASHelperMessage('/fwarn [id] [РїСЂРёС‡РёРЅР°]')
+			return ASHelperMessage('/fwarn [id] [причина]')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-			{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-			{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:РґРѕР±Р°РІРёР»|РґРѕР±Р°РІРёР»Р°} РІ РµРіРѕ Р»РёС‡РЅРѕРµ РґРµР»Рѕ РІС‹РіРѕРІРѕСЂ'},
-			{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» РґРѕР±Р°РІР»РµРЅ РІ Р»РёС‡РЅРѕРµ РґРµР»Рѕ СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+			{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+			{'/me найдя в разделе нужного сотрудника, {gender:добавил|добавила} в его личное дело выговор'},
+			{'/do Выговор был добавлен в личное дело сотрудника.'},
 			{'/fwarn %s %s', id, reason},
 		})
 	end)
@@ -6296,18 +6296,18 @@ function main()
 			return sampSendChat(format('/unfwarn %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id = param:match('(%d+)')
 		if id == nil then
 			return ASHelperMessage('/unfwarn [id]')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё\''},
-			{'/me {gender:Р·Р°С€С‘Р»|Р·Р°С€Р»Р°} РІ СЂР°Р·РґРµР» \'Р’С‹РіРѕРІРѕСЂС‹\''},
-			{'/me РЅР°Р№РґСЏ РІ СЂР°Р·РґРµР»Рµ РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°, {gender:СѓР±СЂР°Р»|СѓР±СЂР°Р»Р°} РёР· РµРіРѕ Р»РёС‡РЅРѕРіРѕ РґРµР»Р° РѕРґРёРЅ РІС‹РіРѕРІРѕСЂ'},
-			{'/do Р’С‹РіРѕРІРѕСЂ Р±С‹Р» СѓР±СЂР°РЅ РёР· Р»РёС‡РЅРѕРіРѕ РґРµР»Р° СЃРѕС‚СЂСѓРґРЅРёРєР°.'},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками\''},
+			{'/me {gender:зашёл|зашла} в раздел \'Выговоры\''},
+			{'/me найдя в разделе нужного сотрудника, {gender:убрал|убрала} из его личного дела один выговор'},
+			{'/do Выговор был убран из личного дела сотрудника.'},
 			{'/unfwarn %s', id},
 		})
 	end)
@@ -6317,19 +6317,19 @@ function main()
 			return sampSendChat(format('/fmute %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id,mutetime,reason = param:match('(%d+) (%d+) (.+)')
 		if id == nil or reason == nil or mutetime == nil then
-			return ASHelperMessage('/fmute [id] [РІСЂРµРјСЏ] [РїСЂРёС‡РёРЅР°]')
+			return ASHelperMessage('/fmute [id] [время] [причина]')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-			{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-			{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'РћС‚РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-			{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:включил|включила} планшет'},
+			{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+			{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+			{'/me {gender:выбрал|выбрала} пункт \'Отключить рацию сотрудника\''},
+			{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 			{'/fmute %s %s %s', id, mutetime, reason},
 		})
 	end)
@@ -6339,19 +6339,19 @@ function main()
 			return sampSendChat(format('/funmute %s',param))
 		end
 		if configuration.main_settings.myrankint < 9 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 9-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 9-го ранга.')
 		end
 		local id = param:match('(%d+)')
 		if id == nil then
 			return ASHelperMessage('/funmute [id]')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/me {gender:РґРѕСЃС‚Р°Р»|РґРѕСЃС‚Р°Р»Р°} РїР»Р°РЅС€РµС‚ РёР· РєР°СЂРјР°РЅР°'},
-			{'/me {gender:РІРєР»СЋС‡РёР»|РІРєР»СЋС‡РёР»Р°} РїР»Р°РЅС€РµС‚'},
-			{'/me {gender:РїРµСЂРµС€С‘Р»|РїРµСЂРµС€Р»Р°} РІ СЂР°Р·РґРµР» \'РЈРїСЂР°РІР»РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєР°РјРё %s\'', configuration.main_settings.replaceash and 'Р“Р¦Р›' or 'РђРІС‚РѕС€РєРѕР»С‹'},
-			{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РЅСѓР¶РЅРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°'},
-			{'/me {gender:РІС‹Р±СЂР°Р»|РІС‹Р±СЂР°Р»Р°} РїСѓРЅРєС‚ \'Р’РєР»СЋС‡РёС‚СЊ СЂР°С†РёСЋ СЃРѕС‚СЂСѓРґРЅРёРєР°\''},
-			{'/me {gender:РЅР°Р¶Р°Р»|РЅР°Р¶Р°Р»Р°} РЅР° РєРЅРѕРїРєСѓ \'РЎРѕС…СЂР°РЅРёС‚СЊ РёР·РјРµРЅРµРЅРёСЏ\''},
+			{'/me {gender:достал|достала} планшет из кармана'},
+			{'/me {gender:включил|включила} планшет'},
+			{'/me {gender:перешёл|перешла} в раздел \'Управление сотрудниками %s\'', configuration.main_settings.replaceash and 'ГЦЛ' or 'Автошколы'},
+			{'/me {gender:выбрал|выбрала} нужного сотрудника'},
+			{'/me {gender:выбрал|выбрала} пункт \'Включить рацию сотрудника\''},
+			{'/me {gender:нажал|нажала} на кнопку \'Сохранить изменения\''},
 			{'/funmute %s', id},
 		})
 	end)
@@ -6361,19 +6361,19 @@ function main()
 			return sampSendChat(format('/expel %s',param))
 		end
 		if configuration.main_settings.myrankint < 2 then
-			return ASHelperMessage('Р”Р°РЅРЅР°СЏ РєРѕРјР°РЅРґР° РґРѕСЃС‚СѓРїРЅР° СЃ 2-РіРѕ СЂР°РЅРіР°.')
+			return ASHelperMessage('Данная команда доступна с 2-го ранга.')
 		end
 		local id,reason = param:match('(%d+) (.+)')
 		if id == nil or reason == nil then
-			return ASHelperMessage('/expel [id] [РїСЂРёС‡РёРЅР°]')
+			return ASHelperMessage('/expel [id] [причина]')
 		end
 		if sampIsPlayerPaused(id) then
-			return ASHelperMessage('РРіСЂРѕРє РЅР°С…РѕРґРёС‚СЃСЏ РІ РђР¤Рљ!')
+			return ASHelperMessage('Игрок находится в АФК!')
 		end
 		return sendchatarray(configuration.main_settings.playcd, {
-			{'/do Р Р°С†РёСЏ СЃРІРёСЃР°РµС‚ РЅР° РїРѕСЏСЃРµ.'},
-			{'/me СЃРЅСЏРІ СЂР°С†РёСЋ СЃ РїРѕСЏСЃР°, {gender:РІС‹Р·РІР°Р»|РІС‹Р·РІР°Р»Р°} РѕС…СЂР°РЅСѓ РїРѕ РЅРµР№'},
-			{'/do РћС…СЂР°РЅР° РІС‹РІРѕРґРёС‚ РЅР°СЂСѓС€РёС‚РµР»СЏ РёР· С…РѕР»Р»Р°.'},
+			{'/do Рация свисает на поясе.'},
+			{'/me сняв рацию с пояса, {gender:вызвал|вызвала} охрану по ней'},
+			{'/do Охрана выводит нарушителя из холла.'},
 			{'/expel %s %s',id,reason},
 		})
 	end)
@@ -6412,8 +6412,8 @@ function main()
 				if sampGetPlayerIdByCharHandle(select(2,getCharPlayerIsTargeting())) then
 					setVirtualKeyDown(0x02,false)
 					fastmenuID = select(2,sampGetPlayerIdByCharHandle(select(2,getCharPlayerIsTargeting())))
-					ASHelperMessage(format('Р’С‹ РёСЃРїРѕР»СЊР·РѕРІР°Р»Рё РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° РЅР°: %s [%s]',gsub(sampGetPlayerNickname(fastmenuID), '_', ' '),fastmenuID))
-					ASHelperMessage('Р—Р°Р¶РјРёС‚Рµ {MC}ALT{WC} РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ СЃРєСЂС‹С‚СЊ РєСѓСЂСЃРѕСЂ. {MC}ESC{WC} РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ Р·Р°РєСЂС‹С‚СЊ РјРµРЅСЋ.')
+					ASHelperMessage(format('Вы использовали меню быстрого доступа на: %s [%s]',gsub(sampGetPlayerNickname(fastmenuID), '_', ' '),fastmenuID))
+					ASHelperMessage('Зажмите {MC}ALT{WC} для того, чтобы скрыть курсор. {MC}ESC{WC} для того, чтобы закрыть меню.')
 					wait(0)
 					windows.imgui_fm[0] = true
 				end
@@ -6431,27 +6431,27 @@ function main()
 		if inprocess and isKeyDown(0x12) and isKeyJustPressed(0x55) then
 			inprocess:terminate()
 			inprocess = nil
-			ASHelperMessage('РћС‚С‹РіСЂРѕРІРєР° СѓСЃРїРµС€РЅРѕ РїСЂРµСЂРІР°РЅР°!')
+			ASHelperMessage('Отыгровка успешно прервана!')
 		end
 
 		if skiporcancel and isKeyDown(0x12) and isKeyJustPressed(0x4F) then
 			skiporcancel = false
-			sampSendChat('РЎРѕР¶Р°Р»РµСЋ, РЅРѕ Р±РµР· РјРµРґ. РєР°СЂС‚С‹ СЏ РЅРµ РїСЂРѕРґР°Рј. РћС„РѕСЂРјРёС‚Рµ РµС‘ РІ Р»СЋР±РѕР№ Р±РѕР»СЊРЅРёС†Рµ.')
-			ASHelperMessage('РћР¶РёРґР°РЅРёРµ РјРµРґ. РєР°СЂС‚С‹ РѕСЃС‚Р°РЅРѕРІР»РµРЅРѕ!')
+			sampSendChat('Сожалею, но без мед. карты я не продам. Оформите её в любой больнице.')
+			ASHelperMessage('Ожидание мед. карты остановлено!')
 		end
 
 		if isKeyDown(0x11) and isKeyJustPressed(0x52) then
 			NoErrors = true
-			print('{FFFF00}РЎРєСЂРёРїС‚ Р±С‹Р» РїРµСЂРµР·Р°РіСЂСѓР¶РµРЅ РєРѕРјР±РёРЅР°С†РёРµР№ РєР»Р°РІРёС€ Ctrl + R')
+			print('{FFFF00}Скрипт был перезагружен комбинацией клавиш Ctrl + R')
 		end
 
 		if configuration.main_settings.playdubinka then
 			local weapon = getCurrentCharWeapon(playerPed)
 			if weapon == 3 and not rp_check then 
-				sampSendChat('/me СЃРЅСЏРІ РґСѓР±РёРЅРєСѓ СЃ РїРѕСЏСЃР° {gender:РІР·СЏР»|РІР·СЏР»Р°} РІ РїСЂР°РІСѓСЋ СЂСѓРєСѓ')
+				sampSendChat('/me сняв дубинку с пояса {gender:взял|взяла} в правую руку')
 				rp_check = true
 			elseif weapon ~= 3 and rp_check then
-				sampSendChat('/me {gender:РїРѕРІРµСЃРёР»|РїРѕРІРµСЃРёР»Р°} РґСѓР±РёРЅРєСѓ РЅР° РїРѕСЏСЃ')
+				sampSendChat('/me {gender:повесил|повесила} дубинку на пояс')
 				rp_check = false
 			end
 		end
@@ -6482,7 +6482,7 @@ function main()
 						inprocess = nil
 					end)
 				else
-					ASHelperMessage('РќРµ С‚РѕСЂРѕРїРёС‚РµСЃСЊ, Р’С‹ СѓР¶Рµ РѕС‚С‹РіСЂС‹РІР°РµС‚Рµ С‡С‚Рѕ-С‚Рѕ! РџСЂРµСЂРІР°С‚СЊ РѕС‚С‹РіСЂРѕРІРєСѓ: {MC}Alt{WC} + {MC}U{WC}')
+					ASHelperMessage('Не торопитесь, Вы уже отыгрываете что-то! Прервать отыгровку: {MC}Alt{WC} + {MC}U{WC}')
 				end
 			end
 		end
@@ -6506,35 +6506,35 @@ changelog = {
 	versions = {
 		{
 			version = '1.0',
-			date = '31.03.2021',
-			text = {'Р РµР»РёР· (СЃРїР°СЃРёР±Рѕ zody Р·Р° РїРѕРјРѕС‰СЊ РІ СЂР°Р·СЂР°Р±РѕС‚РєРµ)'},
+			date = '22.01.2022',
+			text = {'Релиз (спасибо Just-Mini за помощь в разработке)'},
 		},
 
 		{
 			version = '2.1',
 			date = '01.05.2021',
 			text = {
-				'РњРµРЅСЋ СЃС‚Р°С‚РёСЃС‚РёРєРё /ashstats СЃРґРµР»Р°РЅРѕ Р±РѕР»РµРµ СѓРґРѕР±РЅС‹Рј',
-				'Р”РІРѕР№РЅРѕР№ РєР»РёРє СЃРѕС…СЂР°РЅРёС‚ РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ СЃС‚Р°С‚РёСЃС‚РёРєРё /ashstats',
-				'РР·РјРµРЅРµРЅС‹ РєРЅРѕРїРєРё РІ РіР»Р°РІРЅРѕРј РјРµРЅСЋ /ash',
-				'РўРµРїРµСЂСЊ РјРѕР¶РЅРѕ С‚РµСЃС‚РёСЂРѕРІР°С‚СЊ С†РІРµС‚Р° РІ /ash',
-				'РўРµРїРµСЂСЊ РїСЂРё Р°РєС‚РёРІР°С†РёРё Р±РёРЅРґР° РїРѕСЃР»РµРґРЅРµРµ СЃРѕРѕР±С‰РµРЅРёРµ Р±СѓРґРµС‚ Р±РµР· Р·Р°РґРµСЂР¶РєРё',
-				'Р”РѕР±Р°РІР»РµРЅ СЃРїРёСЃРѕРє РёР·РјРµРЅРµРЅРёР№',
-				'РСЃРїСЂР°РІР»РµРЅР° РїСЂРѕРІРµСЂРєР° РѕР±РЅРѕРІР»РµРЅРёР№ С‡РµСЂРµР· /ash',
-				'РљР°СЂРґРёРЅР°Р»СЊРЅС‹Р№ СЂРµРґРёР·Р°Р№РЅ РіР»Р°РІРЅРѕРіРѕ РјРµРЅСЋ /ash',
-				'Р”РѕР±Р°РІР»РµРЅС‹ СЂР°Р·РЅС‹Рµ СЃС‚РёР»Рё РѕРєРѕРЅ',
-				'Р”РѕР±Р°РІР»РµРЅС‹ РЅР°СЃС‚СЂРѕР№РєРё С†РІРµС‚РѕРІ /r С‡Р°С‚Р° Рё /d С‡Р°С‚Р°',
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ РїСЂРѕСЃРјРѕС‚СЂР° РїСЂР°РІРёР»',
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ Р±С‹СЃС‚СЂРѕРіРѕ /time + СЃРєСЂРёРЅ',
-				'Р”РѕР±Р°РІР»РµРЅРѕ Р°РІС‚РѕРѕРїСЂРµРґРµР»РµРЅРёРµ РїРѕР»Р°',
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ СѓРґР°Р»РµРЅРёСЏ РєРѕРЅС„РёРіР°',
+				'Меню статистики /ashstats сделано более удобным',
+				'Двойной клик сохранит местоположение статистики /ashstats',
+				'Изменены кнопки в главном меню /ash',
+				'Теперь можно тестировать цвета в /ash',
+				'Теперь при активации бинда последнее сообщение будет без задержки',
+				'Добавлен список изменений',
+				'Исправлена проверка обновлений через /ash',
+				'Кардинальный редизайн главного меню /ash',
+				'Добавлены разные стили окон',
+				'Добавлены настройки цветов /r чата и /d чата',
+				'Добавлена функция просмотра правил',
+				'Добавлена функция быстрого /time + скрин',
+				'Добавлено автоопределение пола',
+				'Добавлена функция удаления конфига',
 			},
 			patches = {
 				active = false,
 				text = [[
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёСЏРјРё
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РїРѕРёСЃРєРѕРј РїРѕ СѓСЃС‚Р°РІСѓ
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ СѓРґР°СЂРѕРј РїСЂРё РїСЂРёРЅСЏС‚РёРё С‡РµР»РѕРІРµРєР° РІ РѕСЂРіР°РЅРёР·Р°С†РёСЋ]]
+ - Исправлен баг с собеседованиями
+ - Исправлен баг с поиском по уставу
+ - Исправлен баг с ударом при принятии человека в организацию]]
 			},
 		},
 
@@ -6542,20 +6542,20 @@ changelog = {
 			version = '2.2',
 			date = '10.05.2021',
 			text = {
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ СѓРІРѕР»СЊРЅРµРЅРёСЏ СЃ Р§РЎ С‡РµСЂРµР· РєРѕРјР°РЅРґСѓ',
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ РѕР·РІСѓС‡РёРІР°РЅРёСЏ Р»РµРєС†РёР№ /ashlect',
-				'РџРµСЂРµРґРµР»Р°РЅР° СЃРёСЃС‚РµРјР° РїСЂРѕРІРµСЂРєРё РЅР°С…РѕР¶РґРµРЅРёСЏ РЅР° СЃРµСЂРІРµСЂРµ РђСЂРёР·РѕРЅС‹',
-				'РџРµСЂРµСЂР°Р±РѕС‚Р°РЅР° СЃРёСЃС‚РµРјР° РїСЂР°РІРёР»',
-				'РСЃРїСЂР°РІР»РµРЅ РєСЂР°С€ РїСЂРё РїРѕРёСЃРєРµ РІ РїСЂР°РІРёР»Р°С… РІРІРѕРґСЏ СѓРїСЂР°РІР»СЏСЋС‰РёРµ СЃРёРјРІРѕР»С‹',
-				'РСЃРїСЂР°РІР»РµРЅС‹ РЅРµРєРѕС‚РѕСЂС‹Рµ РіСЂР°РјРјР°С‚РёС‡РµСЃРєРёРµ РѕС€РёР±РєРё',
+				'Добавлена функция увольнения с ЧС через команду',
+				'Добавлена функция озвучивания лекций /ashlect',
+				'Переделана система проверки нахождения на сервере Аризоны',
+				'Переработана система правил',
+				'Исправлен краш при поиске в правилах вводя управляющие символы',
+				'Исправлены некоторые грамматические ошибки',
 			},
  			patches = {
 				active = false,
 				text = [[
- - РСЃРїСЂР°РІР»РµРЅ РєСЂР°С€ РїСЂРё РѕС‚РєСЂС‹С‚РёРё /ashstats
- - РСЃРїСЂР°РІР»РµРЅ РєСЂР°С€ РїСЂРё СЃР±СЂРѕСЃРµ С†РІРµС‚Р°
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РЅРµРїСЂРѕРґР°СЋС‰РёРјРёСЃСЏ Р»РёС†РµРЅР·РёСЏРјРё
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РїСЂРѕРїР°РґР°СЋС‰РёРј РєСѓСЂСЃРѕСЂРѕРј РїРѕСЃР»Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Р±С‹СЃС‚СЂРѕРіРѕ РјРµРЅСЋ]]
+ - Исправлен краш при открытии /ashstats
+ - Исправлен краш при сбросе цвета
+ - Исправлен баг с непродающимися лицензиями
+ - Исправлен баг с пропадающим курсором после использования быстрого меню]]
 			},
 		},
 
@@ -6563,12 +6563,12 @@ changelog = {
 			version = '2.3',
 			date = '14.05.2021',
 			text = {
-				'РЈР±СЂР°РЅР° Р·Р°РІРёСЃРёРјРѕСЃС‚СЊ РѕС‚ Р±РёР±Р»РёРѕС‚РµРєРё rkeys',
-				'РЈР±СЂР°РЅР° Р·Р°РІРёСЃРёРјРѕСЃС‚СЊ РѕС‚ Р±РёР±Р»РёРѕС‚РµРєРё fAwesome5',
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ РїРѕРєР°Р·Р° РїРѕР»РѕСЃС‹ РїСЂРѕРєСЂСѓС‚РєРё',
-				'РћРїС‚РёРјРёР·РёСЂРѕРІР°РЅР° Рё СѓР»СѓС‡С€РµРЅР° СЃРёСЃС‚РµРјР° СѓРєР°Р·Р°РЅРёР№ РєР»Р°РІРёС€ РґР»СЏ Р±РёРЅРґРµСЂР°',
-				'Р”РѕР±Р°РІР»РµРЅС‹ png РєР°СЂС‚РёРЅРєРё РІРјРµСЃС‚Рѕ Р·Р°РіРѕР»РѕРІРєРѕРІ Сѓ РѕРєРѕРЅ',
-				'Р”РѕР±Р°РІР»РµРЅС‹ С‚СЌРіРё РІ Р±РёРЅРґРµСЂ',
+				'Убрана зависимость от библиотеки rkeys',
+				'Убрана зависимость от библиотеки fAwesome5',
+				'Добавлена функция показа полосы прокрутки',
+				'Оптимизирована и улучшена система указаний клавиш для биндера',
+				'Добавлены png картинки вместо заголовков у окон',
+				'Добавлены тэги в биндер',
 			},
 		},
 
@@ -6576,19 +6576,19 @@ changelog = {
 			version = '2.4',
 			date = '16.05.2021',
 			text = {
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ РѕР±С‰РµРЅРёСЏ РІ СЂР°С†РёСЋ РґРµРїР°СЂС‚Р°РјРµРЅС‚Р° /ashdep',
-				'РР·РјРµРЅС‘РЅ СЃРїРёСЃРѕРє РёР·РјРµРЅРµРЅРёР№',
-				'РЈРґР°Р»РµРЅР° СЃРІРµС‚Р»Рѕ-С‚С‘РјРЅР°СЏ С‚РµРјР°',
-				'РЈРґР°Р»РµРЅР° СЃРёСЃС‚РµРјР° РїРѕРІС‹С€РµРЅРёР№ РёР· РёР·РЅР°С‡Р°Р»СЊРЅС‹С… РїСЂР°РІРёР»Р°С… РёР·-Р·Р° РЅРµРЅР°РґРѕР±РЅРѕСЃС‚Рё',
-				'Р”РѕР±Р°РІР»РµРЅР° РїРѕРґРґРµСЂР¶РєР° 16-РіРѕ СЃРµСЂРІРµСЂР° (Gilbert)',
-				'РСЃРїСЂР°РІР»РµРЅС‹ СЂР°Р·РјРµСЂС‹ РёР·РѕР±СЂР°Р¶РµРЅРёР№',
-				'РўРµРїРµСЂСЊ РјРµРЅСЋ Р»РµРєС†РёР№ РґРѕСЃС‚СѓРїРЅРѕ СЃ 5-РіРѕ СЂР°РЅРіР°',
+				'Добавлена функция общения в рацию департамента /ashdep',
+				'Изменён список изменений',
+				'Удалена светло-тёмная тема',
+				'Удалена система повышений из изначальных правилах из-за ненадобности',
+				'Добавлена поддержка 16-го сервера (Gilbert)',
+				'Исправлены размеры изображений',
+				'Теперь меню лекций доступно с 5-го ранга',
 			},
 			patches = {
 				active = false,
 				text = [[
- - Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ РїСЂРѕРґР°Р¶Рё Р»РёС†РµРЅР·РёРё РЅР° С‚Р°РєСЃРѕРІР°РЅРёРµ
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РІРІРѕРґРѕРј /givelicense СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ]]
+ - Добавлена функция продажи лицензии на таксование
+ - Исправлен баг с вводом /givelicense самостоятельно]]
 			},
 		},
 
@@ -6596,14 +6596,14 @@ changelog = {
 			version = '2.5',
 			date = '25.07.2021',
 			text = {
-				'Р”РѕР±Р°РІР»РµРЅР° Р°РІС‚РѕРѕС‚С‹РіСЂРѕРІРєР° РґСѓР±РёРЅРєРё',
-				'Р’С‹РіРѕРЅСЏС‚СЊ С‚РµРїРµСЂСЊ РјРѕР¶РЅРѕ СЃРѕ 2-РіРѕ СЂР°РЅРіР°',
-				'РџРµСЂРµРґРµР»Р°РЅР° СЃРёСЃС‚РµРјР° РїСЂРѕРІРµСЂРєРё СѓСЃС‚Р°РІР°',
-				'Р”РѕР±Р°РІР»РµРЅ С‚Р°Р№РјРµСЂ РїРѕСЃР»РµРґРЅРµРіРѕ РІРѕРїСЂРѕСЃР° РІ РїСЂРѕРІРµСЂРєСѓ СѓСЃС‚Р°РІР°',
+				'Добавлена автоотыгровка дубинки',
+				'Выгонять теперь можно со 2-го ранга',
+				'Переделана система проверки устава',
+				'Добавлен таймер последнего вопроса в проверку устава',
 			},
 			patches = {
 				active = false,
-				text = [[ - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РєСЂР°С€РµРј СЃРєСЂРёРїС‚Р° РїСЂРё РѕР·РІСѓС‡РёРІР°РЅРёРё РїСЂР°Р№СЃ Р»РёСЃС‚Р°]]
+				text = [[ - Исправлен баг с крашем скрипта при озвучивании прайс листа]]
 			},
 		},
 
@@ -6611,14 +6611,14 @@ changelog = {
 			version = '2.6',
 			date = '28.08.2021',
 			text = {
-				'Р”РѕР±Р°РІР»РµРЅР° РїРѕРґРґРµСЂР¶РєР° 17-РіРѕ СЃРµСЂРІРµСЂР° (Show Low)',
+				'Добавлена поддержка 17-го сервера (Show Low)',
 			},
 			patches = {
 				active = false,
 				text = [[
- - РСЃРїСЂР°РІР»РµРЅ РєСЂР°С€ РїСЂРё РѕС‚РєСЂС‹С‚РёРё РІРєР»Р°РґРєРё 'РЎРІСЏР·СЊ СЃРѕ РјРЅРѕР№'
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµРј Р»РµРєС†РёР№/РІРѕРїСЂРѕСЃРѕРІ
- - РСЃРїСЂР°Р»РµРЅР° РЅРµСЂР°Р±РѕС‚РѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚СЊ СЃРєСЂРёРїС‚Р° РёР·-Р·Р° РїРµСЂРµС…РѕРґР° СЃРµСЂРІРµСЂР° РЅР° R3]]
+ - Исправлен краш при открытии вкладки 'Связь со мной'
+ - Исправлен баг с восстановлением лекций/вопросов
+ - Испралена неработоспособность скрипта из-за перехода сервера на R3]]
 			},
 		},
 
@@ -6626,10 +6626,10 @@ changelog = {
 			version = '2.7',
 			date = '02.11.2021',
 			text = {
-				'Р”РѕР±Р°РІР»РµРЅР° С„СѓРЅРєС†РёСЏ Р·Р°РґРµСЂР¶РєРё РјРµР¶РґСѓ СЃРѕРѕР±С‰РµРЅРёСЏРјРё РІ Р±РёРЅРґРµСЂРµ',
-				'Р”РѕР±Р°РІР»РµРЅР° РїСЂРёС‡РёРЅР° /expel',
-				'РўРµРїРµСЂСЊ СЂР°РЅРіРё РІ С…РµР»РїРµСЂРµ СЃРёРЅС…СЂРѕРЅРёР·РёСЂСѓСЋС‚СЃСЏ СЃ РІР°С€РёРјРё',
-				'Р”РѕР±Р°РІР»РµРЅР° РїРѕРґРґРµСЂР¶РєР° 18-РіРѕ СЃРµСЂРІРµСЂР° (Casa-Grande)',
+				'Добавлена функция задержки между сообщениями в биндере',
+				'Добавлена причина /expel',
+				'Теперь ранги в хелпере синхронизируются с вашими',
+				'Добавлена поддержка 18-го сервера (Casa-Grande)',
 			},
 		},
 		
@@ -6637,27 +6637,27 @@ changelog = {
 			version = '3.0',
 			date = '11.12.2021',
 			text = {
-				'РР·РјРµРЅРµРЅРёРµ РёРЅС‚РµСЂС„РµР№СЃР° РІ СЃРїРёСЃРєРµ РёР·РјРµРЅРµРЅРёР№ Рё /ash',
-				'Р”РѕР±Р°РІР»РµРЅ РЅРѕРІС‹Р№ РёРЅС‚РµСЂС„РµР№СЃ РІ РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°',
-				'РџРѕР»РЅС‹Р№ СЂРµС„Р°РєС‚РѕСЂРёРЅРі Рё РїРµСЂРµРѕСЃРјС‹СЃР»РµРЅРёРµ РєРѕРґР°',
-				'РР·РјРµРЅРµРЅР° СЃРёСЃС‚РµРјР° РїСЂРѕРІРµСЂРєРё Рё СѓСЃС‚Р°РЅРѕРІРєРё РѕР±РЅРѕРІР»РµРЅРёР№, С‚РµРїРµСЂСЊ СѓСЃС‚Р°РЅРѕРІРєСѓ РґРѕР»Р¶РЅС‹ РїРѕРґС‚РІРµСЂР¶РґР°С‚СЊ Р’С‹',
-				'Р”РѕР±Р°РІР»РµРЅС‹ СѓРІРµРґРѕРјР»РµРЅРёСЏ, Р·Р°РјРµС‚РєРё',
-				'Р”РѕР±Р°РІР»РµРЅР° РїРѕРґРґРµСЂР¶РєР° В«MoonMonetВ»',
-				'РџРѕР»РЅС‹Р№ РїРµСЂРµС…РѕРґ РЅР° mimgui',
-				'РР·РјРµРЅРµРЅР° СЃРёСЃС‚РµРјР° РїСЂРѕРІРµСЂРєРё Рё РїРѕРґРєР°С‡РєРё Р±РёР±Р»РёРѕС‚РµРє',
-				'Р”РѕР±Р°РІР»РµРЅС‹ РїСЂР°РІРёР»Р° Рё РїСЂРѕРІРµСЂРєР° СѓСЃС‚Р°РІР° РІ Р·Р°РІРёСЃРёРјРѕСЃС‚Рё РѕС‚ РІР°С€РµРіРѕ СЃРµСЂРІРµСЂР° (РїСЂР°РІРёР»Р° Р±С‹Р»Рё РІР·СЏС‚С‹ СЃ С„РѕСЂСѓРјР° 13.11.2021, РїСЂРё РёР·РјРµРЅРµРЅРёРё РїРёСЃР°С‚СЊ Р°РІС‚РѕСЂСѓ)',
-				'Р”РѕР±Р°РІР»РµРЅР° РІРєР»Р°РґРєР° \'РћС‚С‹РіСЂРѕРІРєРё\', РІ РєРѕС‚РѕСЂРѕР№ РјРѕР¶РЅРѕ РЅР°СЃС‚СЂРѕРёС‚СЊ: РїСЂРѕРІРµСЂРєСѓ РјРµРґ. РєР°СЂС‚С‹ РїСЂРё РїСЂРѕРґР°Р¶Рµ Р»РёС†РµРЅР·РёРё РЅР° РѕСЂСѓР¶РёРµ, РѕС…РѕС‚Сѓ; Р·Р°РјРµРЅСѓ СЃР»РѕРІР° \'РђРІС‚РѕС€РєРѕР»Р°\' РЅР° \'Р“Р¦Р›\'; РІС‹СЃС‚Р°РІРёС‚СЊ Р·Р°РґРµСЂР¶РєСѓ РјРµР¶РґСѓ СЃРѕРѕР±С‰РµРЅРёСЏРјРё',
-				'Р”РѕР±Р°РІР»РµРЅР° РїСЂРѕРІРµСЂРєР° С‚СЂСѓРґРѕРІРѕР№ РєРЅРёР¶РєРё Рё Р»РёС†РµРЅР·РёР№ РІ СЃРѕР±РµСЃРµРґРѕРІР°РЅРёРё.',
-				'РЈРґР°Р»РµРЅР° СЃРёСЃС‚РµРјР° РїСЂРѕРІРµСЂРєРё СЃРµСЂРІРµСЂР°, С‚РµРїРµСЂСЊ СЃРєСЂРёРїС‚ СЂР°Р±РѕС‚Р°РµС‚ РЅР° РІСЃРµС… СЃРµСЂРІРµСЂР°С….',
+				'Изменение интерфейса в списке изменений и /ash',
+				'Добавлен новый интерфейс в меню быстрого доступа',
+				'Полный рефакторинг и переосмысление кода',
+				'Изменена система проверки и установки обновлений, теперь установку должны подтверждать Вы',
+				'Добавлены уведомления, заметки',
+				'Добавлена поддержка «MoonMonet»',
+				'Полный переход на mimgui',
+				'Изменена система проверки и подкачки библиотек',
+				'Добавлены правила и проверка устава в зависимости от вашего сервера (правила были взяты с форума 13.11.2021, при изменении писать автору)',
+				'Добавлена вкладка \'Отыгровки\', в которой можно настроить: проверку мед. карты при продаже лицензии на оружие, охоту; замену слова \'Автошкола\' на \'ГЦЛ\'; выставить задержку между сообщениями',
+				'Добавлена проверка трудовой книжки и лицензий в собеседовании.',
+				'Удалена система проверки сервера, теперь скрипт работает на всех серверах.',
 			},
 			patches = {
 				active = false,
 				text = [[
- - РСЃРїСЂР°РІР»РµРЅ РєСЂР°С€ СЃРєСЂРёРїС‚Р° РїСЂРё РёР·РјРµРЅРµРЅРёРё РјРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёСЏ РІС‹РєР»СЋС‡РµРЅРЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРё
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РЅРµСЂР°Р±РѕС‚Р°СЋС‰РµР№ РєРѕРјР°РЅРґРѕР№ /ashupd
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ СЂР°Р·РјРµСЂРѕРј РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР° РїСЂРё СЃРјРµРЅРµ СЃС‚РёР»СЏ
- - РСЃРїСЂР°РІР»РµРЅ Р±Р°Рі СЃ РїСЂРёС‡РёРЅРѕР№ СѓРІРѕР»СЊРЅРµРЅРёСЏ С‡РµСЂРµР· РјРµРЅСЋ Р±С‹СЃС‚СЂРѕРіРѕ РґРѕСЃС‚СѓРїР°
- - РР·РјРµРЅРµРЅС‹ РЅРµРєРѕС‚РѕСЂС‹Рµ РѕС‚С‹РіСЂРѕРІРєРё]]
+ - Исправлен краш скрипта при изменении местоположения выключенной статистики
+ - Исправлен баг с неработающей командой /ashupd
+ - Исправлен баг с размером меню быстрого доступа при смене стиля
+ - Исправлен баг с причиной увольнения через меню быстрого доступа
+ - Изменены некоторые отыгровки]]
 			},
 		},
 	},
@@ -6667,66 +6667,66 @@ default_lect = {
 	active = { bool = false, name = nil, handle = nil },
 	data = {
 		{
-			name = 'РџСЂР°РІРёР»Р° РґРѕСЂРѕР¶РЅРѕРіРѕ РґРІРёР¶РµРЅРёСЏ',
+			name = 'Правила дорожного движения',
 			text = {
-				'Р”РѕСЂРѕРіРёРµ СЃРѕС‚СЂСѓРґРЅРёРєРё, СЃРµР№С‡Р°СЃ СЏ РїСЂРѕРІРµРґСѓ Р»РµРєС†РёСЋ РЅР° С‚РµРјСѓ РџСЂР°РІРёР» Р”РѕСЂРѕР¶РЅРѕРіРѕ Р”РІРёР¶РµРЅРёСЏ.',
-				'Р’РѕРґРёС‚РµР»СЊ РґРѕР»Р¶РµРЅ РїСЂРѕРїСѓСЃРєР°С‚СЊ РїРµС€РµС…РѕРґРѕРІ РІ СЃРїРµС†РёР°Р»СЊРЅС‹С… РјРµСЃС‚Р°С… РґР»СЏ РїРµСЂРµС…РѕРґР°.',
-				'Р’РѕРґРёС‚РµР»СЋ Р·Р°РїСЂРµС‰Р°РµС‚СЃСЏ РЅР°СЂСѓС€Р°С‚СЊ РїСЂР°РІРёР»Р° РґРѕСЂРѕР¶РЅРѕРіРѕ РґРІРёР¶РµРЅРёСЏ РїСЂРµРґРїРёСЃР°РЅРЅС‹Рµ РЅР° РѕС„С„.РїРѕСЂС‚Р°Р»Рµ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєРё РЅР°СЂСѓС€РёРІС€РёРµ РџР”Р” Р±СѓРґСѓС‚ РЅР°РєР°Р·Р°РЅС‹ РІ РІРёРґРµ РІС‹РіРѕРІРѕСЂР°, РІ С…СѓРґС€РµРј СЃР»СѓС‡Р°Рµ - СѓРІРѕР»СЊРЅРµРЅРёРµ.',
-				'Р’СЃРµ РјС‹ С…РѕС‚РёРј РІРµСЂРЅСѓС‚СЊСЃСЏ РїРѕСЃР»Рµ СЂР°Р±РѕС‚С‹ РґРѕРјРѕР№ Р·РґРѕСЂРѕРІС‹РјРё Рё РЅРµРІСЂРµРґРёРјС‹РјРё...',
-				'РЎРїР°СЃРёР±Рѕ Р·Р° РІРЅРёРјР°РЅРёРµ, Р»РµРєС†РёСЏ РѕРєРѕРЅС‡РµРЅР°.'
+				'Дорогие сотрудники, сейчас я проведу лекцию на тему Правил Дорожного Движения.',
+				'Водитель должен пропускать пешеходов в специальных местах для перехода.',
+				'Водителю запрещается нарушать правила дорожного движения предписанные на офф.портале.',
+				'Сотрудники нарушившие ПДД будут наказаны в виде выговора, в худшем случае - увольнение.',
+				'Все мы хотим вернуться после работы домой здоровыми и невредимыми...',
+				'Спасибо за внимание, лекция окончена.'
 			}
 		},
 		{
-			name = 'РЎСѓР±РѕСЂРґРёРЅР°С†РёСЏ РІ РђРІС‚РѕС€РєРѕР»Рµ',
+			name = 'Субординация в Автошколе',
 			text = {
-				'Р”РѕСЂРѕРіРёРµ СЃРѕС‚СЂСѓРґРЅРёРєРё! РњРёРЅСѓС‚РѕС‡РєСѓ РІРЅРёРјР°РЅРёСЏ.',
-				'РџСЂРѕС€Сѓ РІР°СЃ СЃРѕР±Р»СЋРґР°С‚СЊ РЎСѓР±РѕСЂРґРёРЅР°С†РёСЋ РІ РђРІС‚РѕС€РєРѕР»Рµ...',
-				'Рљ СЃС‚Р°СЂС€РёРј РїРѕ РґРѕР»Р¶РЅРѕСЃС‚Рё РЅРµРѕР±С…РѕРґРёРјРѕ РѕР±СЂР°С‰Р°С‚СЊСЃСЏ РЅР° \'Р’С‹\'.',
-				'РўР°РєР¶Рµ , Р·Р°РїСЂРµС‰РµРЅРѕ РЅРµС†РµРЅР·СѓСЂРЅРѕ РІС‹СЂР°Р¶Р°С‚СЊСЃСЏ , Рё РѕСЃРєРѕСЂР±Р»СЏС‚СЊ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ...',
-				'Р—Р° С‚Р°РєРёРµ РїРѕСЃС‚СѓРїРєРё , Р±СѓРґСѓС‚ РІС‹РґР°РІР°С‚СЊСЃСЏ РІС‹РіРѕРІРѕСЂС‹.',
-				'Р‘Р»Р°РіРѕРґР°СЂСЋ Р·Р° РІРЅРёРјР°РЅРёРµ!',
-				'РџСЂРѕС€Сѓ РЅРµ РЅР°СЂСѓС€Р°С‚СЊ РЎСѓР±РѕСЂРґРёРЅР°С†РёСЋ.'
+				'Дорогие сотрудники! Минуточку внимания.',
+				'Прошу вас соблюдать Субординацию в Автошколе...',
+				'К старшим по должности необходимо обращаться на \'Вы\'.',
+				'Также , запрещено нецензурно выражаться , и оскорблять сотрудников...',
+				'За такие поступки , будут выдаваться выговоры.',
+				'Благодарю за внимание!',
+				'Прошу не нарушать Субординацию.'
 			}
 		},
 		{
-			name = 'Р—Р°РїСЂРµС‚С‹ РІ СЂР°С†РёСЋ',
+			name = 'Запреты в рацию',
 			text = {
-				'РЎРµР№С‡Р°СЃ СЏ СЂР°СЃСЃРєР°Р¶Сѓ РІР°Рј Р»РµРєС†РёСЋ РЅР° С‚РµРјСѓ \'Р—Р°РїСЂРµС‚С‹ РІ СЂР°С†РёСЋ\'.',
-				'РҐРѕС‡Сѓ РЅР°РїРѕРјРЅРёС‚СЊ РІР°Рј Рѕ С‚РѕРј, С‡С‚Рѕ РІ СЂР°С†РёСЋ Р·Р°РїСЂРµС‰РµРЅРѕ...',
-				'С‚РѕСЂРіРѕРІР°С‚СЊ РґРѕРјР°РјРё, Р°РІС‚РѕРјРѕР±РёР»СЏРјРё, Р±РёР·РЅРµСЃР°РјРё Рё С‚.Рї.',
-				'РўР°Рє Р¶Рµ РІ СЂР°С†РёСЋ РЅРµР»СЊР·СЏ РјР°С‚РµСЂРёС‚СЊСЃСЏ Рё РІС‹СЏСЃРЅСЏС‚СЊ РѕС‚РЅРѕС€РµРЅРёСЏ РјРµР¶РґСѓ СЃРѕР±РѕР№.',
-				'Р—Р° РґР°РЅРЅС‹Рµ РЅР°СЂСѓС€РµРЅРёСЏ Сѓ РІР°СЃ РѕС‚Р±РµСЂСѓС‚ СЂР°С†РёСЋ. РџСЂРё РїРѕРІС‚РѕСЂРЅРѕРј РЅР°СЂСѓС€РµРЅРёРё Р’С‹ Р±СѓРґРµС‚Рµ СѓРІРѕР»РµРЅС‹.',
-				'РЎРїР°СЃРёР±Рѕ Р·Р° РІРЅРёРјР°РЅРёРµ. РњРѕР¶РµС‚Рµ РїСЂРѕРґРѕР»Р¶Р°С‚СЊ СЂР°Р±РѕС‚Р°С‚СЊ.'
+				'Сейчас я расскажу вам лекцию на тему \'Запреты в рацию\'.',
+				'Хочу напомнить вам о том, что в рацию запрещено...',
+				'торговать домами, автомобилями, бизнесами и т.п.',
+				'Так же в рацию нельзя материться и выяснять отношения между собой.',
+				'За данные нарушения у вас отберут рацию. При повторном нарушении Вы будете уволены.',
+				'Спасибо за внимание. Можете продолжать работать.'
 			}
 		},
 		{
-			name = 'РћСЃРЅРѕРІРЅС‹Рµ РїСЂР°РІРёР»Р° РђРІС‚РѕС€РєРѕР»С‹',
+			name = 'Основные правила Автошколы',
 			text = {
-				'CРµР№С‡Р°СЃ СЏ РїСЂРѕРІРµРґСѓ Р»РµРєС†РёСЋ РЅР° С‚РµРјСѓ \'РћСЃРЅРѕРІРЅС‹Рµ РїСЂР°РІРёР»Р° РђРІС‚РѕС€РєРѕР»С‹\'.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РїСЂРѕРіСѓР»РёРІР°С‚СЊ СЂР°Р±РѕС‡РёР№ РґРµРЅСЊ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РїРѕСЃРµС‰Р°С‚СЊ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РїРѕСЃРµС‰Р°С‚СЊ РєР°Р·РёРЅРѕ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РїРѕСЃРµС‰Р°С‚СЊ Р»СЋР±С‹Рµ РїРѕРґСЂР°Р±РѕС‚РєРё.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РЅРѕСЃРёС‚СЊ РїСЂРё СЃРµР±Рµ РѕРіРЅРµСЃС‚СЂРµР»СЊРЅРѕРµ РѕСЂСѓР¶РёРµ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ РєСѓСЂРёС‚СЊ РІ Р·РґР°РЅРёРё Р°РІС‚РѕС€РєРѕР»С‹.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєР°Рј Р°РІС‚РѕС€РєРѕР»С‹ Р·Р°РїСЂРµС‰РµРЅРѕ СѓРїРѕС‚СЂРµР±Р»СЏС‚СЊ Р°Р»РєРѕРіРѕР»СЊРЅС‹Рµ РЅР°РїРёС‚РєРё РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ.',
-				'РќР° СЌС‚РѕРј Сѓ РјРµРЅСЏ РІСЃС‘, СЃРїР°СЃРёР±Рѕ Р·Р° РІРЅРёРјР°РЅРёРµ.'
+				'Cейчас я проведу лекцию на тему \'Основные правила Автошколы\'.',
+				'Сотрудникам автошколы запрещено прогуливать рабочий день.',
+				'Сотрудникам автошколы запрещено в рабочее время посещать мероприятия.',
+				'Сотрудникам автошколы запрещено в рабочее время посещать казино.',
+				'Сотрудникам автошколы запрещено в рабочее время посещать любые подработки.',
+				'Сотрудникам автошколы запрещено носить при себе огнестрельное оружие.',
+				'Сотрудникам автошколы запрещено курить в здании автошколы.',
+				'Сотрудникам автошколы запрещено употреблять алкогольные напитки в рабочее время.',
+				'На этом у меня всё, спасибо за внимание.'
 			}
 		},
 		{
-			name = 'РћР±Р»Р°РІР°',
+			name = 'Рабочий день',
 			text = {
-				'РЈРІР°Р¶Р°РµРјС‹Рµ СЃРѕС‚СЂСѓРґРЅРёРєРё, РјРёРЅСѓС‚РѕС‡РєСѓ РІРЅРёРјР°РЅРёСЏ!',
-				'РЎРµР№С‡Р°СЃ СЏ РїСЂРѕРІРµРґСѓ Р»РµРєС†РёСЋ РЅР° С‚РµРјСѓ Р Р°Р±РѕС‡РёР№ РґРµРЅСЊ.',
-				'РЎРѕС‚СЂСѓРґРЅРёРєРё РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РѕР±СЏР·Р°РЅС‹ РЅР°С…РѕРґРёС‚СЊСЃСЏ РІ РѕС„РёСЃРµ Р°РІС‚РѕС€РєРѕР»С‹ РІ С„РѕСЂРјРµ.',
-				'Р—Р° РїСЂРѕРіСѓР» СЂР°Р±РѕС‡РµРіРѕ РґРЅСЏ СЃРѕС‚СЂСѓРґРЅРёРє РїРѕР»СѓС‡РёС‚ РІС‹РіРѕРІРѕСЂ РёР»Рё СѓРІРѕР»СЊРЅРµРЅРёРµ.',
-				'РЎ РїРѕРЅРµРґРµР»СЊРЅРёРєР° РїРѕ РїСЏС‚РЅРёС†Сѓ СЂР°Р±РѕС‡РёР№ РґРµРЅСЊ СЃ 9:00 РґРѕ 19:00.',
-				'Р’ СЃСѓР±Р±РѕС‚Сѓ Рё РІРѕСЃРєСЂРµСЃРµРЅСЊРµ СЂР°Р±РѕС‡РёР№ РґРµРЅСЊ СЃ 10:00 РґРѕ 18:00.',
-				'Р’ РЅРµ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РёР»Рё РІ РѕР±РµРґ СЃРѕС‚СЂСѓРґРЅРёРє РјРѕР¶РµС‚ РїРѕРєРёРЅСѓС‚СЊ РѕС„РёСЃ РђРІС‚РѕС€РєРѕР»С‹.',
-				'РќРѕ РїРµСЂРµРґ СЌС‚РёРј РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ РЅСѓР¶РЅРѕ СЃРЅСЏС‚СЊ С„РѕСЂРјСѓ.',
-				'РћР±РµРґ РёРґС‘С‚ СЃ 13:00 РґРѕ 14:00.',
-				'РќР° СЌС‚РѕРј Сѓ РјРµРЅСЏ РІСЃС‘, СЃРїР°СЃРёР±Рѕ Р·Р° РІРЅРёРјР°РЅРёРµ.'
+				'Уважаемые сотрудники, минуточку внимания!',
+				'Сейчас я проведу лекцию на тему Рабочий день.',
+				'Сотрудники в рабочее время обязаны находиться в офисе автошколы в форме.',
+				'За прогул рабочего дня сотрудник получит выговор или увольнение.',
+				'С понедельника по пятницу рабочий день с 9:00 до 19:00.',
+				'В субботу и воскресенье рабочий день с 10:00 до 18:00.',
+				'В не рабочее время или в обед сотрудник может покинуть офис Автошколы.',
+				'Но перед этим обязательно нужно снять форму.',
+				'Обед идёт с 13:00 до 14:00.',
+				'На этом у меня всё, спасибо за внимание.'
 			}
 		}
 	}

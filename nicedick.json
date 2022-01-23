@@ -1,8 +1,8 @@
 {
     "file":"https://raw.githubusercontent.com/shep1ch/hell-num_2/main/Mordor%20Police%20Helper.lua",
-    "version":"3.0.5",
-    "lastUpdateDate":"22.01.2022",
-    "change_log":" -Осуществлён переход с имгуи на мимгуи\n",
+    "version":"3.0.6",
+    "lastUpdateDate":"23.01.2022",
+    "change_log":" -Фиксы мелких багов",
     "beta_upd":true,
     "beta_file":"https://raw.githubusercontent.com/shep1ch/hell-num_2/main/Mordor%20Police%20Helper.lua",
     "beta_version":"3.1 beta",
